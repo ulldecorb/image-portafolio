@@ -1,17 +1,65 @@
 @import './typos';
 
+*,*::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
     text-align: center;
   
   &__logo {
     height: 40vmin;
     pointer-events: none;
+
   }
   
   @media (prefers-reduced-motion: no-preference) {
     .App__logo {
       animation: App-logo-spin infinite 20s linear;
     }
+  }
+
+
+  &__skill-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    
+    &:hover {
+      color:red;
+      // outline: 2px solid red;
+
+      .skill-box__thumbnail-box{
+        opacity: 1;
+      }
+    }
+    .skill-box {
+
+      &__title {
+        cursor: pointer;
+        
+      }
+
+      &__thumbnail-box {
+        max-height: 100px;
+        max-width: 900px;
+        transition: opacity 1s;
+        opacity: 0;
+      }
+
+      &__thumbnail {
+        padding: 1vmin;
+        max-height: 100px;
+        max-width: 300px;
+        background-repeat: no-repeat;
+
+      }
+    }
+    
   }
   
     &__footer {

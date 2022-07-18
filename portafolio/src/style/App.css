@@ -1,3 +1,10 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -12,6 +19,49 @@
     -webkit-animation: App-logo-spin infinite 20s linear;
             animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.App__skill-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.App__skill-box:hover {
+  color: red;
+}
+
+.App__skill-box:hover .skill-box__thumbnail-box {
+  opacity: 1;
+}
+
+.App__skill-box .skill-box__title {
+  cursor: pointer;
+}
+
+.App__skill-box .skill-box__thumbnail-box {
+  max-height: 100px;
+  max-width: 900px;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+.App__skill-box .skill-box__thumbnail {
+  padding: 1vmin;
+  max-height: 100px;
+  max-width: 300px;
+  background-repeat: no-repeat;
 }
 
 .App__footer {
