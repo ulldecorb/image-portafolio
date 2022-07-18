@@ -27,25 +27,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    position: absolute;
+    top: 5vh;
+    
 
     
-    &:hover {
-      color:red;
-      // outline: 2px solid red;
-
-      .skill-box__thumbnail-box{
-        opacity: 1;
-      }
-    }
     .skill-box {
+      &:hover {
+        color:red;
+        // outline: 2px solid red;
+  
+        .skill-box__thumbnail-box{
+          opacity: 1;
+        }
+      }
+
+
 
       &__title {
         cursor: pointer;
+        position: static;
         
       }
 
       &__thumbnail-box {
-        max-height: 100px;
+        position: static;
+        max-height: 250px;
         max-width: 900px;
         transition: opacity 1s;
         opacity: 0;

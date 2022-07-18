@@ -35,22 +35,26 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  position: absolute;
+  top: 5vh;
 }
 
-.App__skill-box:hover {
+.App__skill-box .skill-box:hover {
   color: red;
 }
 
-.App__skill-box:hover .skill-box__thumbnail-box {
+.App__skill-box .skill-box:hover .skill-box__thumbnail-box {
   opacity: 1;
 }
 
 .App__skill-box .skill-box__title {
   cursor: pointer;
+  position: static;
 }
 
 .App__skill-box .skill-box__thumbnail-box {
-  max-height: 100px;
+  position: static;
+  max-height: 250px;
   max-width: 900px;
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
