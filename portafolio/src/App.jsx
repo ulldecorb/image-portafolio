@@ -1,4 +1,5 @@
 import React from 'react';
+import { Artist } from './constants/projects';
 import logo from './logo.svg';
 import './App.css';
 
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>Marti Rosell</h2>
+        <h2>{Artist.artistName}</h2>
+        <h2>Art & Design portofolio</h2>
       </header>
     </div>
   );

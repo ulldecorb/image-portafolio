@@ -1,5 +1,5 @@
 export const Artist = {
-  artistname: 'Marti Rosell',
+  artistName: 'Marti Rosell',
   contact: {
     adress: 'Carrer Viladedalt, 13, Viladebaix, 08666',
     mail: 'martirosellart&design@gmail.com'
@@ -71,18 +71,18 @@ export const State = [
         description: 'Lorem Ipsum...',
         imagesStock: [
           {
-            imageName: 'Start the observer',
-            imageUrl: 'https://helios-i.mashable.com/imagery/articles/008mlMlr0cEjIUKunxTdVYo/hero-image.fill.size_1248x702.v1623390847.jpg',
+            imageName: 'forest',
+            imageUrl: 'https://previews.123rf.com/images/hskoken/hskoken1212/hskoken121200033/16982171-wonderfull-trees-meeting-eachother-at-the-sky-in-a-forrest.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
           {
-            imageName: 'super nova collection',
-            imageUrl: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/05/a_dazzling_hubble_collection_of_supernova_host_galaxies/24065747-1-eng-GB/A_dazzling_Hubble_collection_of_supernova_host_galaxies.jpg',
+            imageName: 'desert',
+            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
             hashtag: ['#laterracalenta', '#photobook', '#exhibition']
           },
           {
-            imageName: 'Random galaxy',
-            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/potw2120a.jpg',
+            imageName: 'rain',
+            imageUrl: 'https://stanschaap.com/wpix/wp-content/uploads/images/Morning-Sky-with-Rain-Clouds.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           }
         ]
