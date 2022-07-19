@@ -95,7 +95,7 @@ export const State = [
         description: 'Lorem Ipsum...',
         galleryCollection: [
           {
-            imageName: 'forest',
+            imageName: 'star',
             imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },

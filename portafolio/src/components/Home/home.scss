@@ -1,0 +1,19 @@
+@import '../../style/color';
+@import '../../style/typos';
+
+.home {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    &__article {
+        width: 30vw;
+        height: auto;
+    }
+
+    &__thumbnail {
+        height: 30vh;
+        background-repeat : no no-repeat;
+    }
+}

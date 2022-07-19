@@ -1,0 +1,22 @@
+.home {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.home__article {
+  width: 30vw;
+  height: auto;
+}
+
+.home__thumbnail {
+  height: 30vh;
+  background-repeat: no no-repeat;
+}
+/*# sourceMappingURL=home.css.map */
