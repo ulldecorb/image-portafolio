@@ -1,0 +1,30 @@
+@import '../../style/typos';
+@import '../../style/color';
+
+.navbar {
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+
+    &__handler {
+        height: 100%;
+        width: 15vw;
+        font-family: $gulzar;
+        text-transform: capitalize;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: transparent;
+        border: none;
+        color: grey;
+
+        &:hover {
+            color: $landing-link;
+        }
+    }
+}
