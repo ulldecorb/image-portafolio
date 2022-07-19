@@ -12,6 +12,7 @@
   &__logo {
     height: 40vmin;
     pointer-events: none;
+    display: none;
 
   }
   
@@ -25,6 +26,7 @@
   &__skill-box {
     position: absolute;
     top: 5vh;
+    display: none;
 
     
 

@@ -1,22 +1,23 @@
 import React from 'react';
+import { Navbar } from './components/Navbar';
 import { Artist, State } from './constants/projects';
 import logo from './logo.svg';
 import './style/App.css';
 
 function App() {
   const [state, setState] = React.useState([]);
-  const [mainGallery, setMainGallery] = React.useState(State[0].skillName);
+  const [mainGallery, setMainGallery] = React.useState({});
 
   React.useEffect(() => {
     setState(State);
+    setMainGallery(State[0]);
   }, []);
 
   const handleHome = (e, skillTitle) => {
     e.preventDefault();
-    setMainGallery(skillTitle);
+    const newGallery = state.find((skill) => skill.skillName === skillTitle);
+    setMainGallery(newGallery);
   };
-
-  console.log('mainGallery: ', mainGallery);
 
   return (
     <div className="App">
@@ -33,6 +34,7 @@ function App() {
             </button>
           ))}
         </section>
+        <Navbar skill={mainGallery} state={state} />
         <footer className="App__footer">
           <h1 className="footer__title">{Artist.artistName}</h1>
           <h2 className="footer__title">Art & Design portofolio</h2>

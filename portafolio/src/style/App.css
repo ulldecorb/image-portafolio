@@ -12,6 +12,7 @@
 .App__logo {
   height: 40vmin;
   pointer-events: none;
+  display: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,6 +25,7 @@
 .App__skill-box {
   position: absolute;
   top: 5vh;
+  display: none;
 }
 
 .App__skill-box .skill-box {
