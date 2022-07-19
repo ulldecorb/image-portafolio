@@ -23,16 +23,22 @@
 
 
   &__skill-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     position: absolute;
     top: 5vh;
+
     
 
     
     .skill-box {
+      background-color: transparent;
+      // text-decoration: none;
+      border: none;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
       &:hover {
         color:red;
         // outline: 2px solid red;
@@ -41,8 +47,6 @@
           opacity: 1;
         }
       }
-
-
 
       &__title {
         cursor: pointer;

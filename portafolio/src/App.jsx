@@ -5,7 +5,7 @@ import './style/App.css';
 
 function App() {
   const [state, setState] = React.useState([]);
-  const [mainGallery, setMainGallery] = React.useState([]);
+  const [mainGallery, setMainGallery] = React.useState(State[0].skillName);
 
   React.useEffect(() => {
     setState(State);

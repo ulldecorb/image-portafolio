@@ -22,6 +22,14 @@
 }
 
 .App__skill-box {
+  position: absolute;
+  top: 5vh;
+}
+
+.App__skill-box .skill-box {
+  background-color: transparent;
+  border: none;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,8 +43,6 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  position: absolute;
-  top: 5vh;
 }
 
 .App__skill-box .skill-box:hover {
