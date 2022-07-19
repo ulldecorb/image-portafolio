@@ -114,7 +114,7 @@ export const State = [
     ]
   },
   {
-    skillName: 'galaxy',
+    skillName: 'pets',
     skillCollection: [
       {
         galleryName: 'hubble',
@@ -167,7 +167,7 @@ export const State = [
     ]
   },
   {
-    skillName: 'sky',
+    skillName: 'rain',
     skillCollection: [
       {
         galleryName: 'sky in gallery',
@@ -220,7 +220,7 @@ export const State = [
     ]
   },
   {
-    skillName: 'galaxy',
+    skillName: 'misc',
     skillCollection: [
       {
         galleryName: 'hubble',

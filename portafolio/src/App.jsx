@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Navbar } from './components/Navbar';
+import { Home } from './components/Home';
 import { Artist, State } from './constants/projects';
 import logo from './logo.svg';
 import './style/App.css';
 
 function App() {
-  const [state, setState] = React.useState([]);
-  const [mainGallery, setMainGallery] = React.useState({});
+  const [state, setState] = useState([]);
+  const [mainGallery, setMainGallery] = useState(State[0]);
 
-  React.useEffect(() => {
+  console.log('app 1: ', mainGallery);
+
+  useEffect(() => {
     setState(State);
-    setMainGallery(State[0]);
+    setMainGallery(State[1]);
   }, []);
+
+  console.log('app 2: ', mainGallery);
 
   const handleHome = (e, skillTitle) => {
     e.preventDefault();
@@ -34,7 +39,8 @@ function App() {
             </button>
           ))}
         </section>
-        <Navbar skill={mainGallery} state={state} />
+        <Navbar state={state} />
+        <Home skill={mainGallery} />
         <footer className="App__footer">
           <h1 className="footer__title">{Artist.artistName}</h1>
           <h2 className="footer__title">Art & Design portofolio</h2>
