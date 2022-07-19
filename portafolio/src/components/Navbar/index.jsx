@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './navbar.css';
 
 export function Navbar({ skill, state }) {
   return (
