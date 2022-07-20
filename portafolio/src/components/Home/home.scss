@@ -8,8 +8,9 @@
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;
-    // row-gap: 0.5vw;
+    row-gap: 0.5vw;
     // column-gap: 0;
+    overflow: hidden;
 
     &__article {
         width: 30vw;

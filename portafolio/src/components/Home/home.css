@@ -8,6 +8,8 @@
       grid-template-rows: auto;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 0.5vw;
+  overflow: hidden;
 }
 
 .home__article {

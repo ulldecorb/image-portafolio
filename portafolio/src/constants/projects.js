@@ -225,7 +225,7 @@ export const State = [
         description: 'Lorem Ipsum...',
         galleryCollection: [
           {
-            imageName: 'forest',
+            imageName: 'more forest',
             imageUrl: 'https://previews.123rf.com/images/hskoken/hskoken1212/hskoken121200033/16982171-wonderfull-trees-meeting-eachother-at-the-sky-in-a-forrest.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
@@ -249,7 +249,7 @@ export const State = [
         description: 'Lorem Ipsum...',
         galleryCollection: [
           {
-            imageName: 'forest',
+            imageName: 'forest whitaker',
             imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
