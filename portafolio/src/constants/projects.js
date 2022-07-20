@@ -64,7 +64,7 @@ export const State = [
     skillName: 'sky',
     skillCollection: [
       {
-        galleryName: 'sky in gallery',
+        galleryName: 'sky forrest',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
         data: '2022',
