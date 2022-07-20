@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     setState(State);
-    setMainGallery(State[1]);
+    setMainGallery(State[0]);
   }, []);
 
   const handleHome = (e, skillTitle) => {
@@ -22,6 +22,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar state={state} setMainGallery={setMainGallery} />
       <header className="App__header">
         <img src={logo} className="App__logo" alt="logo" />
         <section className="App__skill-box">
@@ -35,7 +36,6 @@ function App() {
             </button>
           ))}
         </section>
-        <Navbar state={state} setMainGallery={setMainGallery} />
         <Home skill={mainGallery} />
         <footer className="App__footer">
           <h1 className="footer__title">{Artist.artistName}</h1>

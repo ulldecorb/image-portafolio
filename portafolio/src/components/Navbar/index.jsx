@@ -9,7 +9,6 @@ export function Navbar({ state, setMainGallery }) {
   const navBarHandler = (e, galleryName) => {
     e.preventDefault();
     const newGallery = state.find((skill) => skill.skillName === galleryName);
-    console.log('newGallery: ', newGallery);
     setMainGallery(newGallery);
   };
 
