@@ -9,14 +9,10 @@ function App() {
   const [state, setState] = useState([]);
   const [mainGallery, setMainGallery] = useState(State[0]);
 
-  console.log('app 1: ', mainGallery);
-
   useEffect(() => {
     setState(State);
     setMainGallery(State[1]);
   }, []);
-
-  console.log('app 2: ', mainGallery);
 
   const handleHome = (e, skillTitle) => {
     e.preventDefault();
