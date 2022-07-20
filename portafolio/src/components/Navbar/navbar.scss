@@ -21,7 +21,7 @@
         text-decoration: none;
         background-color: transparent;
         border: none;
-        color: grey;
+        color: $navbar-link-color;
 
         &:hover {
             color: $landing-link;

@@ -1,17 +1,26 @@
 import React, { useEffect, useState } from 'react';
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route
+// } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Home } from './components/Home';
+import { Footer } from './components/Footer';
+// import { Detail } from './components/Detail';
 import { Artist, State } from './constants/projects';
 import logo from './logo.svg';
 import './style/App.css';
 
 function App() {
   const [state, setState] = useState([]);
+  const [artist, setArtist] = useState({});
   const [mainGallery, setMainGallery] = useState(State[0]);
 
   useEffect(() => {
     setState(State);
-    setMainGallery(State[1]);
+    setArtist(Artist);
+    setMainGallery(State[0]);
   }, []);
 
   const handleHome = (e, skillTitle) => {
@@ -21,7 +30,10 @@ function App() {
   };
 
   return (
+  // <Router>
     <div className="App">
+      {/* <Routes> */}
+      <Navbar state={state} setMainGallery={setMainGallery} />
       <header className="App__header">
         <img src={logo} className="App__logo" alt="logo" />
         <section className="App__skill-box">
@@ -35,14 +47,18 @@ function App() {
             </button>
           ))}
         </section>
-        <Navbar state={state} setMainGallery={setMainGallery} />
+        {/* <Route
+              path="/detail"
+              element={
+                <Detail skill={mainGallery} />
+              }
+            /> */}
         <Home skill={mainGallery} />
-        <footer className="App__footer">
-          <h1 className="footer__title">{Artist.artistName}</h1>
-          <h2 className="footer__title">Art & Design portofolio</h2>
-        </footer>
+        <Footer artist={artist} />
       </header>
+      {/* </Routes> */}
     </div>
+  // </Router>
   );
 }
 
