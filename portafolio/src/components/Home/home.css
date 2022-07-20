@@ -1,6 +1,6 @@
 .home {
   width: 100vw;
-  min-height: 100vh;
+  max-height: 100vh;
   padding: 60px 0 0 0;
   display: -ms-grid;
   display: grid;
@@ -12,14 +12,13 @@
 
 .home__article {
   width: 30vw;
-  height: calc 21.42857vw;
-  margin: 0 5px;
+  margin: 0 auto;
   position: relative;
   cursor: pointer;
 }
 
 .home__article:hover .home__info-box {
-  text-shadow: 0 0 10px #000;
+  text-shadow: 0 0 30px  #000;
   opacity: 1;
 }
 
@@ -36,9 +35,9 @@
   z-index: 2;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-20%, -320%);
-          transform: translate(-20%, -320%);
-  width: 100%;
+  -webkit-transform: translate(-30%, 0%);
+          transform: translate(-30%, 0%);
+  width: 30vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,14 +56,17 @@
 
 .home__info-box .info-box__title {
   font-size: 1.4rem;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .home__info-box .info-box__discipline {
   font-size: 1rem;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 .home__info-box .info-box__year {
   font-size: 0.8rem;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 .home__thumbnail {
