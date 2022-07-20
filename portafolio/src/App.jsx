@@ -35,7 +35,7 @@ function App() {
             </button>
           ))}
         </section>
-        <Navbar state={state} />
+        <Navbar state={state} setMainGallery={setMainGallery} />
         <Home skill={mainGallery} />
         <footer className="App__footer">
           <h1 className="footer__title">{Artist.artistName}</h1>
