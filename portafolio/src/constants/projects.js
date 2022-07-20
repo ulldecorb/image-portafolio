@@ -3,7 +3,8 @@ export const Artist = {
   contact: {
     adress: 'Carrer Viladedalt, 13, Viladebaix, 08666',
     mail: 'martirosellart&design@gmail.com'
-  }
+  },
+  portafolioType: 'Art & Dessign Portfolio'
 };
 
 export const State = [
