@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import './home.css';
 
 export function Home({ state }) {
@@ -21,7 +21,8 @@ export function Home({ state }) {
     : (
       <section className="home">
         {gallery.skillCollection.map((galleryItem) => (
-          <article
+          <Link
+            to={`/${gallery.skillName}/${galleryItem.galleryName}`}
             className="home__article"
             key={`home-${galleryItem.galleryCollection[0].imageName}`}
           >
@@ -39,7 +40,7 @@ export function Home({ state }) {
               src={galleryItem.galleryCollection[0].imageUrl}
               alt={galleryItem.galleryCollection[0].imageName}
             />
-          </article>
+          </Link>
         ))}
       </section>
     );

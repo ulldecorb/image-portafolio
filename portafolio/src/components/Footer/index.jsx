@@ -1,10 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 export function Footer({ artist }) {
   return (
     <footer className="App__footer">
-      <h1 className="footer__title">{artist.artistName}</h1>
+      <Link to="/">
+        <h1 className="footer__title">{artist.artistName}</h1>
+      </Link>
       <h2 className="footer__title">{artist.portafolioType}</h2>
     </footer>
   );
