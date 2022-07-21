@@ -8,6 +8,7 @@ import { Navbar } from './components/Navbar';
 import { Home } from './components/Home';
 import { Footer } from './components/Footer';
 import { Landing } from './components/Landing';
+import { Detail } from './components/Detail';
 import { Artist, State } from './constants/projects';
 import './App.css';
 
@@ -37,6 +38,12 @@ function App() {
             path="/:skillgallery"
             element={
               <Home state={state} skill={mainGallery} />
+              }
+          />
+          <Route
+            path="/:skillgallery/:collection"
+            element={
+              <Detail />
               }
           />
           {/* <Home skill={mainGallery} /> */}
