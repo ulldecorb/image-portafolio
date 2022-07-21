@@ -4,7 +4,7 @@ export const Artist = {
     adress: 'Carrer Viladedalt, 13, Viladebaix, 08666',
     mail: 'martirosellart&design@gmail.com'
   },
-  portafolioType: 'Art & Dessign Portfolio'
+  portafolioType: 'Art & Design Portfolio'
 };
 
 export const State = [
@@ -199,6 +199,30 @@ export const State = [
           {
             imageName: 'Webb around the sky',
             imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI004/ANI004-00135.jpg',
+            hashtag: ['#noir', '#photobook', '#exhibition']
+          },
+          {
+            imageName: 'The eye',
+            imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZCt8tBuQMUE6lazORO9aSnGjfmVdBx2C5Rqd9j0A50qu4r3FjSm2tQIg2hNRCYGkPkfg&usqp=CAU',
+            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+          },
+          {
+            imageName: 'Glitter',
+            imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI062/ANI062-00385.jpg',
+            hashtag: ['#noir', '#photobook', '#exhibition']
+          }
+        ]
+      },
+      {
+        galleryName: 'wild',
+        discipline: 'Fotolibro y exposició',
+        sinopsi: 'Lorem ipsum....',
+        data: '2022',
+        description: 'Lorem Ipsum...',
+        galleryCollection: [
+          {
+            imageName: 'Mixino',
+            imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Wildlife_at_Maasai_Mara_%28Lion%29.jpg/1200px-Wildlife_at_Maasai_Mara_%28Lion%29.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
           {
