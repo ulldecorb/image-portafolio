@@ -1,0 +1,39 @@
+@import '../../style/color';
+@import '../../style/typos';
+
+.footer {
+    width: 100vw; 
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background: rgb(2,0,36);
+    background: linear-gradient(transparent, transparent 0%, #000 100%);
+    color: $landing-link;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    
+    &__title {
+        padding: 20px;
+        font-family: $gulzar;
+        color: $landing-background;
+        text-decoration: none;
+        
+        &:link {
+            text-decoration: none;
+            color: $landing-background;
+        }
+        
+        &:visited {
+            text-decoration: none;
+            color: $landing-background;
+        }
+        
+        &:hover {
+            text-decoration: underline;
+        }        
+    }
+}

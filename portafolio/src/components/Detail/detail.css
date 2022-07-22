@@ -1,0 +1,40 @@
+.detail__info-box {
+  position: absolute;
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 60px 20px;
+}
+
+.detail__info-box .info-box__title {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 9rem;
+  margin-top: -20px;
+  text-align: left;
+}
+
+.detail__info-box .info-box__discipline {
+  padding: 0px 10px;
+  color: #fff;
+  font-family: "Hind Siliguri", sans-serif;
+}
+/*# sourceMappingURL=detail.css.map */

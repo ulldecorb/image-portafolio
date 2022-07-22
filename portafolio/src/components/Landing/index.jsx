@@ -1,23 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import logo from '../../logo.svg';
+import './landing.css';
 
-export function Landing({ state, setMainGallery }) {
-  const handleHome = (e, skillTitle) => {
-    e.preventDefault();
-    const newGallery = state.find((skill) => skill.skillName === skillTitle);
-    setMainGallery(newGallery);
-  };
-
+export function Landing({ state }) {
   return (
-    <header className="App__header">
-      <img src={logo} className="App__logo" alt="logo" />
-      <section className="App__skill-box">
+    <header className="landing">
+      <img src={logo} className="landing__logo" alt="logo" />
+      <section className="landing__skill-box">
         {state.map((skill) => (
-          <button
-            type="button"
-            onClick={(e) => handleHome(e, skill.skillName)}
+          <Link
             className="skill-box"
+            to={`/${skill.skillName}`}
+            style={{ textDecoration: 'none' }}
             key={`link-${skill.skillName}`}
           >
             <h3 className="skill-box__title">{skill.skillName}</h3>
@@ -32,8 +28,15 @@ export function Landing({ state, setMainGallery }) {
                 className="skill-box__thumbnail"
                 alt="logo"
               />
+              {skill.skillCollection[2] && (
+              <img
+                src={skill.skillCollection[2].galleryCollection[0].imageUrl}
+                className="skill-box__thumbnail"
+                alt="logo"
+              />
+              )}
             </div>
-          </button>
+          </Link>
         ))}
       </section>
     </header>
@@ -43,8 +46,7 @@ export function Landing({ state, setMainGallery }) {
 Landing.propTypes = {
   state: PropTypes.arrayOf(
     PropTypes.shape({})
-  ).isRequired,
-  setMainGallery: PropTypes.func.isRequired
+  ).isRequired
 };
 
 export default Landing;

@@ -14,7 +14,7 @@ export function Home({ state }) {
 
   React.useEffect(() => {
     setGallery(getGallery());
-  }, []);
+  });
 
   return gallery === ''
     ? (<h3>404 Not page found</h3>)
