@@ -23,9 +23,18 @@ export function Detail({ state }) {
     : (
       <>
         <nav className="detail__navbar">
-          <p className="navbar__cover">Cover</p>
-          <p className="navbar__gallery">Gallery</p>
-          <p className="navbar__related">Related</p>
+          <div className="navbar-box">
+            <p className="navbar-box__title-section">Cover</p>
+            <span className="navbar-box__selected-box" />
+          </div>
+          <div className="navbar-box">
+            <p className="navbar-box__title-section">Gallery</p>
+            <span className="navbar-box__selected-box" />
+          </div>
+          <div className="navbar-box">
+            <p className="navbar-box__title-section">Related</p>
+            <div className="navbar-box__selected-box" />
+          </div>
         </nav>
         <section
           className="detail__info-box"
