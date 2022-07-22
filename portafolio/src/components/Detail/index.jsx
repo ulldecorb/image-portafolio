@@ -22,13 +22,21 @@ export function Detail({ state }) {
     ? <p>404 detail not found</p>
     : (
       <>
+        <nav className="detail__navbar">
+          <p className="navbar__cover">Cover</p>
+          <p className="navbar__gallery">Gallery</p>
+          <p className="navbar__related">Related</p>
+        </nav>
         <section
           className="detail__info-box"
-          style={{ backgroundImage: `url("${detail.galleryCollection[0].imageUrl}")` }}
         >
           <h3 className="info-box__discipline">{detail.discipline}</h3>
           <h2 className="info-box__title">{detail.galleryName.toUpperCase()}</h2>
         </section>
+        <section
+          className="detail__cover"
+          style={{ backgroundImage: `url("${detail.galleryCollection[0].imageUrl}")` }}
+        />
         <section className="detail__gallery">
           {detail.galleryCollection.map((detailItem) => (
             <article
