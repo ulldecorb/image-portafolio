@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .detail__navbar {
-  position: absolute;
+  position: fixed;
   top: 50%;
   right: 10vmin;
   -webkit-transform: translate(80%, -50%);
@@ -40,7 +44,7 @@
 }
 
 .detail__info-box {
-  position: absolute;
+  position: fixed;
   z-index: 0;
   height: 100vh;
   width: 100vw;
@@ -107,5 +111,10 @@
 .detail__gallery .gallery__thumbnail:hover {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+}
+
+.detail__related {
+  height: 100vh;
+  background-color: red;
 }
 /*# sourceMappingURL=detail.css.map */

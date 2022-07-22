@@ -1,10 +1,14 @@
 @import '../../style/color';
 @import '../../style/typos';
 
+html {
+    scroll-behavior: smooth;
+}
+
 .detail {
 
     &__navbar {
-        position:absolute;
+        position:fixed;
         top:50%;
         right: 10vmin;
         transform: translate(80%, -50%);
@@ -35,12 +39,10 @@
                 transform: rotate(45deg)
             }
         }
-
-
     }
 
     &__info-box {
-        position: absolute;
+        position: fixed;
         z-index: 0;
         height: 100vh;
         width: 100vw;
@@ -71,8 +73,7 @@
         }
     }
 
-    &__cover {
-        
+    &__cover {        
         height: 100vh;
         width: 100vw;
         background-color: #000;
@@ -102,5 +103,10 @@
                 }
             }
         }
+    }
+
+    &__related {
+        height: 100vh;
+        background-color: red;
     }
 }
