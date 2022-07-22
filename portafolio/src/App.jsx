@@ -43,7 +43,7 @@ function App() {
           <Route
             path="/:skillgallery/:collection"
             element={
-              <Detail />
+              <Detail state={state} />
               }
           />
           {/* <Home skill={mainGallery} /> */}

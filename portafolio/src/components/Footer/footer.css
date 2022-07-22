@@ -1,0 +1,44 @@
+.footer {
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, transparent), to(#000));
+  background: linear-gradient(transparent, transparent 0%, #000 100%);
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.footer__title {
+  padding: 20px;
+  font-family: "Gulzar", serif;
+  color: #d4d4da;
+  text-decoration: none;
+}
+
+.footer__title:link {
+  text-decoration: none;
+  color: #d4d4da;
+}
+
+.footer__title:visited {
+  text-decoration: none;
+  color: #d4d4da;
+}
+
+.footer__title:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=footer.css.map */
