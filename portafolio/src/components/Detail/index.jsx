@@ -29,8 +29,27 @@ export function Detail({ state }) {
           <h3 className="info-box__discipline">{detail.discipline}</h3>
           <h2 className="info-box__title">{detail.galleryName.toUpperCase()}</h2>
         </section>
-        <p>{detail.galleryName}</p>
-        <p>{detail.galleryCollection[0].imageName}</p>
+        <section className="detail__gallery">
+          {detail.galleryCollection.map((detailItem) => (
+            <article
+              className="gallery"
+              key={detailItem.imageName}
+            >
+              <img
+                src={detailItem.imageUrl}
+                className="gallery__thumbnail"
+                alt={detailItem.imageName}
+              />
+            </article>
+          ))}
+        </section>
+        <section className="gallery__related">
+          <p className="related__title">{detail.galleryName}</p>
+          <p className="related__discipline">{detail.discipline}</p>
+          <p className="related__sinopsi">{detail.sinopsi}</p>
+          <p className="related__date">{detail.data}</p>
+          <p className="related__description">{detail.description}</p>
+        </section>
       </>
     );
 }
