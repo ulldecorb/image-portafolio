@@ -49,7 +49,7 @@ export const State = [
           },
           {
             imageName: 'The eye',
-            imageUrl: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/05/a_dazzling_hubble_collection_of_supernova_host_galaxies/24065747-1-eng-GB/A_dazzling_Hubble_collection_of_supernova_host_galaxies.jpghttps://images.theconversation.com/files/474234/original/file-20220715-18-x7oyaq.png?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop',
+            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg',
             hashtag: ['#laterracalenta', '#photobook', '#exhibition']
           },
           {
@@ -126,7 +126,7 @@ export const State = [
           },
           {
             imageName: 'The eye',
-            imageUrl: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/05/a_dazzling_hubble_collection_of_supernova_host_galaxies/24065747-1-eng-GB/A_dazzling_Hubble_collection_of_supernova_host_galaxies.jpghttps://images.theconversation.com/files/474234/original/file-20220715-18-x7oyaq.png?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop',
+            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg',
             hashtag: ['#laterracalenta', '#photobook', '#exhibition']
           },
           {
@@ -202,13 +202,43 @@ export const State = [
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
           {
+            imageName: 'Glitter',
+            imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI062/ANI062-00385.jpg',
+            hashtag: ['#noir', '#photobook', '#exhibition']
+          },
+          {
+            imageName: 'Mixino',
+            imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Wildlife_at_Maasai_Mara_%28Lion%29.jpg/1200px-Wildlife_at_Maasai_Mara_%28Lion%29.jpg',
+            hashtag: ['#noir', '#photobook', '#exhibition']
+          },
+          {
+            imageName: 'more forest',
+            imageUrl: 'https://previews.123rf.com/images/hskoken/hskoken1212/hskoken121200033/16982171-wonderfull-trees-meeting-eachother-at-the-sky-in-a-forrest.jpg',
+            hashtag: ['#noir', '#photobook', '#exhibition']
+          },
+          {
+            imageName: 'desert',
+            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
+            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+          },
+          {
+            imageName: 'rain',
+            imageUrl: 'https://stanschaap.com/wpix/wp-content/uploads/images/Morning-Sky-with-Rain-Clouds.jpg',
+            hashtag: ['#noir', '#photobook', '#exhibition']
+          },
+          {
+            imageName: 'Webb around the sky',
+            imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg',
+            hashtag: ['#noir', '#photobook', '#exhibition']
+          },
+          {
             imageName: 'The eye',
-            imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZCt8tBuQMUE6lazORO9aSnGjfmVdBx2C5Rqd9j0A50qu4r3FjSm2tQIg2hNRCYGkPkfg&usqp=CAU',
+            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg',
             hashtag: ['#laterracalenta', '#photobook', '#exhibition']
           },
           {
             imageName: 'Glitter',
-            imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI062/ANI062-00385.jpg',
+            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-j-p2207c-f.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           }
         ]
@@ -227,7 +257,7 @@ export const State = [
           },
           {
             imageName: 'The eye',
-            imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZCt8tBuQMUE6lazORO9aSnGjfmVdBx2C5Rqd9j0A50qu4r3FjSm2tQIg2hNRCYGkPkfg&usqp=CAU',
+            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg',
             hashtag: ['#laterracalenta', '#photobook', '#exhibition']
           },
           {
@@ -333,7 +363,7 @@ export const State = [
           },
           {
             imageName: 'The eye',
-            imageUrl: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/05/a_dazzling_hubble_collection_of_supernova_host_galaxies/24065747-1-eng-GB/A_dazzling_Hubble_collection_of_supernova_host_galaxies.jpghttps://images.theconversation.com/files/474234/original/file-20220715-18-x7oyaq.png?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop',
+            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg',
             hashtag: ['#laterracalenta', '#photobook', '#exhibition']
           },
           {
