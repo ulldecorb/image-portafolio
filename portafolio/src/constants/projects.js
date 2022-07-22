@@ -167,7 +167,7 @@ export const State = [
     skillCollection: [
       {
         galleryName: 'friendly',
-        discipline: 'Fotolibro y exposició',
+        discipline: 'Photoshop and Multidisciplinar exhibition',
         sinopsi: 'Lorem ipsum....',
         data: '2022',
         description: 'Lorem Ipsum...',
