@@ -1,3 +1,44 @@
+.detail__navbar {
+  position: absolute;
+  top: 50%;
+  right: 10vmin;
+  -webkit-transform: translate(80%, -50%);
+          transform: translate(80%, -50%);
+  color: #fff;
+  z-index: 10;
+}
+
+.detail__navbar .navbar-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2vh 0;
+  cursor: pointer;
+}
+
+.detail__navbar .navbar-box__title-section {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.detail__navbar .navbar-box__title-section:hover {
+  text-decoration: underline;
+}
+
+.detail__navbar .navbar-box__selected-box {
+  margin: 0 10px;
+  outline: 1px solid #fff;
+  height: 10px;
+  width: 10px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
 .detail__info-box {
   position: absolute;
   z-index: 0;
@@ -19,6 +60,7 @@
       -ms-flex-align: start;
           align-items: flex-start;
   padding: 60px 20px;
+  overflow-y: hidden;
 }
 
 .detail__info-box .info-box__title {
@@ -44,6 +86,7 @@
 }
 
 .detail__gallery {
+  width: 100vw;
   min-height: 100vh;
   background-color: #000;
   display: -ms-grid;
@@ -55,8 +98,14 @@
 }
 
 .detail__gallery .gallery__thumbnail {
+  width: 30vw;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.detail__gallery .gallery__thumbnail:hover {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
-  width: 30vw;
 }
 /*# sourceMappingURL=detail.css.map */
