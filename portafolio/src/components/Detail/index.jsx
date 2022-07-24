@@ -21,7 +21,7 @@ export function Detail({ state }) {
   return detail === ''
     ? <p>404 detail not found</p>
     : (
-      <>
+      <main className="detail">
         <nav className="detail__navbar">
           <a
             href="#cover"
@@ -81,7 +81,7 @@ export function Detail({ state }) {
           <p className="related__date">{detail.data}</p>
           <p className="related__description">{detail.description}</p>
         </section>
-      </>
+      </main>
     );
 }
 

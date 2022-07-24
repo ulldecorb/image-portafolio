@@ -2,6 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.detail {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+  width: 100vw;
+  max-height: 100vh;
+}
+
 .detail__navbar {
   position: fixed;
   top: 50%;
@@ -28,10 +36,26 @@ html {
 
 .detail__navbar .navbar-box__title-section {
   font-family: "Hind Siliguri", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.detail__navbar .navbar-box__title-section:link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.detail__navbar .navbar-box__title-section:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
 .detail__navbar .navbar-box__title-section:hover {
   text-decoration: underline;
+}
+
+.detail__navbar .navbar-box__title-section:active {
+  text-decoration: none;
 }
 
 .detail__navbar .navbar-box__selected-box {
@@ -46,9 +70,7 @@ html {
 .detail__info-box {
   position: fixed;
   z-index: 0;
-  height: 100vh;
-  width: 100vw;
-  top: 0px;
+  bottom: 0px;
   left: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,6 +104,7 @@ html {
 }
 
 .detail__cover {
+  scroll-snap-align: start;
   height: 100vh;
   width: 100vw;
   background-color: #000;
@@ -90,6 +113,7 @@ html {
 }
 
 .detail__gallery {
+  scroll-snap-align: start;
   width: 100vw;
   min-height: 100vh;
   background-color: #000;
@@ -103,17 +127,16 @@ html {
 
 .detail__gallery .gallery__thumbnail {
   width: 30vw;
-  border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
 }
 
 .detail__gallery .gallery__thumbnail:hover {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  outline: 1px solid #ddd;
 }
 
 .detail__related {
+  scroll-snap-align: start;
   height: 100vh;
   background-color: red;
 }

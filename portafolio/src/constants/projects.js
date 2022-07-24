@@ -237,7 +237,7 @@ export const State = [
             hashtag: ['#laterracalenta', '#photobook', '#exhibition']
           },
           {
-            imageName: 'Glitter',
+            imageName: 'Glitters',
             imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-j-p2207c-f.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           }
@@ -252,7 +252,7 @@ export const State = [
         galleryCollection: [
           {
             imageName: 'Mixino',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Wildlife_at_Maasai_Mara_%28Lion%29.jpg/1200px-Wildlife_at_Maasai_Mara_%28Lion%29.jpg',
+            imageUrl: 'https://thewhiskerchronicles.files.wordpress.com/2015/08/800px-cecil_the_lion_at_hwange_national_park_4516560206.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
           {
