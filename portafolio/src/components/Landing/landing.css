@@ -14,7 +14,7 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  color: #fff;
+  color: #000;
   z-index: 1;
   position: absolute;
   top: 0px;
@@ -44,7 +44,6 @@
 .landing__skill-box .skill-box {
   background-color: transparent;
   border: none;
-  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,8 +59,8 @@
           align-items: flex-start;
 }
 
-.landing__skill-box .skill-box:hover {
-  color: landing-link-hover;
+.landing__skill-box .skill-box:hover .skill-box__title {
+  color: #fff;
 }
 
 .landing__skill-box .skill-box:hover .skill-box__thumbnail-box {
@@ -71,9 +70,17 @@
 .landing__skill-box .skill-box__title {
   cursor: pointer;
   position: static;
+  color: #000;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .landing__skill-box .skill-box__thumbnail-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   position: static;
   max-height: 250px;
   max-width: 900px;

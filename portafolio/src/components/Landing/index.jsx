@@ -16,7 +16,7 @@ export function Landing({ state }) {
             style={{ textDecoration: 'none' }}
             key={`link-${skill.skillName}`}
           >
-            <h3 className="skill-box__title">{skill.skillName}</h3>
+            <h3 className="skill-box__title">{skill.skillName.toUpperCase()}</h3>
             <div className="skill-box__thumbnail-box">
               <img
                 src={skill.skillCollection[0].galleryCollection[0].imageUrl}
