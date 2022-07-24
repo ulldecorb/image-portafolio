@@ -21,32 +21,43 @@ export function Detail({ state }) {
   return detail === ''
     ? <p>404 detail not found</p>
     : (
-      <>
+      <main className="detail">
         <nav className="detail__navbar">
-          <div className="navbar-box">
+          <a
+            href="#cover"
+            className="navbar-box"
+          >
             <p className="navbar-box__title-section">Cover</p>
             <span className="navbar-box__selected-box" />
-          </div>
-          <div className="navbar-box">
+          </a>
+          <a
+            href="#gallery"
+            className="navbar-box"
+          >
             <p className="navbar-box__title-section">Gallery</p>
             <span className="navbar-box__selected-box" />
-          </div>
-          <div className="navbar-box">
+          </a>
+          <a
+            href="#related"
+            className="navbar-box"
+          >
             <p className="navbar-box__title-section">Related</p>
-            <div className="navbar-box__selected-box" />
-          </div>
+            <span className="navbar-box__selected-box" />
+          </a>
         </nav>
-        <section
-          className="detail__info-box"
-        >
+        <section className="detail__info-box">
           <h3 className="info-box__discipline">{detail.discipline}</h3>
           <h2 className="info-box__title">{detail.galleryName.toUpperCase()}</h2>
         </section>
         <section
+          id="cover"
           className="detail__cover"
           style={{ backgroundImage: `url("${detail.galleryCollection[0].imageUrl}")` }}
         />
-        <section className="detail__gallery">
+        <section
+          id="gallery"
+          className="detail__gallery"
+        >
           {detail.galleryCollection.map((detailItem) => (
             <article
               className="gallery"
@@ -60,14 +71,17 @@ export function Detail({ state }) {
             </article>
           ))}
         </section>
-        <section className="gallery__related">
+        <section
+          id="related"
+          className="detail__related"
+        >
           <p className="related__title">{detail.galleryName}</p>
           <p className="related__discipline">{detail.discipline}</p>
           <p className="related__sinopsi">{detail.sinopsi}</p>
           <p className="related__date">{detail.data}</p>
           <p className="related__description">{detail.description}</p>
         </section>
-      </>
+      </main>
     );
 }
 

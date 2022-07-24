@@ -1,10 +1,23 @@
 @import '../../style/color';
 @import '../../style/typos';
 
+html {
+    scroll-behavior: smooth;
+}
+
 .detail {
+    scroll-snap-type: y mandatory;
+    // overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100vw;
+    max-height: 100vh;
+
+    // &.proximity {
+    //     scroll-snap-type: y mandatory;
+    // }
 
     &__navbar {
-        position:absolute;
+        position:fixed;
         top:50%;
         right: 10vmin;
         transform: translate(80%, -50%);
@@ -20,10 +33,26 @@
             
             &__title-section {
                 font-family: $hind-siliguri;
+                color: #fff;
+                text-decoration: none;
+
+                &:link {
+                    color: #fff;
+                    text-decoration: underline;
+                }
                 
-                            &:hover {
-                                text-decoration: underline;
-                            }
+                &:visited {
+                    color: #fff;
+                    text-decoration: none;
+                }
+                
+                &:hover {
+                    text-decoration: underline;
+                }
+
+                &:active {
+                    text-decoration: none;
+                }
             }
             
             &__selected-box {
@@ -35,16 +64,12 @@
                 transform: rotate(45deg)
             }
         }
-
-
     }
 
     &__info-box {
-        position: absolute;
+        position: fixed;
         z-index: 0;
-        height: 100vh;
-        width: 100vw;
-        top: 0px;
+        bottom: 0px;
         left: 0px;
         display: flex;
         flex-direction: column;
@@ -72,7 +97,7 @@
     }
 
     &__cover {
-        
+        scroll-snap-align: start;
         height: 100vh;
         width: 100vw;
         background-color: #000;
@@ -81,6 +106,7 @@
     }
 
     &__gallery{
+        scroll-snap-align: start;
         width: 100vw;
         min-height: 100vh;
         background-color: #000;
@@ -92,15 +118,20 @@
         .gallery {
             &__thumbnail {
                 width: 30vw;
-                border: 1px solid #ddd;
                 border-radius: 4px;
                 padding: 5px;
                 // width: 150px;
-
+                
                 &:hover {
-                    filter: grayscale(100%);
+                    outline: 1px solid #ddd;
                 }
             }
         }
+    }
+
+    &__related {
+        scroll-snap-align: start;
+        height: 100vh;
+        background-color: red;
     }
 }
