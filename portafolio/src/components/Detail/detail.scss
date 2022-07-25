@@ -7,14 +7,9 @@ html {
 
 .detail {
     scroll-snap-type: y mandatory;
-    // overflow-y: hidden;
     overflow-x: hidden;
     width: 100vw;
     max-height: 100vh;
-
-    // &.proximity {
-    //     scroll-snap-type: y mandatory;
-    // }
 
     &__navbar {
         position:fixed;
@@ -60,7 +55,6 @@ html {
                 outline: 1px solid #fff;
                 height: 10px;
                 width: 10px;
-                // background-color: #fff;
                 transform: rotate(45deg)
             }
         }
@@ -154,7 +148,6 @@ html {
         grid-template-rows: auto;
         gap: 10px;
         padding: 0 0 40vh 0;
-        // gap: 10px;;
         
         .gallery {
             cursor: pointer;
@@ -163,11 +156,9 @@ html {
 
             &__thumbnail {
                 max-width: 30vw;
-                // border-radius: 4px;
                 max-width: 100%;
                 max-height: 100%;
                 padding: 5px;
-                // width: 150px;
                 
                 &:hover {
                     outline: 1px solid #ddd;

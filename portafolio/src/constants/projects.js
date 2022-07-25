@@ -9,15 +9,15 @@ export const Artist = {
 
 export const State = [
   {
-    skillName: 'galaxy',
-    skillCollection: [
+    galleryName: 'galaxy',
+    galleryCollection: [
       {
-        galleryName: 'hubble',
+        detailName: 'hubble',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'Start the observer',
             imageUrl: 'https://helios-i.mashable.com/imagery/articles/008mlMlr0cEjIUKunxTdVYo/hero-image.fill.size_1248x702.v1623390847.jpg',
@@ -36,12 +36,12 @@ export const State = [
         ]
       },
       {
-        galleryName: 'webb',
+        detailName: 'webb',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'Webb deep sky',
             imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg',
@@ -62,15 +62,15 @@ export const State = [
     ]
   },
   {
-    skillName: 'sky',
-    skillCollection: [
+    galleryName: 'sky',
+    galleryCollection: [
       {
-        galleryName: 'sky forrest',
+        detailName: 'sky forrest',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'forest',
             imageUrl: 'https://previews.123rf.com/images/hskoken/hskoken1212/hskoken121200033/16982171-wonderfull-trees-meeting-eachother-at-the-sky-in-a-forrest.jpg',
@@ -89,12 +89,12 @@ export const State = [
         ]
       },
       {
-        galleryName: 'hubble',
+        detailName: 'hubble',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'star',
             imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
@@ -113,12 +113,12 @@ export const State = [
         ]
       },
       {
-        galleryName: 'webb',
+        detailName: 'webb',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'Webb around the sky',
             imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg',
@@ -137,12 +137,12 @@ export const State = [
         ]
       },
       {
-        galleryName: 'The end',
+        detailName: 'The end',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2023',
+        date: '2023',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'The end',
             imageUrl: 'https://helios-i.mashable.com/imagery/articles/008mlMlr0cEjIUKunxTdVYo/hero-image.fill.size_1248x702.v1623390847.jpg',
@@ -163,15 +163,15 @@ export const State = [
     ]
   },
   {
-    skillName: 'pets',
-    skillCollection: [
+    galleryName: 'pets',
+    galleryCollection: [
       {
-        galleryName: 'friendly',
+        detailName: 'friendly',
         discipline: 'Photoshop and Multidisciplinar exhibition',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'dog and cat',
             imageUrl: 'https://i0.wp.com/sitn.hms.harvard.edu/wp-content/uploads/2018/05/animal-cat-cute-46024.jpg?resize=1920%2C768&ssl=1',
@@ -190,12 +190,12 @@ export const State = [
         ]
       },
       {
-        galleryName: 'black',
+        detailName: 'black',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'Webb in the sky',
             imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI004/ANI004-00135.jpg',
@@ -244,12 +244,12 @@ export const State = [
         ]
       },
       {
-        galleryName: 'wild',
+        detailName: 'wild',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'Mixino',
             imageUrl: 'https://thewhiskerchronicles.files.wordpress.com/2015/08/800px-cecil_the_lion_at_hwange_national_park_4516560206.jpg',
@@ -270,15 +270,15 @@ export const State = [
     ]
   },
   {
-    skillName: 'rain',
-    skillCollection: [
+    galleryName: 'rain',
+    galleryCollection: [
       {
-        galleryName: 'La Lia llegeix',
+        detailName: 'La Lia llegeix',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'more forest',
             imageUrl: 'https://previews.123rf.com/images/hskoken/hskoken1212/hskoken121200033/16982171-wonderfull-trees-meeting-eachother-at-the-sky-in-a-forrest.jpg',
@@ -297,12 +297,12 @@ export const State = [
         ]
       },
       {
-        galleryName: 'si, ho fa cada dia',
+        detailName: 'si, ho fa cada dia',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'forest whitaker',
             imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
@@ -323,15 +323,15 @@ export const State = [
     ]
   },
   {
-    skillName: 'misc',
-    skillCollection: [
+    galleryName: 'misc',
+    galleryCollection: [
       {
-        galleryName: 'hubble',
+        detailName: 'hubble',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'Start the observer',
             imageUrl: 'https://i.ibb.co/s6Rkfwf/pastoretes-timbaler.png',
@@ -350,12 +350,12 @@ export const State = [
         ]
       },
       {
-        galleryName: 'webb',
+        detailName: 'webb',
         discipline: 'Fotolibro y exposició',
         sinopsi: 'Lorem ipsum....',
-        data: '2022',
+        date: '2022',
         description: 'Lorem Ipsum...',
-        galleryCollection: [
+        detailCollection: [
           {
             imageName: 'Webb and the sky',
             imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg',

@@ -9,28 +9,28 @@ export function Landing({ state }) {
     <header className="landing">
       <img src={logo} className="landing__logo" alt="logo" />
       <section className="landing__skill-box">
-        {state.map((skill) => (
+        {state.map((galleryItem) => (
           <Link
             className="skill-box"
-            to={`/${skill.skillName}`}
+            to={`/${galleryItem.galleryName}`}
             style={{ textDecoration: 'none' }}
-            key={`link-${skill.skillName}`}
+            key={`link-${galleryItem.galleryName}`}
           >
-            <h3 className="skill-box__title">{skill.skillName.toUpperCase()}</h3>
+            <h3 className="skill-box__title">{galleryItem.galleryName.toUpperCase()}</h3>
             <div className="skill-box__thumbnail-box">
               <img
-                src={skill.skillCollection[0].galleryCollection[0].imageUrl}
+                src={galleryItem.galleryCollection[0].detailCollection[0].imageUrl}
                 className="skill-box__thumbnail"
                 alt="logo"
               />
               <img
-                src={skill.skillCollection[1].galleryCollection[0].imageUrl}
+                src={galleryItem.galleryCollection[1].detailCollection[0].imageUrl}
                 className="skill-box__thumbnail"
                 alt="logo"
               />
-              {skill.skillCollection[2] && (
+              {galleryItem.galleryCollection[2] && (
               <img
-                src={skill.skillCollection[2].galleryCollection[0].imageUrl}
+                src={galleryItem.galleryCollection[2].detailCollection[0].imageUrl}
                 className="skill-box__thumbnail"
                 alt="logo"
               />

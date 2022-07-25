@@ -4,15 +4,15 @@ import { useParams } from 'react-router';
 import './detail.css';
 
 export function Detail({ state }) {
-  const { skillgallery, collection } = useParams();
+  const { galleryParam, detailParam } = useParams();
   const [detail, setDetail] = React.useState('');
   const [activeViewer, setActiveViewer] = React.useState(false);
   const [viewerImageUrl, setViewerImageUrl] = React.useState('');
 
   const getDetail = () => {
-    const newGallery = state.find((galleryItem) => galleryItem.skillName === skillgallery);
-    const newDetail = newGallery.skillCollection
-      .find((detailItem) => detailItem.galleryName === collection);
+    const newGallery = state.find((galleryItem) => galleryItem.galleryName === galleryParam);
+    const newDetail = newGallery.galleryCollection
+      .find((detailItem) => detailItem.detailName === detailParam);
     setDetail(newDetail);
   };
 
@@ -24,7 +24,6 @@ export function Detail({ state }) {
     e.preventDefault();
     setViewerImageUrl(selectedImageUrl);
     setActiveViewer(true);
-    console.log('say hello');
   };
 
   const closeViewer = (e) => {
@@ -61,7 +60,7 @@ export function Detail({ state }) {
         </nav>
         <section className="detail__info-box">
           <h3 className="info-box__discipline">{detail.discipline}</h3>
-          <h2 className="info-box__title">{detail.galleryName.toUpperCase()}</h2>
+          <h2 className="info-box__title">{detail.detailName.toUpperCase()}</h2>
         </section>
         <section id="viewer" className={activeViewer ? 'detail__viewer' : 'detail__viewer--hidden'}>
           <img
@@ -83,13 +82,13 @@ export function Detail({ state }) {
         <section
           id="cover"
           className="detail__cover"
-          style={{ backgroundImage: `url("${detail.galleryCollection[0].imageUrl}")` }}
+          style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
         />
         <section
           id="gallery"
           className="detail__gallery"
         >
-          {detail.galleryCollection.map((detailItem) => (
+          {detail.detailCollection.map((detailItem) => (
 
             <button
               id={detailItem.imageName}

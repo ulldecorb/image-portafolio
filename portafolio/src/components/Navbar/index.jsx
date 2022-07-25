@@ -6,14 +6,14 @@ import './navbar.css';
 export function Navbar({ state }) {
   return (
     <nav className="navbar">
-      {state.map((skillItem) => (
+      {state.map((galleryItem) => (
         <Link
-          to={`/${skillItem.skillName}`}
+          to={`/${galleryItem.galleryName}`}
           type="button"
           className="navbar__handler"
-          key={`nav-handler-${skillItem.skillName}`}
+          key={`nav-handler-${galleryItem.galleryName}`}
         >
-          {skillItem.skillName}
+          {galleryItem.galleryName}
         </Link>
       ))}
     </nav>

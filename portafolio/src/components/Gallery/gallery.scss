@@ -10,12 +10,10 @@
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 0.5vw;
-    // column-gap: 0;
     overflow: hidden;
 
     &__article {
         width: 30vw;
-        // height: calc(30vw*1.4);
         margin: 0 auto;
         position: relative;
         cursor: pointer;
@@ -42,7 +40,7 @@
         left: 50%;
         transform: translate(-30%, 0%);
         width: 30vw;
-        color: $landing-link;
+        color: $light-typo;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
