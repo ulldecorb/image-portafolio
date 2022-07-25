@@ -7,6 +7,7 @@ export function Detail({ state }) {
   const { skillgallery, collection } = useParams();
   const [detail, setDetail] = React.useState('');
   const [activeViewer, setActiveViewer] = React.useState(false);
+  const [viewerImageUrl, setViewerImageUrl] = React.useState('');
 
   const getDetail = () => {
     const newGallery = state.find((galleryItem) => galleryItem.skillName === skillgallery);
@@ -19,8 +20,9 @@ export function Detail({ state }) {
     getDetail();
   }, []);
 
-  const openViewer = (e) => {
+  const openViewer = (e, selectedImageUrl) => {
     e.preventDefault();
+    setViewerImageUrl(selectedImageUrl);
     setActiveViewer(true);
     console.log('say hello');
   };
@@ -28,8 +30,8 @@ export function Detail({ state }) {
   const closeViewer = (e) => {
     e.preventDefault();
     setActiveViewer(false);
-    console.log('say bye');
   };
+
   return detail === ''
     ? <p>404 detail not found</p>
     : (
@@ -63,8 +65,9 @@ export function Detail({ state }) {
         </section>
         <section id="viewer" className={activeViewer ? 'detail__viewer' : 'detail__viewer--hidden'}>
           <img
+            id="viewerImage"
             className="viewer__image"
-            src="https://helios-i.mashable.com/imagery/articles/008mlMlr0cEjIUKunxTdVYo/hero-image.fill.size_1248x702.v1623390847.jpg"
+            src={viewerImageUrl}
             alt="foto"
           />
           <button
@@ -92,7 +95,7 @@ export function Detail({ state }) {
               id={detailItem.imageName}
               aria-label="Mute volume"
               type="button"
-              onClick={(e) => openViewer(e)}
+              onClick={(e) => openViewer(e, detailItem.imageUrl)}
               className="gallery"
               key={detailItem.imageName}
             >

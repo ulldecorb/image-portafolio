@@ -163,6 +163,7 @@ html {
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
+  padding: 0 0 20vh 0;
 }
 
 .detail__gallery .gallery {
@@ -173,6 +174,7 @@ html {
   width: 30vw;
   border-radius: 4px;
   padding: 5px;
+  list-style: none;
 }
 
 .detail__gallery .gallery__thumbnail:hover {
@@ -182,6 +184,6 @@ html {
 .detail__related {
   scroll-snap-align: start;
   height: 100vh;
-  background-color: red;
+  background-color: #d4d4da;
 }
 /*# sourceMappingURL=detail.css.map */
