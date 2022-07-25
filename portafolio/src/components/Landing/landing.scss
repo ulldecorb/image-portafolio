@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    color: $landing-link;
+    color: $dark-typo;
     z-index:1;
     position:absolute;
     top: 0px;
@@ -36,15 +36,16 @@
         .skill-box {
           background-color: transparent;
           border: none;
-          color: $landing-link;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: flex-start;
     
           &:hover {
-            color:landing-link-hover;
-      
+            .skill-box__title {
+              color: $light-typo;
+            }
+            
             .skill-box__thumbnail-box{
               opacity: 1;
             }
@@ -53,10 +54,14 @@
           &__title {
             cursor: pointer;
             position: static;
-            
+            color: $dark-typo;
+            font-family: $ubuntu;             
           }
     
           &__thumbnail-box {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
             position: static;
             max-height: 250px;
             max-width: 900px;

@@ -103,6 +103,47 @@ html {
   font-family: "Hind Siliguri", sans-serif;
 }
 
+.detail__viewer {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+
+.detail__viewer .viewer__image {
+  height: auto;
+  max-width: 75vw;
+}
+
+.detail__viewer .viewer__close-button {
+  position: absolute;
+  right: 6vw;
+  top: 11vh;
+  height: 2wmin;
+  width: 2vmin;
+  font-size: 3rem;
+  margin: 0 2vw;
+  color: #fff;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.detail__viewer--hidden {
+  display: none;
+}
+
 .detail__cover {
   scroll-snap-align: start;
   height: 100vh;
@@ -123,11 +164,20 @@ html {
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
+  gap: 10px;
+  padding: 0 0 40vh 0;
+}
+
+.detail__gallery .gallery {
+  cursor: pointer;
+  list-style: none;
+  background-color: transparent;
 }
 
 .detail__gallery .gallery__thumbnail {
-  width: 30vw;
-  border-radius: 4px;
+  max-width: 30vw;
+  max-width: 100%;
+  max-height: 100%;
   padding: 5px;
 }
 
@@ -138,6 +188,6 @@ html {
 .detail__related {
   scroll-snap-align: start;
   height: 100vh;
-  background-color: red;
+  background-color: #d4d4da;
 }
 /*# sourceMappingURL=detail.css.map */

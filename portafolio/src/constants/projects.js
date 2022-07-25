@@ -43,7 +43,7 @@ export const State = [
         description: 'Lorem Ipsum...',
         galleryCollection: [
           {
-            imageName: 'Webb around the sky',
+            imageName: 'Webb deep sky',
             imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
@@ -197,7 +197,7 @@ export const State = [
         description: 'Lorem Ipsum...',
         galleryCollection: [
           {
-            imageName: 'Webb around the sky',
+            imageName: 'Webb in the sky',
             imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI004/ANI004-00135.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
@@ -227,7 +227,7 @@ export const State = [
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
           {
-            imageName: 'Webb around the sky',
+            imageName: 'Webb around',
             imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
@@ -334,7 +334,7 @@ export const State = [
         galleryCollection: [
           {
             imageName: 'Start the observer',
-            imageUrl: 'https://helios-i.mashable.com/imagery/articles/008mlMlr0cEjIUKunxTdVYo/hero-image.fill.size_1248x702.v1623390847.jpg',
+            imageUrl: 'https://i.ibb.co/s6Rkfwf/pastoretes-timbaler.png',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
           {
@@ -357,7 +357,7 @@ export const State = [
         description: 'Lorem Ipsum...',
         galleryCollection: [
           {
-            imageName: 'Webb around the sky',
+            imageName: 'Webb and the sky',
             imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },

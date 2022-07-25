@@ -6,6 +6,8 @@ import './detail.css';
 export function Detail({ state }) {
   const { skillgallery, collection } = useParams();
   const [detail, setDetail] = React.useState('');
+  const [activeViewer, setActiveViewer] = React.useState(false);
+  const [viewerImageUrl, setViewerImageUrl] = React.useState('');
 
   const getDetail = () => {
     const newGallery = state.find((galleryItem) => galleryItem.skillName === skillgallery);
@@ -17,6 +19,18 @@ export function Detail({ state }) {
   React.useEffect(() => {
     getDetail();
   }, []);
+
+  const openViewer = (e, selectedImageUrl) => {
+    e.preventDefault();
+    setViewerImageUrl(selectedImageUrl);
+    setActiveViewer(true);
+    console.log('say hello');
+  };
+
+  const closeViewer = (e) => {
+    e.preventDefault();
+    setActiveViewer(false);
+  };
 
   return detail === ''
     ? <p>404 detail not found</p>
@@ -49,6 +63,23 @@ export function Detail({ state }) {
           <h3 className="info-box__discipline">{detail.discipline}</h3>
           <h2 className="info-box__title">{detail.galleryName.toUpperCase()}</h2>
         </section>
+        <section id="viewer" className={activeViewer ? 'detail__viewer' : 'detail__viewer--hidden'}>
+          <img
+            id="viewerImage"
+            className="viewer__image"
+            src={viewerImageUrl}
+            alt="foto"
+          />
+          <button
+            type="button"
+            aria-label="Mute volume"
+            className="viewer__close-button"
+            onClick={(e) => closeViewer(e)}
+          >
+            X
+
+          </button>
+        </section>
         <section
           id="cover"
           className="detail__cover"
@@ -59,7 +90,12 @@ export function Detail({ state }) {
           className="detail__gallery"
         >
           {detail.galleryCollection.map((detailItem) => (
-            <article
+
+            <button
+              id={detailItem.imageName}
+              aria-label="Mute volume"
+              type="button"
+              onClick={(e) => openViewer(e, detailItem.imageUrl)}
               className="gallery"
               key={detailItem.imageName}
             >
@@ -68,7 +104,8 @@ export function Detail({ state }) {
                 className="gallery__thumbnail"
                 alt={detailItem.imageName}
               />
-            </article>
+            </button>
+
           ))}
         </section>
         <section
