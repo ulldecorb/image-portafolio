@@ -334,7 +334,7 @@ export const State = [
         galleryCollection: [
           {
             imageName: 'Start the observer',
-            imageUrl: 'https://helios-i.mashable.com/imagery/articles/008mlMlr0cEjIUKunxTdVYo/hero-image.fill.size_1248x702.v1623390847.jpg',
+            imageUrl: 'https://i.ibb.co/s6Rkfwf/pastoretes-timbaler.png',
             hashtag: ['#noir', '#photobook', '#exhibition']
           },
           {
