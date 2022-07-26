@@ -63,10 +63,10 @@
           transform: rotate(45deg);
 }
 
-.detail__info-box {
+.detail__header {
   position: fixed;
-  z-index: 10;
-  bottom: 0px;
+  z-index: 8;
+  bottom: 60px;
   left: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -81,11 +81,11 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  padding: 0 0 60px 20px;
+  padding: 0 0 0 20px;
   overflow-y: hidden;
 }
 
-.detail__info-box .info-box__title {
+.detail__header .header__title {
   color: #fff;
   font-family: "Ubuntu", sans-serif;
   font-size: 9rem;
@@ -93,7 +93,7 @@
   text-align: left;
 }
 
-.detail__info-box .info-box__discipline {
+.detail__header .header__discipline {
   padding: 0px 10px;
   color: #fff;
   font-family: "Hind Siliguri", sans-serif;
@@ -118,6 +118,12 @@
   background-color: rgba(0, 0, 0, 0.63);
 }
 
+.detail__viewer--hidden {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .detail__viewer .viewer__image {
   height: auto;
   max-width: 75vw;
@@ -134,10 +140,77 @@
   color: #fff;
   cursor: pointer;
   background-color: transparent;
+  text-decoration: none;
 }
 
-.detail__viewer--hidden {
+.detail__info-box {
+  position: absolute;
+  z-index: 11;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.detail__info-box--hidden {
   display: none;
+}
+
+.detail__info-box .info-box {
+  height: 100vh;
+  width: 35vw;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 15px;
+}
+
+.detail__info-box .info-box__text {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.detail__info-box .info-box__close-handler {
+  position: absolute;
+  bottom: 90px;
+  right: 7vw;
+  height: 2vmin;
+  width: 2vmin;
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.detail__open-info-box {
+  position: absolute;
+  z-index: 4;
+  bottom: 90px;
+  right: 7vw;
+  height: 2vmin;
+  width: 2vmin;
+}
+
+.detail__open-info-box .open-info-box {
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  font-size: 3rem;
 }
 
 .detail__cover {
@@ -164,28 +237,34 @@
   padding: 0 0 40vh 0;
 }
 
-.detail__gallery .gallery {
+.detail__gallery .gallery-detail {
   cursor: pointer;
   list-style: none;
   background-color: transparent;
   width: 30vw;
 }
 
-.detail__gallery .gallery__thumbnail:hover {
+.detail__gallery .gallery-detail__thumbnail {
+  width: 30vw;
+  height: 20vw;
+}
+
+.detail__gallery .gallery-detail__thumbnail:hover {
   outline: 1px solid #ddd;
 }
 
 .detail__related {
+  padding: 60px 0 0 0;
   scroll-snap-align: start;
   height: 100vh;
   background-color: #d4d4da;
 }
 
 @media (max-width: 900px) {
-  .detail .info-box__title {
+  .detail .header__title {
     font-size: 5rem;
   }
-  .detail .info-box__discipline {
+  .detail .header__discipline {
     font-size: 1rem;
     padding: 0 0 10px 0;
   }
@@ -196,13 +275,20 @@
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
+  .detail__gallery .gallery-detail {
+    width: 50vw;
+  }
+  .detail__gallery .gallery-detail__thumbnail {
+    width: 45vw;
+    height: 40vw;
+  }
 }
 
 @media (max-height: 700px) {
-  .detail .info-box__title {
+  .detail .header__title {
     font-size: 3rem;
   }
-  .detail .info-box__discipline {
+  .detail .header__discipline {
     font-size: 1rem;
   }
 }
@@ -211,6 +297,13 @@
   .detail__gallery {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+  .detail__gallery .gallery-detail {
+    width: 95vw;
+  }
+  .detail__gallery .gallery-detail__thumbnail {
+    width: 95vw;
+    height: 70vw;
   }
 }
 /*# sourceMappingURL=detail.css.map */

@@ -7,6 +7,7 @@ export function Detail({ state }) {
   const { galleryParam, detailParam } = useParams();
   const [detail, setDetail] = React.useState('');
   const [activeViewer, setActiveViewer] = React.useState(false);
+  const [activeInfoBox, setActiveInfoBox] = React.useState(false);
   const [viewerImageUrl, setViewerImageUrl] = React.useState('');
 
   const getDetail = () => {
@@ -31,12 +32,23 @@ export function Detail({ state }) {
     setActiveViewer(false);
   };
 
+  const openInfoBox = (e) => {
+    e.preventDefault();
+    setActiveInfoBox(true);
+  };
+
+  const closeInfoBox = (e) => {
+    e.preventDefault();
+    setActiveInfoBox(false);
+  };
+
   return detail === ''
-    ? <p>404 detail not found</p>
+    ? <p>404 Page not found</p>
     : (
       <main className="detail">
         <nav className="detail__navbar">
           <a
+            style={{ textDecoration: 'none' }}
             href="#cover"
             className="navbar-box"
           >
@@ -44,6 +56,7 @@ export function Detail({ state }) {
             <span className="navbar-box__selected-box" />
           </a>
           <a
+            style={{ textDecoration: 'none' }}
             href="#gallery"
             className="navbar-box"
           >
@@ -51,6 +64,7 @@ export function Detail({ state }) {
             <span className="navbar-box__selected-box" />
           </a>
           <a
+            style={{ textDecoration: 'none' }}
             href="#related"
             className="navbar-box"
           >
@@ -58,9 +72,9 @@ export function Detail({ state }) {
             <span className="navbar-box__selected-box" />
           </a>
         </nav>
-        <section className="detail__info-box">
-          <h3 className="info-box__discipline">{detail.discipline}</h3>
-          <h2 className="info-box__title">{detail.detailName.toUpperCase()}</h2>
+        <section className="detail__header">
+          <h3 className="header__discipline">{detail.discipline}</h3>
+          <h2 className="header__title">{detail.detailName.toUpperCase()}</h2>
         </section>
         <section id="viewer" className={activeViewer ? 'detail__viewer' : 'detail__viewer--hidden'}>
           <img
@@ -71,13 +85,56 @@ export function Detail({ state }) {
           />
           <button
             type="button"
-            aria-label="Mute volume"
+            aria-label="close viewer"
             className="viewer__close-button"
+            style={{ textDecoration: 'none' }}
             onClick={(e) => closeViewer(e)}
           >
             X
 
           </button>
+        </section>
+
+        <section className="detail__open-info-box">
+          <button
+            type="button"
+            aria-label="open info box"
+            style={{ textDecoration: 'none' }}
+            onClick={(e) => openInfoBox(e)}
+            className="open-info-box"
+          >
+            +
+          </button>
+        </section>
+
+        <section className={activeInfoBox ? 'detail__info-box' : 'detail__info-box--hidden'}>
+          <article className="info-box">
+            <p className="info-box__text">
+              <strong>Project:  </strong>
+              {detail.detailName}
+            </p>
+            <p className="info-box__text">
+              <strong>Discipline:  </strong>
+              {detail.discipline}
+            </p>
+            <p className="info-box__text">
+              <strong>Sinopsis:  </strong>
+              {detail.sinopsi}
+            </p>
+            <p className="info-box__text">
+              <strong>Date:  </strong>
+              {detail.date}
+            </p>
+            <button
+              type="button"
+              onClick={(e) => closeInfoBox(e)}
+              aria-label="close info box"
+              style={{ textDecoration: 'none' }}
+              className="info-box__close-handler"
+            >
+              +
+            </button>
+          </article>
         </section>
         <section
           id="cover"
@@ -95,12 +152,13 @@ export function Detail({ state }) {
               aria-label={`open ${detailItem.imageName}image`}
               type="button"
               onClick={(e) => openViewer(e, detailItem.imageUrl)}
-              className="gallery"
+              className="gallery-detail"
+              style={{ textDecoration: 'none' }}
               key={detailItem.imageName}
             >
               <img
                 src={detailItem.imageUrl}
-                className="gallery__thumbnail"
+                className="gallery-detail__thumbnail"
                 alt={detailItem.imageName}
               />
             </button>
