@@ -10,7 +10,7 @@
     z-index: 2;
     background: rgb(2,0,36);
     background: linear-gradient(transparent, transparent 0%, #000 100%);
-    color: $landing-link;
+    color: $light-typo;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,6 +21,7 @@
         font-family: $gulzar;
         color: $landing-background;
         text-decoration: none;
+
         
         &:link {
             text-decoration: none;
@@ -35,5 +36,17 @@
         &:hover {
             text-decoration: underline;
         }        
+    }
+}
+
+@media (max-width: 780px) {
+    .footer__title {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer__title {
+        font-size: 1rem;
     }
 }

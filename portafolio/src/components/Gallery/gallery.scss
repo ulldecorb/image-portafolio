@@ -1,7 +1,7 @@
 @import '../../style/color';
 @import '../../style/typos';
 
-.home {
+.gallery {
     background-color: $landing-background;
     width: 100vw;
     max-height: 100vh;
@@ -10,24 +10,22 @@
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 0.5vw;
-    // column-gap: 0;
-    overflow: hidden;
+    // overflow: hidden;
 
     &__article {
         width: 30vw;
-        // height: calc(30vw*1.4);
         margin: 0 auto;
         position: relative;
         cursor: pointer;
 
         &:hover {
 
-            .home__info-box {
+            .gallery__info-box {
                     text-shadow: 0 0 30px  #000;
                     opacity: 1;
             }
 
-            .home__thumbnail {
+            .gallery__thumbnail {
                 filter: grayscale(0%);
             }
         }
@@ -38,11 +36,11 @@
         transition: opacity 0.5s;
         position: absolute;
         z-index: 2;
-        top: 50%;
+        bottom: 50%;
         left: 50%;
-        transform: translate(-30%, 0%);
-        width: 30vw;
-        color: $landing-link;
+        transform: translate(-30%, 80%);
+        width: 25vw;
+        color: $light-typo;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -53,23 +51,87 @@
             &__title {
                 font-size: 1.4rem;
                 font-family: $ubuntu;
+                text-align: left;
             }
             
             &__discipline {
                 font-size: 1rem;
                 font-family: $hind-siliguri;
+                text-align: left;
             }
 
             &__year {
                 font-size: 0.8rem;
                 font-family: $hind-siliguri;
+                text-align: left;
             }
         }
     }
 
     &__thumbnail {
         width: 30vw;
-        height: 30vh;
+        height: 20vw;
         filter: grayscale(100%);
+    }
+}
+
+@media (max-width: 780px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;    
+    }
+        
+    .gallery__article {
+        width: 50vw;
+    }
+
+    .gallery__info-box {
+        width: 30vw;
+    }
+
+    .info-box__title {
+        font-size: 1rem;
+    }
+    
+    .info-box__discipline {
+        font-size: 0.6rem;
+    }
+    .info-box__year {
+        font-size: 0.8rem;
+    }
+    
+    .gallery__thumbnail {
+        width: 45vw;
+        height: 40vw;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .gallery {
+        grid-template-columns: 1fr;    
+    }
+        
+    .gallery__article {
+        width: 95vw;
+    }
+
+    .gallery__info-box {
+        width: 65vw;
+    }
+
+    .info-box__title {
+        font-size: 1rem;
+    }
+    
+    .info-box__discipline {
+        font-size: 0.6rem;
+    }
+    .info-box__year {
+        font-size: 0.8rem;
+    }
+    
+    .gallery__thumbnail {
+        width: 95vw;
+        height: 70vw;
     }
 }

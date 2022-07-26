@@ -1,0 +1,136 @@
+.gallery {
+  background-color: #d4d4da;
+  width: 100vw;
+  max-height: 100vh;
+  padding: 60px 0 0 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 0.5vw;
+}
+
+.gallery__article {
+  width: 30vw;
+  margin: 0 auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery__article:hover .gallery__info-box {
+  text-shadow: 0 0 30px  #000;
+  opacity: 1;
+}
+
+.gallery__article:hover .gallery__thumbnail {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.gallery__info-box {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  position: absolute;
+  z-index: 2;
+  bottom: 50%;
+  left: 50%;
+  -webkit-transform: translate(-30%, 80%);
+          transform: translate(-30%, 80%);
+  width: 25vw;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  cursor: pointer;
+}
+
+.gallery__info-box .info-box__title {
+  font-size: 1.4rem;
+  font-family: "Ubuntu", sans-serif;
+  text-align: left;
+}
+
+.gallery__info-box .info-box__discipline {
+  font-size: 1rem;
+  font-family: "Hind Siliguri", sans-serif;
+  text-align: left;
+}
+
+.gallery__info-box .info-box__year {
+  font-size: 0.8rem;
+  font-family: "Hind Siliguri", sans-serif;
+  text-align: left;
+}
+
+.gallery__thumbnail {
+  width: 30vw;
+  height: 20vw;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+@media (max-width: 780px) {
+  .gallery {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .gallery__article {
+    width: 50vw;
+  }
+  .gallery__info-box {
+    width: 30vw;
+  }
+  .info-box__title {
+    font-size: 1rem;
+  }
+  .info-box__discipline {
+    font-size: 0.6rem;
+  }
+  .info-box__year {
+    font-size: 0.8rem;
+  }
+  .gallery__thumbnail {
+    width: 45vw;
+    height: 40vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .gallery__article {
+    width: 95vw;
+  }
+  .gallery__info-box {
+    width: 65vw;
+  }
+  .info-box__title {
+    font-size: 1rem;
+  }
+  .info-box__discipline {
+    font-size: 0.6rem;
+  }
+  .info-box__year {
+    font-size: 0.8rem;
+  }
+  .gallery__thumbnail {
+    width: 95vw;
+    height: 70vw;
+  }
+}
+/*# sourceMappingURL=gallery.css.map */
