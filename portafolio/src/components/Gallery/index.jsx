@@ -24,6 +24,7 @@ export function Gallery({ state }) {
           <Link
             to={`/${galleryParam}/${detailItem.detailName}`}
             className="gallery__article"
+            style={{ textDecoration: 'none' }}
             key={`gallery-${detailItem.detailCollection[0].imageName}`}
           >
             <div className="gallery__info-box">

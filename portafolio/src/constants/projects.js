@@ -192,9 +192,9 @@ export const State = [
       {
         detailName: 'black',
         discipline: 'Fotolibro y exposició',
-        sinopsi: 'Lorem ipsum....',
+        sinopsi: 'Est commodi eveniet nam vitae officiis. Eveniet quam et aut dicta officiis delectus. Eum ut doloremque eveniet. Saepe magni et voluptatem dolores et. Eos officiis fugit placeat minus deserunt consequatur nostrum aut.',
         date: '2022',
-        description: 'Lorem Ipsum...',
+        description: 'Non tempora adipisci ipsum fugiat ullam molestiae ipsa earum et. Labore adipisci tenetur voluptatem aut corrupti beatae enim. Odio harum ea adipisci. Voluptas perspiciatis voluptatem amet. Est illum rerum corporis. Dolorum eum voluptates tenetur. Modi quasi dignissimos tempora delectus cupiditate sint. Id blanditiis placeat in eius sed et. Sint sint distinctio quia aperiam aut sed odio vel qui. Vitae quidem voluptate sunt. Officia vel sunt architecto qui doloribus et molestiae ea.',
         detailCollection: [
           {
             imageName: 'Webb in the sky',
