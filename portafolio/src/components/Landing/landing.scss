@@ -46,7 +46,7 @@
             }
             
             .skill-box__thumbnail-box{
-              opacity: 1;
+              display: grid;
             }
           }
     
@@ -58,14 +58,13 @@
           }
     
           &__thumbnail-box {
-            display: grid;
+            display: none;
             grid-template-rows: 1fr 1fr;
             grid-template-columns: 1fr 1fr;
             position: static;
             max-height: 250px;
             max-width: 900px;
             transition: opacity 1s;
-            opacity: 0;
           }
     
           &__thumbnail {

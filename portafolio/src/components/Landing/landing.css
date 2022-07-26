@@ -64,7 +64,8 @@
 }
 
 .landing__skill-box .skill-box:hover .skill-box__thumbnail-box {
-  opacity: 1;
+  display: -ms-grid;
+  display: grid;
 }
 
 .landing__skill-box .skill-box__title {
@@ -75,8 +76,7 @@
 }
 
 .landing__skill-box .skill-box__thumbnail-box {
-  display: -ms-grid;
-  display: grid;
+  display: none;
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
   -ms-grid-columns: 1fr 1fr;
@@ -86,7 +86,6 @@
   max-width: 900px;
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
-  opacity: 0;
 }
 
 .landing__skill-box .skill-box__thumbnail {

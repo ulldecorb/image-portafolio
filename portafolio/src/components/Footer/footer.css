@@ -41,4 +41,16 @@
 .footer__title:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 780px) {
+  .footer__title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__title {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=footer.css.map */

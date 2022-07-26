@@ -1,4 +1,4 @@
-.home {
+.gallery {
   background-color: #d4d4da;
   width: 100vw;
   max-height: 100vh;
@@ -10,37 +10,36 @@
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   row-gap: 0.5vw;
-  overflow: hidden;
 }
 
-.home__article {
+.gallery__article {
   width: 30vw;
   margin: 0 auto;
   position: relative;
   cursor: pointer;
 }
 
-.home__article:hover .home__info-box {
+.gallery__article:hover .gallery__info-box {
   text-shadow: 0 0 30px  #000;
   opacity: 1;
 }
 
-.home__article:hover .home__thumbnail {
+.gallery__article:hover .gallery__thumbnail {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
 
-.home__info-box {
+.gallery__info-box {
   opacity: 0;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
   position: absolute;
   z-index: 2;
-  top: 50%;
+  bottom: 50%;
   left: 50%;
-  -webkit-transform: translate(-30%, 0%);
-          transform: translate(-30%, 0%);
-  width: 30vw;
+  -webkit-transform: translate(-30%, 80%);
+          transform: translate(-30%, 80%);
+  width: 25vw;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,25 +57,80 @@
   cursor: pointer;
 }
 
-.home__info-box .info-box__title {
+.gallery__info-box .info-box__title {
   font-size: 1.4rem;
   font-family: "Ubuntu", sans-serif;
+  text-align: left;
 }
 
-.home__info-box .info-box__discipline {
+.gallery__info-box .info-box__discipline {
   font-size: 1rem;
   font-family: "Hind Siliguri", sans-serif;
+  text-align: left;
 }
 
-.home__info-box .info-box__year {
+.gallery__info-box .info-box__year {
   font-size: 0.8rem;
   font-family: "Hind Siliguri", sans-serif;
+  text-align: left;
 }
 
-.home__thumbnail {
+.gallery__thumbnail {
   width: 30vw;
-  height: 30vh;
+  height: 20vw;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
+}
+
+@media (max-width: 780px) {
+  .gallery {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .gallery__article {
+    width: 50vw;
+  }
+  .gallery__info-box {
+    width: 30vw;
+  }
+  .info-box__title {
+    font-size: 1rem;
+  }
+  .info-box__discipline {
+    font-size: 0.6rem;
+  }
+  .info-box__year {
+    font-size: 0.8rem;
+  }
+  .gallery__thumbnail {
+    width: 45vw;
+    height: 40vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .gallery__article {
+    width: 95vw;
+  }
+  .gallery__info-box {
+    width: 65vw;
+  }
+  .info-box__title {
+    font-size: 1rem;
+  }
+  .info-box__discipline {
+    font-size: 0.6rem;
+  }
+  .info-box__year {
+    font-size: 0.8rem;
+  }
+  .gallery__thumbnail {
+    width: 95vw;
+    height: 70vw;
+  }
 }
 /*# sourceMappingURL=gallery.css.map */

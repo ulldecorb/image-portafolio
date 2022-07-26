@@ -92,7 +92,7 @@ export function Detail({ state }) {
 
             <button
               id={detailItem.imageName}
-              aria-label="Mute volume"
+              aria-label={`open ${detailItem.imageName}image`}
               type="button"
               onClick={(e) => openViewer(e, detailItem.imageUrl)}
               className="gallery"

@@ -17,26 +17,26 @@ export function Gallery({ state }) {
   });
 
   return gallery === ''
-    ? (<h3>404 Not page found</h3>)
+    ? (<h3>404 Page not found</h3>)
     : (
-      <section className="home">
+      <section className="gallery">
         {gallery.galleryCollection.map((detailItem) => (
           <Link
             to={`/${galleryParam}/${detailItem.detailName}`}
-            className="home__article"
-            key={`home-${detailItem.detailCollection[0].imageName}`}
+            className="gallery__article"
+            key={`gallery-${detailItem.detailCollection[0].imageName}`}
           >
-            <div className="home__info-box">
+            <div className="gallery__info-box">
               <h3 className="info-box__title">{detailItem.detailName.toUpperCase()}</h3>
               <p className="info-box__discipline">{detailItem.discipline}</p>
               <p className="info-box__year">
-                Year:
+                Year
                 {' '}
                 {detailItem.date}
               </p>
             </div>
             <img
-              className="home__thumbnail"
+              className="gallery__thumbnail"
               src={detailItem.detailCollection[0].imageUrl}
               alt={detailItem.detailCollection[0].imageName}
             />
