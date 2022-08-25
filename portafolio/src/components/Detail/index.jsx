@@ -173,7 +173,7 @@ export function Detail({ state }) {
           <p className="related__discipline">{detail.discipline}</p>
           <p className="related__sinopsi">{detail.sinopsi}</p>
           <p className="related__date">{detail.data}</p>
-          <p className="related__description">{detail.description}</p>
+          <p className="related__infobox">{detail.infobox}</p>
         </section>
       </main>
     );
