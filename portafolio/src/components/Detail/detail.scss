@@ -103,14 +103,16 @@
         background-color: rgba(0, 0, 0, 0.63);
 
         &--hidden {
-            display: flex;
+            display: none;
         }
         
         .viewer {
 
             &__image {
                 height: auto;
+                max-height: 100vh;
                 max-width: 75vw;
+                padding: 50px;
             }
 
             &__close-button {
@@ -223,10 +225,6 @@
             &__thumbnail {
                 width: 30vw;
                 height: 20vw;
-                
-                &:hover {
-                    outline: 1px solid #ddd;
-                }
             }
         }
     }
