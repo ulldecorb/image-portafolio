@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { useParams } from 'react-router';
 import './detail.css';
 
 export function Detail({ state }) {
   const { galleryParam, detailParam } = useParams();
-  const [detail, setDetail] = React.useState('');
-  const [activeViewer, setActiveViewer] = React.useState(false);
-  const [activeInfoBox, setActiveInfoBox] = React.useState(false);
-  const [viewerImageUrl, setViewerImageUrl] = React.useState('');
+  const [detail, setDetail] = useState('');
+  const [activeViewer, setActiveViewer] = useState(false);
+  const [activeInfoBox, setActiveInfoBox] = useState(false);
+  const [viewerImageUrl, setViewerImageUrl] = useState('');
 
   const getDetail = () => {
     const newGallery = state.find((galleryItem) => galleryItem.galleryName === galleryParam);

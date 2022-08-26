@@ -119,14 +119,14 @@
 }
 
 .detail__viewer--hidden {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 .detail__viewer .viewer__image {
   height: auto;
+  max-height: 100vh;
   max-width: 75vw;
+  padding: 50px;
 }
 
 .detail__viewer .viewer__close-button {
