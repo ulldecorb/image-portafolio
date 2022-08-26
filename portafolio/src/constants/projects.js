@@ -137,18 +137,15 @@ export const State = [
         detailCollection: [
           {
             imageName: 'Start the observer',
-            imageUrl: 'https://helios-i.mashable.com/imagery/articles/008mlMlr0cEjIUKunxTdVYo/hero-image.fill.size_1248x702.v1623390847.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://helios-i.mashable.com/imagery/articles/008mlMlr0cEjIUKunxTdVYo/hero-image.fill.size_1248x702.v1623390847.jpg'
           },
           {
             imageName: 'super nova collection',
-            imageUrl: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/05/a_dazzling_hubble_collection_of_supernova_host_galaxies/24065747-1-eng-GB/A_dazzling_Hubble_collection_of_supernova_host_galaxies.jpg',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/05/a_dazzling_hubble_collection_of_supernova_host_galaxies/24065747-1-eng-GB/A_dazzling_Hubble_collection_of_supernova_host_galaxies.jpg'
           },
           {
             imageName: 'Random galaxy',
-            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/potw2120a.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/potw2120a.jpg'
           }
         ]
       },
@@ -161,18 +158,15 @@ export const State = [
         detailCollection: [
           {
             imageName: 'Webb deep sky',
-            imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg'
           },
           {
             imageName: 'The eye',
-            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg'
           },
           {
             imageName: 'Glitter',
-            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-j-p2207c-f.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-j-p2207c-f.jpg'
           }
         ]
       }
@@ -190,18 +184,15 @@ export const State = [
         detailCollection: [
           {
             imageName: 'forest',
-            imageUrl: 'https://previews.123rf.com/images/hskoken/hskoken1212/hskoken121200033/16982171-wonderfull-trees-meeting-eachother-at-the-sky-in-a-forrest.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://previews.123rf.com/images/hskoken/hskoken1212/hskoken121200033/16982171-wonderfull-trees-meeting-eachother-at-the-sky-in-a-forrest.jpg'
           },
           {
             imageName: 'desert',
-            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg'
           },
           {
             imageName: 'rain',
-            imageUrl: 'https://stanschaap.com/wpix/wp-content/uploads/images/Morning-Sky-with-Rain-Clouds.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://stanschaap.com/wpix/wp-content/uploads/images/Morning-Sky-with-Rain-Clouds.jpg'
           }
         ]
       },
@@ -214,18 +205,15 @@ export const State = [
         detailCollection: [
           {
             imageName: 'star',
-            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg'
           },
           {
             imageName: 'desert',
-            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg'
           },
           {
             imageName: 'rain',
-            imageUrl: 'https://stanschaap.com/wpix/wp-content/uploads/images/Morning-Sky-with-Rain-Clouds.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://stanschaap.com/wpix/wp-content/uploads/images/Morning-Sky-with-Rain-Clouds.jpg'
           }
         ]
       },
@@ -238,18 +226,15 @@ export const State = [
         detailCollection: [
           {
             imageName: 'Webb around the sky',
-            imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg'
           },
           {
             imageName: 'The eye',
-            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg'
           },
           {
             imageName: 'Glitter',
-            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-j-p2207c-f.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-j-p2207c-f.jpg'
           }
         ]
       },
@@ -262,18 +247,15 @@ export const State = [
         detailCollection: [
           {
             imageName: 'The end',
-            imageUrl: 'https://helios-i.mashable.com/imagery/articles/008mlMlr0cEjIUKunxTdVYo/hero-image.fill.size_1248x702.v1623390847.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://helios-i.mashable.com/imagery/articles/008mlMlr0cEjIUKunxTdVYo/hero-image.fill.size_1248x702.v1623390847.jpg'
           },
           {
             imageName: 'super nova collection',
-            imageUrl: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/05/a_dazzling_hubble_collection_of_supernova_host_galaxies/24065747-1-eng-GB/A_dazzling_Hubble_collection_of_supernova_host_galaxies.jpg',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/05/a_dazzling_hubble_collection_of_supernova_host_galaxies/24065747-1-eng-GB/A_dazzling_Hubble_collection_of_supernova_host_galaxies.jpg'
           },
           {
             imageName: 'Random galaxy',
-            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/potw2120a.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/potw2120a.jpg'
           }
         ]
       }
@@ -291,18 +273,15 @@ export const State = [
         detailCollection: [
           {
             imageName: 'dog and cat',
-            imageUrl: 'https://i0.wp.com/sitn.hms.harvard.edu/wp-content/uploads/2018/05/animal-cat-cute-46024.jpg?resize=1920%2C768&ssl=1',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://i0.wp.com/sitn.hms.harvard.edu/wp-content/uploads/2018/05/animal-cat-cute-46024.jpg?resize=1920%2C768&ssl=1'
           },
           {
             imageName: 'super nova collection',
-            imageUrl: 'https://i.natgeofe.com/n/baf881f5-b770-40c8-9bf1-fb58c145bac8/01-exotic-pets-nationalgeographic_1150241_16x9.jpg?w=1200',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'https://i.natgeofe.com/n/baf881f5-b770-40c8-9bf1-fb58c145bac8/01-exotic-pets-nationalgeographic_1150241_16x9.jpg?w=1200'
           },
           {
             imageName: 'Random galaxy',
-            imageUrl: 'https://static.nationalgeographicla.com/files/styles/image_3200/public/js-list-7.jpg?w=1190&h=794',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://static.nationalgeographicla.com/files/styles/image_3200/public/js-list-7.jpg?w=1190&h=794'
           }
         ]
       },
@@ -315,48 +294,39 @@ export const State = [
         detailCollection: [
           {
             imageName: 'Webb in the sky',
-            imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI004/ANI004-00135.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI004/ANI004-00135.jpg'
           },
           {
             imageName: 'Glitter',
-            imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI062/ANI062-00385.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI062/ANI062-00385.jpg'
           },
           {
             imageName: 'Mixino',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Wildlife_at_Maasai_Mara_%28Lion%29.jpg/1200px-Wildlife_at_Maasai_Mara_%28Lion%29.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Wildlife_at_Maasai_Mara_%28Lion%29.jpg/1200px-Wildlife_at_Maasai_Mara_%28Lion%29.jpg'
           },
           {
             imageName: 'more forest',
-            imageUrl: 'https://previews.123rf.com/images/hskoken/hskoken1212/hskoken121200033/16982171-wonderfull-trees-meeting-eachother-at-the-sky-in-a-forrest.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://previews.123rf.com/images/hskoken/hskoken1212/hskoken121200033/16982171-wonderfull-trees-meeting-eachother-at-the-sky-in-a-forrest.jpg'
           },
           {
             imageName: 'desert',
-            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg'
           },
           {
             imageName: 'rain',
-            imageUrl: 'https://stanschaap.com/wpix/wp-content/uploads/images/Morning-Sky-with-Rain-Clouds.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://stanschaap.com/wpix/wp-content/uploads/images/Morning-Sky-with-Rain-Clouds.jpg'
           },
           {
             imageName: 'Webb around',
-            imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg'
           },
           {
             imageName: 'The eye',
-            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg'
           },
           {
             imageName: 'Glitters',
-            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-j-p2207c-f.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-j-p2207c-f.jpg'
           }
         ]
       },
@@ -369,71 +339,15 @@ export const State = [
         detailCollection: [
           {
             imageName: 'Mixino',
-            imageUrl: 'https://thewhiskerchronicles.files.wordpress.com/2015/08/800px-cecil_the_lion_at_hwange_national_park_4516560206.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://thewhiskerchronicles.files.wordpress.com/2015/08/800px-cecil_the_lion_at_hwange_national_park_4516560206.jpg'
           },
           {
             imageName: 'The eye',
-            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'https://www.seti.org/sites/default/files/2020-10/earth-view-from-moon-perspective-footprints-1400px.jpg'
           },
           {
             imageName: 'Glitter',
-            imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI062/ANI062-00385.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
-          }
-        ]
-      }
-    ]
-  },
-  {
-    galleryName: 'rain',
-    galleryCollection: [
-      {
-        detailName: 'La Lia llegeix',
-        discipline: 'Fotolibro y exposició',
-        sinopsi: 'Lorem ipsum....',
-        date: '2022',
-        infobox: 'Lorem Ipsum...',
-        detailCollection: [
-          {
-            imageName: 'more forest',
-            imageUrl: 'https://previews.123rf.com/images/hskoken/hskoken1212/hskoken121200033/16982171-wonderfull-trees-meeting-eachother-at-the-sky-in-a-forrest.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
-          },
-          {
-            imageName: 'desert',
-            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
-          },
-          {
-            imageName: 'rain',
-            imageUrl: 'https://stanschaap.com/wpix/wp-content/uploads/images/Morning-Sky-with-Rain-Clouds.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
-          }
-        ]
-      },
-      {
-        detailName: 'si, ho fa cada dia',
-        discipline: 'Fotolibro y exposició',
-        sinopsi: 'Lorem ipsum....',
-        date: '2022',
-        infobox: 'Lorem Ipsum...',
-        detailCollection: [
-          {
-            imageName: 'forest whitaker',
-            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
-          },
-          {
-            imageName: 'desert',
-            imageUrl: 'https://www.deborahogrady.com/wp-content/uploads/2018/06/CF01660318.jpg',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
-          },
-          {
-            imageName: 'rain',
-            imageUrl: 'https://stanschaap.com/wpix/wp-content/uploads/images/Morning-Sky-with-Rain-Clouds.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://www.joelsartore.com/wp-content/uploads/stock/ANI062/ANI062-00385.jpg'
           }
         ]
       }
@@ -451,33 +365,27 @@ export const State = [
         detailCollection: [
           {
             imageName: 'Start the observer',
-            imageUrl: 'https://i.ibb.co/s6Rkfwf/pastoretes-timbaler.png',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://i.ibb.co/s6Rkfwf/pastoretes-timbaler.png'
           },
           {
             imageName: 'Capità Bracons',
-            imageUrl: 'https://i.ibb.co/tqqXnqJ/pastoretes-capita-bracons-3-0.png',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'https://i.ibb.co/tqqXnqJ/pastoretes-capita-bracons-3-0.png'
           },
           {
             imageName: 'Soldat de la Diputació',
-            imageUrl: 'https://i.ibb.co/5RRfwXM/pastoretes-soldat.png',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://i.ibb.co/5RRfwXM/pastoretes-soldat.png'
           },
           {
             imageName: 'Caporal',
-            imageUrl: 'https://i.ibb.co/bQ6QRW9/pastoretes-capita-bracons-2-0.png',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://i.ibb.co/bQ6QRW9/pastoretes-capita-bracons-2-0.png'
           },
           {
             imageName: 'Pastoreta 1',
-            imageUrl: 'https://i.ibb.co/tJz19jh/pastoretes-pastoreta-3.png',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://i.ibb.co/tJz19jh/pastoretes-pastoreta-3.png'
           },
           {
             imageName: 'Pastoretes 2',
-            imageUrl: 'https://i.ibb.co/sgtVMzy/pastoretes-pastoreta-2.png',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://i.ibb.co/sgtVMzy/pastoretes-pastoreta-2.png'
           }
         ]
       },
@@ -490,18 +398,11 @@ export const State = [
         detailCollection: [
           {
             imageName: 'Webb and the sky',
-            imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
-          },
-          {
-            imageName: 'The eye',
-            imageUrl: 'https://i.ibb.co/PxFR7td/pastoretes-pastoreta.png',
-            hashtag: ['#laterracalenta', '#photobook', '#exhibition']
+            imageUrl: 'http://i2.cdn.turner.com/cnnnext/dam/assets/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg'
           },
           {
             imageName: 'Glitter',
-            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-j-p2207c-f.jpg',
-            hashtag: ['#noir', '#photobook', '#exhibition']
+            imageUrl: 'https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-j-p2207c-f.jpg'
           }
         ]
       }

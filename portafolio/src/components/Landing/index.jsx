@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import logo from '../../logo.svg';
+// import logo from '../../logo.svg';
 import './landing.css';
 
 export function Landing({ state }) {
   return (
     <header className="landing">
-      <img src={logo} className="landing__logo" alt="logo" />
+      {/* <img src={logo} className="landing__logo" alt="logo" /> */}
       <section className="landing__skill-box">
         {state.map((galleryItem) => (
           <Link
