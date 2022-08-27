@@ -33,4 +33,17 @@
 .navbar__handler:hover {
   color: #fff;
 }
+
+.navbar__handler--focus {
+  height: 100%;
+  width: 15vw;
+  font-family: "Gulzar", serif;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: #bbbbbb;
+  color: #fff;
+}
 /*# sourceMappingURL=navbar.css.map */

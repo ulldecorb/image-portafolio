@@ -28,5 +28,18 @@
         &:hover {
             color: $landing-link;
         }
+
+        &--focus {
+            height: 100%;
+            width: 15vw;
+            font-family: $gulzar;
+            text-transform: capitalize;
+            cursor: pointer;
+            text-decoration: none;
+            background-color: transparent;
+            border: none;
+            color: $navbar-link-color;
+            color: $landing-link;
+        }
     }
 }

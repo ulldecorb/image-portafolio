@@ -9,7 +9,7 @@ export const Artist = {
 
 export const State = [
   {
-    galleryName: 'Photo',
+    galleryName: 'photo',
     galleryCollection: [
       {
         detailName: 'As Bocas Negras',

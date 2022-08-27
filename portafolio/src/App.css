@@ -49,7 +49,7 @@
 }
 
 .App__skill-box .skill-box:hover {
-  color: landing-link-hover;
+  color: red;
 }
 
 .App__skill-box .skill-box:hover .skill-box__thumbnail-box {
