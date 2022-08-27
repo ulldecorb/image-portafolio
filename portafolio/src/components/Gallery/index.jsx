@@ -1,18 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { Link, useParams } from 'react-router-dom';
 import './gallery.css';
 
 export function Gallery({ state }) {
   const { galleryParam } = useParams();
-  const [gallery, setGallery] = React.useState('');
+  const [gallery, setGallery] = useState('');
 
   const getGallery = () => {
     const newGallery = state.find((galleryItem) => galleryItem.galleryName === galleryParam);
     return newGallery;
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     setGallery(getGallery());
   });
 

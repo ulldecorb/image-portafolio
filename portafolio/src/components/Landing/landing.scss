@@ -22,15 +22,18 @@
         margin: auto;
     }
 
-    @media (prefers-reduced-motion: no-preference) {
-        .landing__logo {
-          animation: App-logo-spin infinite 20s linear;
-        }
-    }
+    // @media (prefers-reduced-motion: no-preference) {
+    //     .landing__logo {
+    //       animation: App-logo-spin infinite 20s linear;
+    //     }
+    // }
 
     &__skill-box {
         position: absolute;
         top: 5vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
         
         .skill-box {
           background-color: transparent;
@@ -39,6 +42,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: flex-start;
+          margin: 0 10px;
     
           &:hover {
             .skill-box__title {
@@ -46,25 +50,26 @@
             }
             
             .skill-box__thumbnail-box{
-              display: grid;
-            }
+              opacity: 1;            }
           }
     
           &__title {
             cursor: pointer;
             position: static;
             color: $dark-typo;
-            font-family: $ubuntu;             
+            font-family: $ubuntu;    
+            transition: color 0.2s;         
           }
     
           &__thumbnail-box {
-            display: none;
+            opacity: 0;
+            display: grid;
             grid-template-rows: 1fr 1fr;
             grid-template-columns: 1fr 1fr;
-            position: static;
+            // position: static;
             max-height: 250px;
             max-width: 900px;
-            transition: opacity 1s;
+            transition: opacity 0.5s;
           }
     
           &__thumbnail {
@@ -73,7 +78,27 @@
             max-width: 300px;
             background-repeat: no-repeat;
           }
-        }    
+        }
+        
+        .skill-box:nth-child(1) {
+          align-items: center;
+        }
+
+        .skill-box:nth-child(2) {
+          align-items: flex-start;
+        }
+        
+        .skill-box:nth-child(3) {
+          align-items: flex-start;
+        }
+
+        .skill-box:nth-child(4) {
+          align-items: center;
+        }
+
+        .skill-box:nth-child(5) {
+          align-items: flex-end;
+        }
     }
 }
 
