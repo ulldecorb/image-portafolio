@@ -60,7 +60,7 @@
 
 .detail__navbar .navbar-box__title-section:link {
   color: #fff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .detail__navbar .navbar-box__title-section:visited {
@@ -69,7 +69,7 @@
 }
 
 .detail__navbar .navbar-box__title-section:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .detail__navbar .navbar-box__title-section:active {
@@ -145,10 +145,9 @@
 }
 
 .detail__viewer .viewer__image {
-  height: auto;
   max-height: 100vh;
-  max-width: 75vw;
-  padding: 50px;
+  max-width: 100vw;
+  padding: 10px;
 }
 
 .detail__viewer .viewer__close-button {
@@ -160,6 +159,7 @@
   font-size: 3rem;
   margin: 0 2vw;
   color: #fff;
+  border: none;
   cursor: pointer;
   background-color: transparent;
   text-decoration: none;

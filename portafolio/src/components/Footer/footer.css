@@ -39,7 +39,7 @@
 }
 
 .footer__title:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @media (max-width: 780px) {
