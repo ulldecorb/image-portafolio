@@ -237,8 +237,6 @@
         display: grid;        
         grid-template-rows: 30vh;
         grid-template-columns: 1fr 1fr 1fr;
-        // justify-content: stretch;
-        // justify-items: center;
         gap: 7px;
         padding: 0 0 40vh 0;
         
@@ -283,8 +281,6 @@
         }
     }
 }
-
-
 
 @media (max-width: 780px) {
     

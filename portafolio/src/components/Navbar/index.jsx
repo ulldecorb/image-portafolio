@@ -5,11 +5,11 @@ import './navbar.css';
 
 export function Navbar({ state }) {
   const currentUrl = useLocation();
-  const [currentGallery, setCurrentGallery] = useState('');
+  const [currentGalleryName, setCurrentGalleryName] = useState('');
+  const getCurrentGalleryName = () => currentUrl.pathname.split('/')[1];
 
-  const getCurrentGallery = () => currentUrl.pathname;
   useEffect(() => {
-    setCurrentGallery(getCurrentGallery());
+    setCurrentGalleryName(getCurrentGalleryName());
   });
 
   return (
@@ -18,7 +18,7 @@ export function Navbar({ state }) {
         <Link
           to={`/${galleryItem.galleryName}`}
           type="button"
-          className={`/${galleryItem.galleryName}` === currentGallery ? 'navbar__handler--focus' : 'navbar__handler'}
+          className={`${galleryItem.galleryName}` === currentGalleryName ? 'navbar__handler--focus' : 'navbar__handler'}
           key={`nav-handler-${galleryItem.galleryName}`}
         >
           {galleryItem.galleryName}
