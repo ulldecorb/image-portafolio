@@ -136,9 +136,10 @@ export function Detail({ state }) {
             </button>
           </article>
         </section>
+
         <section
-          id="cover"
           className="detail__cover"
+          id="cover"
           style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
         />
         <section
@@ -148,12 +149,14 @@ export function Detail({ state }) {
           {detail.detailCollection.map((detailItem) => (
 
             <button
+              className="gallery-detail"
               id={detailItem.imageName}
               aria-label={`open ${detailItem.imageName}image`}
               type="button"
               onClick={(e) => openViewer(e, detailItem.imageUrl)}
-              className="gallery-detail"
               style={{ textDecoration: 'none' }}
+              // style={{ textDecoration: 'none',
+              //  backgroundImage: `url('${detailItem.imageUrl}')` }}
               key={detailItem.imageName}
             >
               <img

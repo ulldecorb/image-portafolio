@@ -7,16 +7,17 @@
     max-height: 100vh;
     padding: 60px 0 0 0;
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 25vh;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 0.5vw;
-    // overflow: hidden;
+    justify-content: stretch;
+    justify-items: stretch;
+    align-items: stretch;
+    gap: 7px;
 
     &__article {
-        width: 30vw;
-        margin: 0 auto;
         position: relative;
         cursor: pointer;
+        overflow: hidden;
 
         &:hover {
 
@@ -69,8 +70,8 @@
     }
 
     &__thumbnail {
-        width: 30vw;
-        height: 20vw;
+        max-width: 100%;
+        height: 40vh;
         filter: grayscale(100%);
     }
 }
@@ -99,10 +100,10 @@
         font-size: 0.8rem;
     }
     
-    .gallery__thumbnail {
-        width: 45vw;
-        height: 40vw;
-    }
+    // .gallery__thumbnail {
+    //     width: 45vw;
+    //     height: 40vw;
+    // }
 }
 
 
@@ -130,8 +131,8 @@
         font-size: 0.8rem;
     }
     
-    .gallery__thumbnail {
-        width: 95vw;
-        height: 70vw;
-    }
+    // .gallery__thumbnail {
+    //     width: 95vw;
+    //     height: 70vw;
+    // }
 }
