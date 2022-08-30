@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { useParams } from 'react-router';
 import './detail.css';
@@ -10,6 +10,10 @@ export function Detail({ state }) {
   const [activeInfoBox, setActiveInfoBox] = useState(false);
   const [viewerImageUrl, setViewerImageUrl] = useState('');
 
+  const [coverNavbarFocus, setCoverScrollFocus] = useState(true);
+  const [galleryNavbarFocus, setGalleryScrollFocus] = useState(false);
+  const [relatedNavbarFocus, setRelatedScrollFocus] = useState(false);
+
   const getDetail = () => {
     const newGallery = state.find((galleryItem) => galleryItem.galleryName === galleryParam);
     const newDetail = newGallery.galleryCollection
@@ -17,7 +21,7 @@ export function Detail({ state }) {
     setDetail(newDetail);
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     getDetail();
   }, []);
 
@@ -42,10 +46,37 @@ export function Detail({ state }) {
     setActiveInfoBox(false);
   };
 
+  const handleScroll = (event) => {
+    const scrollPosition = event.currentTarget.scrollTop;
+    const gallery = document.getElementById('gallery').offsetTop;
+    const related = document.getElementById('related').offsetTop;
+
+    if (scrollPosition < gallery) {
+      setCoverScrollFocus(true);
+      setGalleryScrollFocus(false);
+      setRelatedScrollFocus(false);
+    }
+    if (scrollPosition >= gallery - 1
+      && scrollPosition < related) {
+      setCoverScrollFocus(false);
+      setGalleryScrollFocus(true);
+      setRelatedScrollFocus(false);
+    }
+    if (scrollPosition >= related - 1) {
+      setCoverScrollFocus(false);
+      setGalleryScrollFocus(false);
+      setRelatedScrollFocus(true);
+    }
+  };
+
   return detail === ''
     ? <p>404 Page not found</p>
     : (
-      <main className="detail">
+      <main
+        className="detail"
+        id="detail"
+        onScroll={handleScroll}
+      >
         <nav className="detail__navbar">
           <a
             style={{ textDecoration: 'none' }}
@@ -53,7 +84,7 @@ export function Detail({ state }) {
             className="navbar-box"
           >
             <p className="navbar-box__title-section">Cover</p>
-            <span className="navbar-box__selected-box" />
+            <span className={coverNavbarFocus ? 'navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
           </a>
           <a
             style={{ textDecoration: 'none' }}
@@ -61,7 +92,7 @@ export function Detail({ state }) {
             className="navbar-box"
           >
             <p className="navbar-box__title-section">Gallery</p>
-            <span className="navbar-box__selected-box" />
+            <span className={galleryNavbarFocus ? 'navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
           </a>
           <a
             style={{ textDecoration: 'none' }}
@@ -69,7 +100,7 @@ export function Detail({ state }) {
             className="navbar-box"
           >
             <p className="navbar-box__title-section">Related</p>
-            <span className="navbar-box__selected-box" />
+            <span className={relatedNavbarFocus ? 'navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
           </a>
         </nav>
         <section className="detail__header">
