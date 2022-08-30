@@ -14,7 +14,7 @@ export const State = [
       {
         detailName: 'As Bocas Negras',
         discipline: 'Documentary photography exhibition',
-        sinopse: 'The mountain awakens, dropping silky sheets of white mist. Dawn in the land of the Bocas Negras. An old danger that lurks, a legend that is reborn. Rites of caged death, whispers of a forgotten language: “Wolf, dog, person...” Are they all the same thing?',
+        sinopsi: 'The mountain awakens, dropping silky sheets of white mist. Dawn in the land of the Bocas Negras. An old danger that lurks, a legend that is reborn. Rites of caged death, whispers of a forgotten language: “Wolf, dog, person...” Are they all the same thing?',
         date: '2022',
         infobox: 'In Castro Laboreiro (Melgaço), a border area of Portugal, there is an autochthonous dog\'s breed with the same name of the village. The dog, a symbol of livestock protection against Iberian wolves and almost a legend due to the inactivity of shepherds in the Portuguese mountains, is such a strong sign of identity for the inhabitants of Castro that they even call themselves “Bocas Negras”, in honor of the animal. The project aims to make this region known, as its history and tradition, and to talk about the hostility of the border lands, through the figure of the dog and its iconography, avoiding showing the obvious and going through the symbol, the legend and the myth. The images appear in black and white to allude to the animal\'s limited night vision and the term that gives the exhibition its name, and combine positive and negative pictures to refer to possible archival material (found footage). The digital double exposure technique is used to juxtapose ideas and generate new meanings, to the point of generating ghostly paintings that speak to us of an unrevealed past.',
         detailCollection: [
@@ -75,7 +75,7 @@ export const State = [
       {
         detailName: 'Pasar página',
         discipline: 'Analog photography and fanzine design',
-        sinopse: 'Series taken during a New Year\'s Eve trip in Lisboa (Portugal). The fanzine explores the idea of a couple breakup and the research of your own voice through lonely feelings. It works as an an antidote or self-help book to get over this situation and “turn the page” to the next step',
+        sinopsi: 'Series taken during a New Year\'s Eve trip in Lisboa (Portugal). The fanzine explores the idea of a couple breakup and the research of your own voice through lonely feelings. It works as an an antidote or self-help book to get over this situation and “turn the page” to the next step',
         date: '2021',
         infobox: '',
         detailCollection: [
