@@ -255,10 +255,6 @@
       grid-template-rows: 30vh;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  -webkit-box-pack: stretch;
-      -ms-flex-pack: stretch;
-          justify-content: stretch;
-  justify-items: center;
   gap: 7px;
   padding: 0 0 40vh 0;
 }
@@ -266,15 +262,12 @@
 .detail__gallery .gallery-detail {
   cursor: pointer;
   list-style: none;
-  width: 30vw;
-  overflow: hidden;
-}
-
-.detail__gallery .gallery-detail__thumbnail {
+  background-color: transparent;
   width: 100%;
-  max-height: auto;
-  vertical-align: middle;
-  margin: auto;
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .detail__related {

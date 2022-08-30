@@ -234,31 +234,30 @@
         width: calc(100vw - 10px);
         min-height: 100vh;
         background-color: #000;
-        display: grid;
-        // grid-template-columns: 1fr 1fr 1fr;
-        // grid-template-rows: auto;
-
-        
+        display: grid;        
         grid-template-rows: 30vh;
         grid-template-columns: 1fr 1fr 1fr;
-        justify-content: stretch;
-        justify-items: center;
+        // justify-content: stretch;
+        // justify-items: center;
         gap: 7px;
         padding: 0 0 40vh 0;
         
         .gallery-detail {
             cursor: pointer;
             list-style: none;
-            // background-color: transparent;
-            width: 30vw;
-            overflow: hidden;
+            background-color: transparent;
+            width: 100%;
+            height: 30vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
 
-            &__thumbnail {
-                width: 100%;
-                max-height: auto;
-                vertical-align: middle;
-                margin: auto;
-            }
+            // &__thumbnail {
+            //     width: 100%;
+            //     max-height: auto;
+            //     vertical-align: middle;
+            //     margin: auto;
+            // }
         }
     }
 

@@ -154,16 +154,18 @@ export function Detail({ state }) {
               aria-label={`open ${detailItem.imageName}image`}
               type="button"
               onClick={(e) => openViewer(e, detailItem.imageUrl)}
-              style={{ textDecoration: 'none' }}
-              // style={{ textDecoration: 'none',
-              //  backgroundImage: `url('${detailItem.imageUrl}')` }}
+              // style={{ textDecoration: 'none' }}
+              style={{
+                textDecoration: 'none',
+                backgroundImage: `url("${detailItem.imageUrl}")`
+              }}
               key={detailItem.imageName}
             >
-              <img
+              {/* <img
                 src={detailItem.imageUrl}
                 className="gallery-detail__thumbnail"
                 alt={detailItem.imageName}
-              />
+              /> */}
             </button>
 
           ))}
