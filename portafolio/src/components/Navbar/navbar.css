@@ -12,8 +12,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(0%, #000), to(transparent));
-  background: linear-gradient(#000, #000 0%, transparent 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#838383), color-stop(0%, #838383), to(transparent));
+  background: linear-gradient(#838383, #838383 0%, transparent 100%);
   border-bottom: 2px solid #fff;
   z-index: 1;
 }
@@ -27,7 +27,7 @@
   text-decoration: none;
   background-color: transparent;
   border: none;
-  color: #bbbbbb;
+  color: #dfdfdf;
 }
 
 .navbar__handler:hover {
@@ -43,7 +43,7 @@
   text-decoration: none;
   background-color: transparent;
   border: none;
-  color: #bbbbbb;
+  color: #dfdfdf;
   color: #fff;
 }
 /*# sourceMappingURL=navbar.css.map */

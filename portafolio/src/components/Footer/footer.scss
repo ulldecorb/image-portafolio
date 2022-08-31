@@ -9,7 +9,7 @@
     left: 0;
     z-index: 2;
     background: rgb(2,0,36);
-    background: linear-gradient(transparent, transparent 0%, #000 100%);
+    background: linear-gradient(transparent, transparent 0%, $navbar-fade-gradient 100%);
     color: $light-typo;
     display: flex;
     justify-content: space-between;
@@ -19,7 +19,7 @@
     &__title {
         padding: 20px;
         font-family: $gulzar;
-        color: $landing-background;
+        color: $light-typo;
         text-decoration: none;
 
         
