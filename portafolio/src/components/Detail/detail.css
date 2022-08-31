@@ -223,8 +223,6 @@
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3rem;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
 }
 
 .detail__open-info-box {
@@ -243,6 +241,10 @@
   border: none;
   color: #fff;
   font-size: 3rem;
+}
+
+.detail__open-info-box--hidden {
+  display: none;
 }
 
 .detail__cover {

@@ -122,23 +122,29 @@ export function Detail({ state }) {
             onClick={(e) => closeViewer(e)}
           >
             X
-
           </button>
         </section>
 
-        <section className="detail__open-info-box">
+        {/* <section className="detail__open-info-box"> */}
+        <section className={activeInfoBox ? 'detail__open-info-box--hidden' : 'detail__open-info-box'}>
           <button
+            className="open-info-box"
             type="button"
             aria-label="open info box"
             style={{ textDecoration: 'none' }}
             onClick={(e) => openInfoBox(e)}
-            className="open-info-box"
           >
             +
           </button>
         </section>
 
-        <section className={activeInfoBox ? 'detail__info-box' : 'detail__info-box--hidden'}>
+        <section
+          className={activeInfoBox ? 'detail__info-box' : 'detail__info-box--hidden'}
+          onClick={(e) => closeInfoBox(e)}
+          onKeyDown={(e) => closeInfoBox(e)}
+          role="button"
+          tabIndex={0}
+        >
           <article className="info-box">
             <p className="info-box__text">
               <strong>Project:  </strong>
@@ -157,13 +163,13 @@ export function Detail({ state }) {
               {detail.date}
             </p>
             <button
+              className="info-box__close-handler"
               type="button"
               onClick={(e) => closeInfoBox(e)}
               aria-label="close info box"
               style={{ textDecoration: 'none' }}
-              className="info-box__close-handler"
             >
-              +
+              X
             </button>
           </article>
         </section>

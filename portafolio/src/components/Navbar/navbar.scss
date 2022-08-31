@@ -10,8 +10,8 @@
     display: flex;
     justify-content: space-around; 
     align-items: center;
-    background: linear-gradient(#000, #000 0%, transparent 100%);
-    border-bottom: 2px solid #fff;
+    background: linear-gradient($navbar-fade-gradient, $navbar-fade-gradient 0%, transparent 100%);
+    border-bottom: 2px solid $light-typo;
     z-index:1;
 
     &__handler {
