@@ -227,6 +227,11 @@
             color: $light-typo;
             font-size: 3rem;
         }
+
+        
+        &--hidden {
+            display: none;
+        }
     }
 
     &__cover {

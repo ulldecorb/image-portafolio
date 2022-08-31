@@ -243,6 +243,10 @@
   font-size: 3rem;
 }
 
+.detail__open-info-box--hidden {
+  display: none;
+}
+
 .detail__cover {
   scroll-snap-align: start;
   height: 100vh;
