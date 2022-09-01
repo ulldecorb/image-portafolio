@@ -21,9 +21,13 @@
   text-decoration: none;
 }
 
+.footer* {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1,5rem;
+}
+
 .footer__title {
   padding: 20px;
-  font-family: "Gulzar", serif;
   color: #fff;
   text-decoration: none;
 }
@@ -43,13 +47,13 @@
 }
 
 @media (max-width: 780px) {
-  .footer__title {
+  .footer * {
     font-size: 1.2rem;
   }
 }
 
 @media (max-width: 400px) {
-  .footer__title {
+  .footer * {
     font-size: 1rem;
   }
 }
