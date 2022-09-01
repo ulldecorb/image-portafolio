@@ -17,7 +17,7 @@ export function Landing({ state }) {
             key={`link-${galleryItem.galleryName}`}
           >
             <h3 className="skill-box__title">{galleryItem.galleryName.toUpperCase()}</h3>
-            <div className="skill-box__thumbnail-box">
+            {/* <div className="skill-box__thumbnail-box">
               <img
                 src={galleryItem.galleryCollection[0].detailCollection[0].imageUrl}
                 className="skill-box__thumbnail"
@@ -33,6 +33,26 @@ export function Landing({ state }) {
                 src={galleryItem.galleryCollection[2].detailCollection[0].imageUrl}
                 className="skill-box__thumbnail"
                 alt="logo"
+              /> */}
+            <div className="skill-box__thumbnail-box">
+              <span
+                // src={galleryItem.galleryCollection[0].detailCollection[0].imageUrl}
+                className="skill-box__thumbnail"
+                style={{ backgroundImage: `url("${galleryItem.galleryCollection[0].detailCollection[0].imageUrl}")` }}
+                // alt="logo"
+              />
+              <span
+                // src={galleryItem.galleryCollection[1].detailCollection[0].imageUrl}
+                className="skill-box__thumbnail"
+                style={{ backgroundImage: `url("${galleryItem.galleryCollection[1].detailCollection[0].imageUrl}")` }}
+                // alt="logo"
+              />
+              {galleryItem.galleryCollection[2] && (
+              <span
+                // src={galleryItem.galleryCollection[2].detailCollection[0].imageUrl}
+                className="skill-box__thumbnail"
+                style={{ backgroundImage: `url("${galleryItem.galleryCollection[2].detailCollection[0].imageUrl}")` }}
+                // alt="logo"
               />
               )}
             </div>

@@ -66,39 +66,41 @@
             display: grid;
             grid-template-rows: 1fr 1fr;
             grid-template-columns: 1fr 1fr;
-            // position: static;
-            max-height: 250px;
-            max-width: 900px;
+            gap: 7px;
+            height: 187px;
+            width: 327px;
             transition: opacity 0.5s;
           }
     
           &__thumbnail {
-            padding: 1vmin;
-            max-height: 100px;
-            max-width: 300px;
+            // padding: 1vmin;
+            height: 90px;
+            width: 160px;
+            background-size: cover;
             background-repeat: no-repeat;
+            background-position: center;
           }
         }
         
-        .skill-box:nth-child(1) {
-          align-items: center;
-        }
+        // .skill-box:nth-child(1) {
+        //   align-items: center;
+        // }
 
-        .skill-box:nth-child(2) {
-          align-items: flex-start;
-        }
+        // .skill-box:nth-child(2) {
+        //   align-items: flex-start;
+        // }
         
-        .skill-box:nth-child(3) {
-          align-items: flex-start;
-        }
+        // .skill-box:nth-child(3) {
+        //   align-items: flex-start;
+        // }
 
-        .skill-box:nth-child(4) {
-          align-items: center;
-        }
+        // .skill-box:nth-child(4) {
+        //   align-items: center;
+        // }
 
-        .skill-box:nth-child(5) {
-          align-items: flex-end;
-        }
+        // .skill-box:nth-child(5) {
+        //   align-items: flex-end;
+        // }
     }
 }
 

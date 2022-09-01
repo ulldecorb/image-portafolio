@@ -125,7 +125,6 @@ export function Detail({ state }) {
           </button>
         </section>
 
-        {/* <section className="detail__open-info-box"> */}
         <section className={activeInfoBox ? 'detail__open-info-box--hidden' : 'detail__open-info-box'}>
           <button
             className="open-info-box"
@@ -179,10 +178,7 @@ export function Detail({ state }) {
           id="cover"
           style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
         />
-        <section
-          id="gallery"
-          className="detail__gallery"
-        >
+        <section id="gallery" className="detail__gallery">
           {detail.detailCollection.map((detailItem) => (
 
             <button
@@ -191,7 +187,6 @@ export function Detail({ state }) {
               aria-label={`open ${detailItem.imageName}image`}
               type="button"
               onClick={(e) => openViewer(e, detailItem.imageUrl)}
-              // style={{ textDecoration: 'none' }}
               style={{
                 textDecoration: 'none',
                 backgroundImage: `url("${detailItem.imageUrl}")`
@@ -207,10 +202,7 @@ export function Detail({ state }) {
 
           ))}
         </section>
-        <section
-          id="related"
-          className="detail__related"
-        >
+        <section id="related" className="detail__related">
           <p className="related__title">{detail.galleryName}</p>
           <p className="related__discipline">{detail.discipline}</p>
           <p className="related__sinopsi">{detail.sinopsi}</p>

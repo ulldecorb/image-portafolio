@@ -17,6 +17,7 @@
     &__handler {
         height: 100%;
         width: 15vw;
+        font-size: 1rem;
         font-family: $title-body-font;
         display: flex; 
         justify-content: center;
@@ -34,7 +35,8 @@
 
         &--focus {
             height: 100%;
-            width: 15vw;
+            width: 15vw;            
+            font-size: 1rem;
             font-family: $title-body-font;
             display: flex; 
             justify-content: center;
@@ -47,5 +49,12 @@
             color: $navbar-link-color;
             color: $landing-link;
         }
+    }
+}
+
+@media (max-width: 700px) {
+
+    .navbar * {
+        font-size: 0.8rem;
     }
 }
