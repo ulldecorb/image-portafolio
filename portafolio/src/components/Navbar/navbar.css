@@ -12,8 +12,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#838383), color-stop(0%, #838383), to(transparent));
-  background: linear-gradient(#838383, #838383 0%, transparent 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.253)), color-stop(0%, rgba(0, 0, 0, 0.253)), to(transparent));
+  background: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.253) 0%, transparent 100%);
   border-bottom: 2px solid #fff;
   z-index: 1;
 }
@@ -21,6 +21,7 @@
 .navbar__handler {
   height: 100%;
   width: 15vw;
+  font-size: 1rem;
   font-family: "Space Grotesk", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,6 +47,7 @@
 .navbar__handler--focus {
   height: 100%;
   width: 15vw;
+  font-size: 1rem;
   font-family: "Space Grotesk", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,5 +65,11 @@
   border: none;
   color: #dfdfdf;
   color: #fff;
+}
+
+@media (max-width: 700px) {
+  .navbar * {
+    font-size: 0.8rem;
+  }
 }
 /*# sourceMappingURL=navbar.css.map */

@@ -24,7 +24,10 @@ export function Gallery({ state }) {
           <Link
             to={`/${galleryParam}/${detailItem.detailName}`}
             className="gallery__article"
-            style={{ textDecoration: 'none' }}
+            style={{
+              textDecoration: 'none',
+              backgroundImage: `url("${detailItem.detailCollection[0].imageUrl}")`
+            }}
             key={`gallery-${detailItem.detailCollection[0].imageName}`}
           >
             <div className="gallery__info-box">
@@ -36,11 +39,11 @@ export function Gallery({ state }) {
                 {detailItem.date}
               </p>
             </div>
-            <img
+            {/* <img
               className="gallery__thumbnail"
               src={detailItem.detailCollection[0].imageUrl}
               alt={detailItem.detailCollection[0].imageName}
-            />
+            /> */}
           </Link>
         ))}
       </section>
