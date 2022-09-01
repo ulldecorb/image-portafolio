@@ -4,7 +4,8 @@ export const Artist = {
     adress: 'Carrer Viladedalt, 13, Viladebaix, 08666',
     mail: 'martirosellart&design@gmail.com'
   },
-  portafolioType: 'Art & Design Portfolio'
+  portafolioType: 'Art & Design Portfolio',
+  landingImage: 'https://lh3.googleusercontent.com/fife/AAbDypCqdNEl5QOMDJ4M5vmWlHCfk078B5UXO2zuJ5ssI81eKzUTmTxbGG6wseZqSs4cZdizWeEGYJuH4huij25jd0M3vPHtCOizGjPrbKK_cfiH01X_8g0vgkJIGuwNmCt-jBRz3ZzpsujHyYm0VrE-78zMIn1wqqltLts4LGtSDFJPHbMYuFABGfBIPcH3jqJlyn9ufl3p0VIj5MFUkVmQmIufIjsDwZ928GUhwZLnjZUY1ESfF67dKMQS_KVVApoWKEvBED4o4l-2OucOs4CRvWbdy93USRNeMz6etRae3Qce9Lx0EE5CEzxzsyW6TFyzFGECCeV3DyLGXCzGisVXz4s350DJcxpWxU2ecdnogR-Oc7m6dk51EN9kIp2LYofZRMke7_ehG2_YrzjY7vPkGSlZ2IZR1flPzBoJyK7SNk0rmEpXfJjFLBzUInjrK2fN1BFxy9v0Z3EsLSD19hDq8LrMLvaFtDXSt5G5-7btmh_DYETJ-3cDSzHW4_FI5eoKls4eZjWEuWh6GzIG-lSCFDcywohMSWbWSLD6FE7UKmEgVD2PwMeOWbKLBtR9LgnUjqbLsEI2oHh_jHJq0dkhtnURef0FA-P9rQl9I-eQqZHihtzhdwLbzmZSWLVI0lgiSSBYxetueioJsNUqUHMg9dKcOJRql7Kc-yokRqaINfaV2JCHgWzHaogkxskBQG-TzeqPYoW6F9Wyd2IH8lDZRGihpMXMU4c0a3RRKzXY1cBuCdD_7VNhg7tJDwSD6U2hP0Pg1r4-4SKk-rMkwdNu2znrVNOwAp6otgBY18_RqoSzHDMQmcnBFkbu1WO2JDAJaE5sWSnblS2Q88WukgpHntjq1H-WY7g1_gJXf0mRRfJOfGlJhPirVsEhHJ27w2ndoewRnUrEEQHA_AUv6X_w2B2QE6Yfo_J2JyY1uWAuIjeu9rxhul-SyuY41o3b_hdYr47ZPen9C8dGDUTkU4wvoQ8iTgDf9W9YuX2ctVHPN12E4KTYcCM-FQfN7QeZeUeENMAKS2ZdFZRtFY71hW51oMixwB9kCVsdEMbLjX1wErSjOezmDFYLeDCOjzHHDRImkVM93g9190wwxPdKVmd0ucs1QHL1oWaj5rZy5yhrnCtjybeeMTxo-6m1KCVvye80WpGmm71gWtXiTbjGDJ9trAU4HikPQYGRMV0RHkme7kkwunoBbHCBGXkwtO1sRq2GvrgbGKHf7ZeKBJ0vdMny4y_VLtcD6HTeX3pVHHJpMvin2XCycwNGIIWBhUjY414RnDpE6Of7mZE1hpNU6NLfk5azlF5ryETz5Z1nBmaPLnvIOi0PzuMoX8Vs4O6fvXcA1aF4aN3SXqKoGMPqYLKsmXpPiIgczPGBhAwHiFYl9K_ARr2EAuB1Pv8=w1920-h949'
 };
 
 export const State = [
@@ -503,7 +504,7 @@ export const State = [
         infobox: '',
         detailCollection: [
           {
-            imageName: 'Portada',
+            imageName: 'Portada-rotterdam',
             imageUrl: 'https://i.ibb.co/dg9fwMh/Portada.jpg'
           }, {
             imageName: 'Targetes',
@@ -663,6 +664,7 @@ export const State = [
         sinopsi: 'Absurd and moving drama that surprises and disconcerts with its sense of humor. The distance between man and animal, between reason and instinct, submission and freedom. A memorable debut with Nao Albet\'s memorable metamorphosis into a sheep. Ove is a young man who has been treated and raised like a sheep all his life. His day-to-day life consists of eating, sleeping, grazing, and hanging out with LL, the only sheep in the herd that seems to accept him. The arrival of a truck that comes to take away part of the herd makes Ove begin to wonder what could be beyond the limits of the farm and to rebel against what he has always believed himself to be.',
         date: '2019',
         infobox: '',
+        video: '<iframe title="vimeo-player" src="https://player.vimeo.com/video/708586473?h=1719ebe45b" width="640" height="360" frameborder="0" allowfullscreen></iframe>',
         detailCollection: [
           {
             imageName: 'Ovella01',

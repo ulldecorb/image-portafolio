@@ -51,19 +51,19 @@
         .info-box {
             &__title {
                 font-size: 1.4rem;
-                font-family: $ubuntu;
+                font-family: $title-body-font;
                 text-align: left;
             }
             
             &__discipline {
                 font-size: 1rem;
-                font-family: $hind-siliguri;
+                font-family: $body-font;
                 text-align: left;
             }
 
             &__year {
                 font-size: 0.8rem;
-                font-family: $hind-siliguri;
+                font-family: $body-font;
                 text-align: left;
             }
         }
