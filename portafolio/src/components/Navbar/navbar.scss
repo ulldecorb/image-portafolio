@@ -17,7 +17,10 @@
     &__handler {
         height: 100%;
         width: 15vw;
-        font-family: $gulzar;
+        font-family: $title-body-font;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
         text-transform: capitalize;
         cursor: pointer;
         text-decoration: none;
@@ -32,7 +35,10 @@
         &--focus {
             height: 100%;
             width: 15vw;
-            font-family: $gulzar;
+            font-family: $title-body-font;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
             text-transform: capitalize;
             cursor: pointer;
             text-decoration: none;

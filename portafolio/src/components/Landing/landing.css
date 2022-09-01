@@ -71,7 +71,7 @@
   cursor: pointer;
   position: static;
   color: #000;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }

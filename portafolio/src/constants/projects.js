@@ -504,7 +504,7 @@ export const State = [
         infobox: '',
         detailCollection: [
           {
-            imageName: 'Portada',
+            imageName: 'Portada-rotterdam',
             imageUrl: 'https://i.ibb.co/dg9fwMh/Portada.jpg'
           }, {
             imageName: 'Targetes',
