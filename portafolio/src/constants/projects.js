@@ -802,7 +802,7 @@ export const State = [
             imageUrl: 'https://i.ibb.co/wzZ79qv/LOS-VIRGENES-11.jpg'
           }, {
             imageName: 'LOS-VIRGENES-12',
-            imageUrl: 'hhttps://i.ibb.co/mCsy0Cy/LOS-VIRGENES-12.jpg'
+            imageUrl: 'https://i.ibb.co/mCsy0Cy/LOS-VIRGENES-12.jpg'
           }
         ]
       },
