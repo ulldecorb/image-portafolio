@@ -36,14 +36,9 @@ export function Detail({ state }) {
     setActiveViewer(false);
   };
 
-  const openInfoBox = (e) => {
+  const toggleInfoBox = (e) => {
     e.preventDefault();
-    setActiveInfoBox(true);
-  };
-
-  const closeInfoBox = (e) => {
-    e.preventDefault();
-    setActiveInfoBox(false);
+    setActiveInfoBox(!activeInfoBox);
   };
 
   const handleScroll = (event) => {
@@ -84,7 +79,7 @@ export function Detail({ state }) {
             className="navbar-box"
           >
             <p className="navbar-box__title-section">Cover</p>
-            <span className={coverNavbarFocus ? 'navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
+            <span className={coverNavbarFocus ? 'navbar-box__selected-box navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
           </a>
           <a
             style={{ textDecoration: 'none' }}
@@ -92,7 +87,7 @@ export function Detail({ state }) {
             className="navbar-box"
           >
             <p className="navbar-box__title-section">Gallery</p>
-            <span className={galleryNavbarFocus ? 'navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
+            <span className={galleryNavbarFocus ? 'navbar-box__selected-box navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
           </a>
           <a
             style={{ textDecoration: 'none' }}
@@ -100,7 +95,7 @@ export function Detail({ state }) {
             className="navbar-box"
           >
             <p className="navbar-box__title-section">Related</p>
-            <span className={relatedNavbarFocus ? 'navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
+            <span className={relatedNavbarFocus ? 'navbar-box__selected-box navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
           </a>
         </nav>
         <section className="detail__header">
@@ -125,13 +120,17 @@ export function Detail({ state }) {
           </button>
         </section>
 
-        <section className={activeInfoBox ? 'detail__open-info-box--hidden' : 'detail__open-info-box'}>
+        <section className="detail__info-box-toggle">
           <button
-            className="open-info-box"
+            className={
+              activeInfoBox
+                ? 'info-box-toggle info-box-toggle--close'
+                : 'info-box-toggle'
+            }
             type="button"
-            aria-label="open info box"
+            aria-label="open info box-toggle"
             style={{ textDecoration: 'none' }}
-            onClick={(e) => openInfoBox(e)}
+            onClick={(e) => toggleInfoBox(e)}
           >
             +
           </button>
@@ -139,8 +138,8 @@ export function Detail({ state }) {
 
         <section
           className={activeInfoBox ? 'detail__info-box' : 'detail__info-box--hidden'}
-          onClick={(e) => closeInfoBox(e)}
-          onKeyDown={(e) => closeInfoBox(e)}
+          onClick={(e) => toggleInfoBox(e)}
+          onKeyDown={(e) => toggleInfoBox(e)}
           role="button"
           tabIndex={0}
         >
@@ -161,15 +160,6 @@ export function Detail({ state }) {
               <strong>Date:  </strong>
               {detail.date}
             </p>
-            <button
-              className="info-box__close-handler"
-              type="button"
-              onClick={(e) => closeInfoBox(e)}
-              aria-label="close info box"
-              style={{ textDecoration: 'none' }}
-            >
-              X
-            </button>
           </article>
         </section>
 

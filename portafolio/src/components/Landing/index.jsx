@@ -6,8 +6,12 @@ import './landing.css';
 
 export function Landing({ state }) {
   return (
-    <header className="landing">
+    <main className="landing">
       {/* <img src={logo} className="landing__logo" alt="logo" /> */}
+      <img src="https://i.ibb.co/k6Kq8XY/LightW.png" className="landing__logo" alt="logo" />
+      <img src="https://i.ibb.co/k6Kq8XY/LightW.png" className="landing__logo" alt="logo" />
+      <img src="https://i.ibb.co/k6Kq8XY/LightW.png" className="landing__logo" alt="logo" />
+      <img src="https://i.ibb.co/k6Kq8XY/LightW.png" className="landing__logo" alt="logo" />
       <section className="landing__skill-box">
         {state.map((galleryItem) => (
           <Link
@@ -16,50 +20,27 @@ export function Landing({ state }) {
             style={{ textDecoration: 'none' }}
             key={`link-${galleryItem.galleryName}`}
           >
-            <h3 className="skill-box__title">{galleryItem.galleryName.toUpperCase()}</h3>
-            {/* <div className="skill-box__thumbnail-box">
-              <img
-                src={galleryItem.galleryCollection[0].detailCollection[0].imageUrl}
-                className="skill-box__thumbnail"
-                alt="logo"
-              />
-              <img
-                src={galleryItem.galleryCollection[1].detailCollection[0].imageUrl}
-                className="skill-box__thumbnail"
-                alt="logo"
-              />
-              {galleryItem.galleryCollection[2] && (
-              <img
-                src={galleryItem.galleryCollection[2].detailCollection[0].imageUrl}
-                className="skill-box__thumbnail"
-                alt="logo"
-              /> */}
+            <h2 className="skill-box__title">{galleryItem.galleryName.toUpperCase()}</h2>
             <div className="skill-box__thumbnail-box">
               <span
-                // src={galleryItem.galleryCollection[0].detailCollection[0].imageUrl}
                 className="skill-box__thumbnail"
                 style={{ backgroundImage: `url("${galleryItem.galleryCollection[0].detailCollection[0].imageUrl}")` }}
-                // alt="logo"
               />
               <span
-                // src={galleryItem.galleryCollection[1].detailCollection[0].imageUrl}
                 className="skill-box__thumbnail"
                 style={{ backgroundImage: `url("${galleryItem.galleryCollection[1].detailCollection[0].imageUrl}")` }}
-                // alt="logo"
               />
               {galleryItem.galleryCollection[2] && (
               <span
-                // src={galleryItem.galleryCollection[2].detailCollection[0].imageUrl}
                 className="skill-box__thumbnail"
                 style={{ backgroundImage: `url("${galleryItem.galleryCollection[2].detailCollection[0].imageUrl}")` }}
-                // alt="logo"
               />
               )}
             </div>
           </Link>
         ))}
       </section>
-    </header>
+    </main>
   );
 }
 

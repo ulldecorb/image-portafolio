@@ -1,3 +1,29 @@
+@-webkit-keyframes spotlight {
+  0% {
+    -webkit-filter: brightness(100%) blur(0px);
+            filter: brightness(100%) blur(0px);
+    height: 70vh;
+  }
+  100% {
+    -webkit-filter: brightness(400%) blur(5px);
+            filter: brightness(400%) blur(5px);
+    height: 50vh;
+  }
+}
+
+@keyframes spotlight {
+  0% {
+    -webkit-filter: brightness(100%) blur(0px);
+            filter: brightness(100%) blur(0px);
+    height: 70vh;
+  }
+  100% {
+    -webkit-filter: brightness(400%) blur(5px);
+            filter: brightness(400%) blur(5px);
+    height: 50vh;
+  }
+}
+
 .landing {
   background-color: #d4d4da;
   min-height: 100vh;
@@ -11,9 +37,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #000;
   z-index: 1;
   position: absolute;
@@ -24,9 +50,26 @@
 }
 
 .landing__logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 70vmin;
+  position: absolute;
   margin: auto;
+  -webkit-animation: spotlight 2s ease-in 0s infinite alternate;
+          animation: spotlight 2s ease-in 0s infinite alternate;
+}
+
+.landing__logo:nth-child(2) {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.landing__logo:nth-child(3) {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.landing__logo:nth-child(4) {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .landing__skill-box {
@@ -99,25 +142,25 @@
   background-position: center;
 }
 
-@-webkit-keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+.landing__skill-box .skill-box:nth-child(1) {
+  margin-right: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+.landing__skill-box .skill-box:nth-child(2) {
+  margin-top: 100px;
+}
+
+.landing__skill-box .skill-box:nth-child(3) {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.landing__skill-box .skill-box:nth-child(4) {
+  margin-left: 100px;
+}
+
+.landing__skill-box .skill-box:nth-child(5) {
+  margin-top: -200px;
+  margin-left: 200px;
 }
 /*# sourceMappingURL=landing.css.map */
