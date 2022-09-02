@@ -107,16 +107,16 @@
         .header {
 
             &__title {
+                // width: 50vw;
                 color: $light-typo;
                 font-family: $title-body-font;
                 font-size: 9rem;
-                margin: -20px 0 0 0;
-                padding: none;
-                text-align: left;
+                margin: -20px 0 0 -10px;
                 transition: font-size 0.5s;
 
                 &--reduced {
                     font-size: 5rem;
+                    margin: -20px 0 0 -6px;
                 }
             }
 

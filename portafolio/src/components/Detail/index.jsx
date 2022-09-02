@@ -101,7 +101,7 @@ export function Detail({ state }) {
 
         <section className={coverNavbarFocus ? 'detail__header' : 'detail__header detail__header--reduced'}>
           <h3 className="header__discipline">{detail.discipline}</h3>
-          <h2 className={coverNavbarFocus ? 'header__title' : 'header__title header__title--reduced'}>{detail.detailName.toUpperCase()}</h2>
+          <p className={coverNavbarFocus ? 'header__title' : 'header__title header__title--reduced'}>{detail.detailName.toUpperCase()}</p>
         </section>
 
         <section id="viewer" className={activeViewer ? 'detail__viewer' : 'detail__viewer--hidden'}>
