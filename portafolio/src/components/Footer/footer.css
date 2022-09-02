@@ -19,6 +19,12 @@
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+  padding: 0 20px;
+  border: none;
+}
+
+.footer--reduced {
+  padding: 0;
 }
 
 .footer* {
@@ -27,7 +33,6 @@
 }
 
 .footer__title {
-  padding: 20px;
   color: #fff;
   text-decoration: none;
 }

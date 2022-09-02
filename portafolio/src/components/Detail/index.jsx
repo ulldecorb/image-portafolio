@@ -98,10 +98,12 @@ export function Detail({ state }) {
             <span className={relatedNavbarFocus ? 'navbar-box__selected-box navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
           </a>
         </nav>
-        <section className="detail__header">
+
+        <section className={coverNavbarFocus ? 'detail__header' : 'detail__header detail__header--reduced'}>
           <h3 className="header__discipline">{detail.discipline}</h3>
-          <h2 className="header__title">{detail.detailName.toUpperCase()}</h2>
+          <h2 className={coverNavbarFocus ? 'header__title' : 'header__title header__title--reduced'}>{detail.detailName.toUpperCase()}</h2>
         </section>
+
         <section id="viewer" className={activeViewer ? 'detail__viewer' : 'detail__viewer--hidden'}>
           <img
             id="viewerImage"
@@ -168,6 +170,7 @@ export function Detail({ state }) {
           id="cover"
           style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
         />
+
         <section id="gallery" className="detail__gallery">
           {detail.detailCollection.map((detailItem) => (
 
@@ -192,6 +195,7 @@ export function Detail({ state }) {
 
           ))}
         </section>
+
         <section id="related" className="detail__related">
           <p className="related__title">{detail.galleryName}</p>
           <p className="related__discipline">{detail.discipline}</p>
