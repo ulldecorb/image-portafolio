@@ -165,11 +165,30 @@ export function Detail({ state }) {
           </article>
         </section>
 
-        <section
-          className="detail__cover"
-          id="cover"
-          style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
-        />
+        {detail.video
+          ? (
+            <section
+              className="detail__cover"
+              id="cover"
+            >
+              <iframe
+                title="vimeo-player"
+                // src="https://player.vimeo.com/video/708586473?h=1719ebe45b"
+                src={detail.video}
+                width="640"
+                height="360"
+                frameBorder="0"
+                allowFullScreen
+              />
+            </section>
+          )
+          : (
+            <section
+              className="detail__cover"
+              id="cover"
+              style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
+            />
+          )}
 
         <section id="gallery" className="detail__gallery">
           {detail.detailCollection.map((detailItem) => (
