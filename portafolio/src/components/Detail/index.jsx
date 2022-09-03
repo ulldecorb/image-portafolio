@@ -101,7 +101,7 @@ export function Detail({ state }) {
 
         <section className={coverNavbarFocus ? 'detail__header' : 'detail__header detail__header--reduced'}>
           <h3 className="header__discipline">{detail.discipline}</h3>
-          <h2 className={coverNavbarFocus ? 'header__title' : 'header__title header__title--reduced'}>{detail.detailName.toUpperCase()}</h2>
+          <p className={coverNavbarFocus ? 'header__title' : 'header__title header__title--reduced'}>{detail.detailName.toUpperCase()}</p>
         </section>
 
         <section id="viewer" className={activeViewer ? 'detail__viewer' : 'detail__viewer--hidden'}>
@@ -165,11 +165,30 @@ export function Detail({ state }) {
           </article>
         </section>
 
-        <section
-          className="detail__cover"
-          id="cover"
-          style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
-        />
+        {detail.video
+          ? (
+            <section
+              className="detail__cover"
+              id="cover"
+            >
+              <iframe
+                title="vimeo-player"
+                // src="https://player.vimeo.com/video/708586473?h=1719ebe45b"
+                src={detail.video}
+                width="640"
+                height="360"
+                frameBorder="0"
+                allowFullScreen
+              />
+            </section>
+          )
+          : (
+            <section
+              className="detail__cover"
+              id="cover"
+              style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
+            />
+          )}
 
         <section id="gallery" className="detail__gallery">
           {detail.detailCollection.map((detailItem) => (
