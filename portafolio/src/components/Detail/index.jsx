@@ -118,7 +118,7 @@ export function Detail({ state }) {
             style={{ textDecoration: 'none' }}
             onClick={(e) => closeViewer(e)}
           >
-            X
+            +
           </button>
         </section>
 
@@ -168,12 +168,13 @@ export function Detail({ state }) {
         {detail.video
           ? (
             <section
-              className="detail__cover"
+              className="detail__cover--video"
               id="cover"
+              style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
             >
               <iframe
                 title="vimeo-player"
-                // src="https://player.vimeo.com/video/708586473?h=1719ebe45b"
+                className="cover__video"
                 src={detail.video}
                 width="640"
                 height="360"
