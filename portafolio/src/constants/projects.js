@@ -18,6 +18,7 @@ export const State = [
         sinopsi: 'La Terra Calenta is a project that arose from a wildfire in 2017 in a beloved forest next to my village. The physical journey through the burnt forest becomes an introspective and cathartic transit into the depths of oneself, questioning photographic sight and the fatal human footprint. The project seeks to expand through new artistic views (music, dance and poetry) and returns the images to their place of origin to open to visitors a space of meditation and reflection.',
         date: '2019',
         infobox: 'I try to inhale, when the smoke invades my lungs and dries up my breath. Something dies inside me. I close my eyes before the moisture particles evaporate. They must be red, a cherry red that contrasts with the blackness of the environment. A sepulchral silence overwhelms me and floats among the empty seats, the function is over. I search among the spectral and poisonous fog that spreads sparingly between the wooden mounds. It is the last breath of a dying dragon. What am I looking for? I trace the scales of the beast, fearing to wake it up again, while my palms and legs are impregnated with a layer of sweat and gunpowder leading me to the darkest places of my consciousness. If there\'s a thing I\'m more aware of than ever, it\'s where I put my feet. They burn as I press and suffocate the earth, which throbs agonizingly like a wound in living flesh. I walk on the small steps of when I was a child.',
+        video: false,
         detailCollection: [
           {
             imageName: 'LaTerraCalenta-1',
@@ -106,6 +107,7 @@ export const State = [
         sinopsi: 'The mountain awakens, dropping silky sheets of white mist. Dawn in the land of the Bocas Negras. An old danger that lurks, a legend that is reborn. Rites of caged death, whispers of a forgotten language: “Wolf, dog, person...” Are they all the same thing?',
         date: '2022',
         infobox: 'In Castro Laboreiro (Melgaço), a border area of Portugal, there is an autochthonous dog\'s breed with the same name of the village. The dog, a symbol of livestock protection against Iberian wolves and almost a legend due to the inactivity of shepherds in the Portuguese mountains, is such a strong sign of identity for the inhabitants of Castro that they even call themselves “Bocas Negras”, in honor of the animal. The project aims to make this region known, as its history and tradition, and to talk about the hostility of the border lands, through the figure of the dog and its iconography, avoiding showing the obvious and going through the symbol, the legend and the myth. The images appear in black and white to allude to the animal\'s limited night vision and the term that gives the exhibition its name, and combine positive and negative pictures to refer to possible archival material (found footage). The digital double exposure technique is used to juxtapose ideas and generate new meanings, to the point of generating ghostly paintings that speak to us of an unrevealed past.',
+        video: false,
         detailCollection: [
           {
             imageName: 'ABN-01-60x40-07',
@@ -167,6 +169,7 @@ export const State = [
         sinopsi: 'Series taken during a New Year\'s Eve trip in Lisboa (Portugal). The fanzine explores the idea of a couple breakup and the research of your own voice through lonely feelings. It works as an an antidote or self-help book to get over this situation and “turn the page” to the next step',
         date: '2021',
         infobox: '',
+        video: false,
         detailCollection: [
           {
             imageName: 'Pasar-pa-gina-1',
@@ -216,6 +219,7 @@ export const State = [
         sinopsi: 'Several random pictures taken in 35mm in different light scenarios and trips with friends.',
         date: '2019-22',
         infobox: '',
+        video: false,
         detailCollection: [
           {
             imageName: 'Copenhage-01',
@@ -328,6 +332,7 @@ export const State = [
         sinopsi: 'Commercial pictures for a high class bakery in Barcelona of their products, making of and campaigns',
         date: '2022',
         infobox: '',
+        video: false,
         detailCollection: [
           {
             imageName: 'Canal01',
@@ -373,6 +378,7 @@ export const State = [
         sinopsi: 'Several sketches of different fiction characters.',
         date: '2022',
         infobox: '',
+        video: false,
         detailCollection: [
           {
             imageName: 'jazz1',
@@ -401,6 +407,7 @@ export const State = [
         sinopsi: 'Several sketches of different fiction scenes and environments.',
         date: '2022',
         infobox: '',
+        video: false,
         detailCollection: [
           {
             imageName: 'Hercules1',
@@ -425,6 +432,7 @@ export const State = [
         sinopsi: 'LUX Magazine is a publication created around a leitmotiv: the light. Through different topics, it tries to evoque its ethereal nature with minimalistic design and self-created typography.',
         date: '2020',
         infobox: '',
+        video: false,
         detailCollection: [
           {
             imageName: 'Portada',
@@ -459,6 +467,7 @@ export const State = [
         sinopsi: 'Brand identity design of a rural house in Montseny (Catalunya) converted into a center of creation and cultural exchange. It combines fluid logo design, which represents the shape of a waterfall, with natural ground colors.',
         date: '2021',
         infobox: '',
+        video: false,
         detailCollection: [
           {
             imageName: '0-Portada',
@@ -502,6 +511,7 @@ export const State = [
         sinopsi: 'Identity based on cube houses in Rotterdam to conform the icon of an R, with nocturnal colors and shapes that give a character of innovation, rationalism and irreverence.',
         date: '2021',
         infobox: '',
+        video: false,
         detailCollection: [
           {
             imageName: 'Portada-rotterdam',
@@ -551,6 +561,7 @@ export const State = [
         sinopsi: 'Several projects related to product packaging design, starting with a supermarket jam redesign, a design of a packaging based on the concept “avarice”, a new brand coffee design…',
         date: '2021',
         infobox: '',
+        video: false,
         detailCollection: [
           {
             imageName: 'Packaging-1',
@@ -609,6 +620,7 @@ export const State = [
         sinopsi: 'Several posters made for music and cinema festivals',
         date: '2020-2021',
         infobox: '',
+        video: false,
         detailCollection: [
           {
             imageName: 'Have-you-ever',
@@ -631,6 +643,7 @@ export const State = [
         sinopsi: 'Several web designs for different brands like “La Caixa”, “Hotel Golf Costa Brava”…',
         date: '2022',
         infobox: '',
+        video: false,
         detailCollection: [
           {
             imageName: 'WEB-CAIXA-01',
@@ -865,7 +878,7 @@ export const State = [
   // Occaecati commodi provident quo enim ipsum.
   // \nFugiat aut dolor sit dolorem rerum sit.
   // Occaecati voluptates explicabo autem nihil eligendi.',
-  //       detailCollection: [
+  //         detailCollection: [
   //         {
   //           imageName: 'Start the observer',
   //           imageUrl: 'https://i.ibb.co/s6Rkfwf/pastoretes-timbaler.png'
