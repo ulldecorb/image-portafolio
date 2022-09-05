@@ -41,7 +41,7 @@ function App() {
           <Route
             path="/:galleryParam/:detailParam"
             element={
-              <Detail state={state} />
+              <Detail state={state} artist={artist} />
               }
           />
         </Routes>

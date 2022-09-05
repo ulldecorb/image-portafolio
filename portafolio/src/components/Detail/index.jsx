@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { useParams } from 'react-router';
 import './detail.css';
 
-export function Detail({ state }) {
+export function Detail({ state, artist }) {
   const { galleryParam, detailParam } = useParams();
   const [detail, setDetail] = useState('');
   const [activeViewer, setActiveViewer] = useState(false);
@@ -94,7 +94,7 @@ export function Detail({ state }) {
             href="#related"
             className="navbar-box"
           >
-            <p className="navbar-box__title-section">Related</p>
+            <p className="navbar-box__title-section">About me</p>
             <span className={relatedNavbarFocus ? 'navbar-box__selected-box navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
           </a>
         </nav>
@@ -217,11 +217,21 @@ export function Detail({ state }) {
         </section>
 
         <section id="related" className="detail__related">
-          <p className="related__title">{detail.galleryName}</p>
-          <p className="related__discipline">{detail.discipline}</p>
-          <p className="related__sinopsi">{detail.sinopsi}</p>
-          <p className="related__date">{detail.data}</p>
-          <p className="related__infobox">{detail.infobox}</p>
+          <article className="about-me__context">
+            <p className="related__text">{artist.aboutMe.p1}</p>
+            <p className="related__text">{artist.aboutMe.p2}</p>
+            <p className="related__text">{artist.aboutMe.p3}</p>
+          </article>
+          <article className="about-me__contact">
+            <p className="related__contact">{artist.contact.phone}</p>
+            <p className="related__contact">{artist.contact.mail}</p>
+            <p className="related__contact">{artist.contact.instagram}</p>
+            <p className="related__contact">{artist.contact.linkedin}</p>
+            <p className="related__contact">{artist.contact.behance}</p>
+            <p className="related__contact">{artist.contact.vimeo}</p>
+          </article>
+          <img className="about-me__portrait" src={artist.photo} alt="marti rosell's portrait" />
+
         </section>
       </main>
     );
@@ -230,7 +240,16 @@ export function Detail({ state }) {
 Detail.propTypes = {
   state: PropTypes.arrayOf(
     PropTypes.shape({})
-  ).isRequired
+  ).isRequired,
+  artist: PropTypes.shape({
+    photo: PropTypes.string.isRequired,
+    contact: PropTypes.arrayOf(
+      PropTypes.shape({}).isRequired
+    ),
+    aboutMe: PropTypes.arrayOf(
+      PropTypes.shape({})
+    ).isRequired
+  }).isRequired
 };
 
 export default Detail;
