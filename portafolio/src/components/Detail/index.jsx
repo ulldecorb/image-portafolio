@@ -202,7 +202,7 @@ export function Detail({ state }) {
               onClick={(e) => openViewer(e, detailItem.imageUrl)}
               style={{
                 textDecoration: 'none',
-                backgroundImage: `url("${detailItem.imageUrl}")`
+                backgroundImage: `url("${detailItem.thumbnail}")`
               }}
               key={detailItem.imageName}
             >
