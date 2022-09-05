@@ -31,22 +31,26 @@
     &__navbar {
         position:fixed;
         top:50%;
-        right: 10vmin;
-        transform: translate(80%, -50%);
+        right: 0;
+        transform: translate(0, -50%);
         color: #fff;
         z-index: 10;
         
         .navbar-box {
             display: flex;
+            width: 110px;
             justify-content: flex-end;
             align-items: center;
-            margin: 2vh 0;
+            // margin: 2vh 0;
+            display: flex;
+            justify-content: flex-end;
             cursor: pointer;
             
             &__title-section {
                 font-family: $title-body-font;
                 color: #fff;
                 text-decoration: none;
+                visibility: hidden;
 
                 &:link {
                     color: #fff;
@@ -65,6 +69,7 @@
                 &:active {
                     text-decoration: none;
                 }
+
             }
             
             &__selected-box {
@@ -72,12 +77,18 @@
                 outline: 1px solid #fff;
                 height: 10px;
                 width: 10px;
-                transform: rotate(45deg)
+                transform: rotate(45deg);
             }
 
             &__selected-box--focused {
                 background-color: #fff;
             }
+
+        &:hover {
+            .navbar-box__title-section {
+                visibility: visible;
+            }
+        }
         }
     }
 
