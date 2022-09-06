@@ -101,8 +101,8 @@ export function Detail({ state, artist }) {
         </nav>
 
         <section className={coverNavbarFocus ? 'detail__header' : 'detail__header detail__header--reduced'}>
-          <h3 className="header__discipline">{detail.discipline}</h3>
-          <p className={coverNavbarFocus ? 'header__title' : 'header__title header__title--reduced'}>{detail.detailName.toUpperCase()}</p>
+          <h3 className="header__discipline">{aboutMeNavbarFocus ? '' : detail.discipline}</h3>
+          <h2 className={coverNavbarFocus ? 'header__title' : 'header__title header__title--reduced'}>{aboutMeNavbarFocus ? 'ABOUT ME' : detail.detailName.toUpperCase()}</h2>
         </section>
 
         <section id="viewer" className={activeViewer ? 'detail__viewer' : 'detail__viewer--hidden'}>
@@ -216,26 +216,6 @@ export function Detail({ state, artist }) {
 
           ))}
         </section>
-
-        {/* <section id="aboutMe" className="detail__about-me">
-          <div className="about-me">
-            <article className="about-me__context">
-              <p className="context">{artist.aboutMe.p1}</p>
-              <p className="context">{artist.aboutMe.p2}</p>
-              <p className="context">{artist.aboutMe.p3}</p>
-            </article>
-            <article className="about-me__contact">
-              <p className="about-me__contact">{artist.contact.phone}</p>
-              <p className="about-me__contact">{artist.contact.mail}</p>
-              <p className="about-me__contact">{artist.contact.instagram}</p>
-              <p className="about-me__contact">{artist.contact.linkedin}</p>
-              <p className="about-me__contact">{artist.contact.behance}</p>
-              <p className="about-me__contact">{artist.contact.vimeo}</p>
-            </article>
-          </div>
-          <img className="about-me__portrait" src={artist.photo} alt="marti rosell's portrait" />
-
-        </section> */}
         <AboutMe artist={artist} />
       </main>
     );
