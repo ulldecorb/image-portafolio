@@ -307,48 +307,6 @@
   background-position: center;
 }
 
-.detail__about-me {
-  padding: 60px 40px 0 40px;
-  scroll-snap-align: start;
-  height: 100vh;
-  background-color: #d6d6d6;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-.detail__about-me .about-me * {
-  text-align: left;
-}
-
-.detail__about-me .about-me__context {
-  width: 40vw;
-}
-
-.detail__about-me .about-me__context .context {
-  margin-bottom: 10px;
-}
-
-.detail__about-me .about-me__contact {
-  width: 40vw;
-}
-
-.detail__about-me .about-me__portrait {
-  width: 20vw;
-  height: auto;
-}
-
-.detail__about-me * {
-  font-family: "Syne", sans-serif;
-  color: #fff;
-}
-
 @media (max-width: 1150px) {
   .detail .header__title {
     font-size: 7rem;

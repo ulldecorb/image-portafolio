@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { useParams } from 'react-router';
 import './detail.css';
+import { AboutMe } from '../AboutMe';
 
 export function Detail({ state, artist }) {
   const { galleryParam, detailParam } = useParams();
@@ -216,7 +217,7 @@ export function Detail({ state, artist }) {
           ))}
         </section>
 
-        <section id="aboutMe" className="detail__about-me">
+        {/* <section id="aboutMe" className="detail__about-me">
           <div className="about-me">
             <article className="about-me__context">
               <p className="context">{artist.aboutMe.p1}</p>
@@ -234,7 +235,8 @@ export function Detail({ state, artist }) {
           </div>
           <img className="about-me__portrait" src={artist.photo} alt="marti rosell's portrait" />
 
-        </section>
+        </section> */}
+        <AboutMe artist={artist} />
       </main>
     );
 }

@@ -1,0 +1,39 @@
+.about-me {
+  padding: 60px 40px 0 40px;
+  scroll-snap-align: start;
+  height: 100vh;
+  background-color: #d6d6d6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.about-me__text-box * {
+  text-align: left;
+}
+
+.about-me__text-box .text-box__context {
+  width: 40vw;
+  margin-bottom: 10px;
+}
+
+.about-me__text-box .text-box__contact {
+  width: 40vw;
+}
+
+.about-me__portrait {
+  width: 20vw;
+  height: auto;
+}
+
+.about-me * {
+  font-family: "Syne", sans-serif;
+  color: #fff;
+}
+/*# sourceMappingURL=aboutMe.css.map */
