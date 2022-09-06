@@ -194,7 +194,6 @@ export function Detail({ state, artist }) {
 
         <section id="gallery" className="detail__gallery">
           {detail.detailCollection.map((detailItem) => (
-
             <button
               className="gallery-detail"
               id={detailItem.imageName}
@@ -206,14 +205,7 @@ export function Detail({ state, artist }) {
                 backgroundImage: `url("${detailItem.thumbnail}")`
               }}
               key={detailItem.imageName}
-            >
-              {/* <img
-                src={detailItem.imageUrl}
-                className="gallery-detail__thumbnail"
-                alt={detailItem.imageName}
-              /> */}
-            </button>
-
+            />
           ))}
         </section>
         <AboutMe artist={artist} />

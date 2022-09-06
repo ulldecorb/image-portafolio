@@ -113,7 +113,7 @@
                 color: $light-typo;
                 font-family: $title-body-font;
                 font-size: 9rem;
-                margin-left:-10px;
+                // margin-left:-10px;
                 transition: font-size 0.5s;
                 line-height: 0.8;
 
@@ -245,6 +245,7 @@
 
         &--video {
             scroll-snap-align: start;
+            text-align: center;
             height: 100vh;
             width: 100vw;
             background-color: #000;
@@ -255,7 +256,6 @@
                 margin-top: 50px;
             }
         }
-
     }
 
     &__gallery{
@@ -278,54 +278,8 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-
-            // &__thumbnail {
-            //     width: 100%;
-            //     max-height: auto;
-            //     vertical-align: middle;
-            //     margin: auto;
-            // }
         }
     }
-
-    // &__about-me {
-    //     padding: 60px 40px 0 40px;
-    //     scroll-snap-align: start;
-    //     height: 100vh;
-    //     background-color: $landing-background;
-    //     display: flex;
-    //     justify-content: space-between;
-    //     align-items: flex-start;
-
-    //     .about-me {
-
-    //         & *{
-    //             text-align: left;
-    //         }
-
-    //         &__context {
-    //             width: 40vw;
-
-    //             .context {
-    //                 margin-bottom: 10px;
-    //             }
-    //         }
-
-    //         &__contact {
-    //             width: 40vw;
-    //         }
-
-    //         &__portrait {
-    //             width: 20vw;
-    //             height: auto;
-    //         }
-    //     }
-
-    //     & * {
-    //         font-family: $body-font;
-    //         color: #fff;
-    //     }
-    // }
 }
 
 @media (max-width: 1150px) {
@@ -334,11 +288,15 @@
 
         .header__title {
             font-size: 7rem;
+
+            &--reduced {
+                font-size: 3rem;
+            }
         }
 
         .header__discipline {
             font-size: 1rem;
-            padding: 0 0 10px 0;
+            // padding: 0 0 10px 0;
         }
     }
 }
