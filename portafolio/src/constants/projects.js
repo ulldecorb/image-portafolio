@@ -1,11 +1,22 @@
 export const Artist = {
   artistName: 'Marti Rosell',
+  photo: 'https://i.ibb.co/SQLnhJT/Aboutme-01.jpg',
   contact: {
     adress: 'Carrer Viladedalt, 13, Viladebaix, 08666',
-    mail: 'martirosellart&design@gmail.com'
+    mail: 'martirosellc@gmail.com',
+    phone: '+34 618564314',
+    instagram: '@martirosell',
+    linkedin: 'linkedin.com/in/martirosell',
+    behance: 'behance.net/martirosell',
+    vimeo: 'vimeo.com/martirosell'
   },
   portafolioType: 'Art & Design Portfolio',
-  landingImage: 'https://lh3.googleusercontent.com/fife/AAbDypCqdNEl5QOMDJ4M5vmWlHCfk078B5UXO2zuJ5ssI81eKzUTmTxbGG6wseZqSs4cZdizWeEGYJuH4huij25jd0M3vPHtCOizGjPrbKK_cfiH01X_8g0vgkJIGuwNmCt-jBRz3ZzpsujHyYm0VrE-78zMIn1wqqltLts4LGtSDFJPHbMYuFABGfBIPcH3jqJlyn9ufl3p0VIj5MFUkVmQmIufIjsDwZ928GUhwZLnjZUY1ESfF67dKMQS_KVVApoWKEvBED4o4l-2OucOs4CRvWbdy93USRNeMz6etRae3Qce9Lx0EE5CEzxzsyW6TFyzFGECCeV3DyLGXCzGisVXz4s350DJcxpWxU2ecdnogR-Oc7m6dk51EN9kIp2LYofZRMke7_ehG2_YrzjY7vPkGSlZ2IZR1flPzBoJyK7SNk0rmEpXfJjFLBzUInjrK2fN1BFxy9v0Z3EsLSD19hDq8LrMLvaFtDXSt5G5-7btmh_DYETJ-3cDSzHW4_FI5eoKls4eZjWEuWh6GzIG-lSCFDcywohMSWbWSLD6FE7UKmEgVD2PwMeOWbKLBtR9LgnUjqbLsEI2oHh_jHJq0dkhtnURef0FA-P9rQl9I-eQqZHihtzhdwLbzmZSWLVI0lgiSSBYxetueioJsNUqUHMg9dKcOJRql7Kc-yokRqaINfaV2JCHgWzHaogkxskBQG-TzeqPYoW6F9Wyd2IH8lDZRGihpMXMU4c0a3RRKzXY1cBuCdD_7VNhg7tJDwSD6U2hP0Pg1r4-4SKk-rMkwdNu2znrVNOwAp6otgBY18_RqoSzHDMQmcnBFkbu1WO2JDAJaE5sWSnblS2Q88WukgpHntjq1H-WY7g1_gJXf0mRRfJOfGlJhPirVsEhHJ27w2ndoewRnUrEEQHA_AUv6X_w2B2QE6Yfo_J2JyY1uWAuIjeu9rxhul-SyuY41o3b_hdYr47ZPen9C8dGDUTkU4wvoQ8iTgDf9W9YuX2ctVHPN12E4KTYcCM-FQfN7QeZeUeENMAKS2ZdFZRtFY71hW51oMixwB9kCVsdEMbLjX1wErSjOezmDFYLeDCOjzHHDRImkVM93g9190wwxPdKVmd0ucs1QHL1oWaj5rZy5yhrnCtjybeeMTxo-6m1KCVvye80WpGmm71gWtXiTbjGDJ9trAU4HikPQYGRMV0RHkme7kkwunoBbHCBGXkwtO1sRq2GvrgbGKHf7ZeKBJ0vdMny4y_VLtcD6HTeX3pVHHJpMvin2XCycwNGIIWBhUjY414RnDpE6Of7mZE1hpNU6NLfk5azlF5ryETz5Z1nBmaPLnvIOi0PzuMoX8Vs4O6fvXcA1aF4aN3SXqKoGMPqYLKsmXpPiIgczPGBhAwHiFYl9K_ARr2EAuB1Pv8=w1920-h949'
+  aboutMe: {
+    p1: 'Hi, I\'m a digital artist based in Barcelona. Born in the 90\'s decade, I grew up learning music and drawing cartoon strips. That\'s how I chose cinema as my professional studies and how I discovered photography as a powerful artistic language. It took me to my first own documentary projects, "La Terra Calenta" (2019) and "As Bocas Negras" (2022). After some time working in several fiction and commercial shootings, I decided to enlarge my knowledge studying graphic and motion design. As an agency team member, I realized that my wish was to get closer to fiction content, having Animation and VFX as my next steps of interest.',
+    p2: 'After all this experience, I have reached a versatile and creative portfolio, based on my curiosity and able to work for visual and multidisciplinary projects.',
+    p3: 'Let\'s keep in touch!'
+
+  }
 };
 
 export const State = [
@@ -108,59 +119,76 @@ export const State = [
         date: '2022',
         infobox: 'In Castro Laboreiro (Melgaço), a border area of Portugal, there is an autochthonous dog\'s breed with the same name of the village. The dog, a symbol of livestock protection against Iberian wolves and almost a legend due to the inactivity of shepherds in the Portuguese mountains, is such a strong sign of identity for the inhabitants of Castro that they even call themselves “Bocas Negras”, in honor of the animal. The project aims to make this region known, as its history and tradition, and to talk about the hostility of the border lands, through the figure of the dog and its iconography, avoiding showing the obvious and going through the symbol, the legend and the myth. The images appear in black and white to allude to the animal\'s limited night vision and the term that gives the exhibition its name, and combine positive and negative pictures to refer to possible archival material (found footage). The digital double exposure technique is used to juxtapose ideas and generate new meanings, to the point of generating ghostly paintings that speak to us of an unrevealed past.',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'ABN-01-60x40-07',
-            imageUrl: 'https://i.ibb.co/xhTnWWw/ABN-01-60x40-07.jpg'
-          }, {
-            imageName: 'ABN-02-22-5x30',
-            imageUrl: 'https://i.ibb.co/PYctJ3P/ABN-02-22-5x30.jpg'
-          }, {
-            imageName: 'ABN-03-44-92x30',
-            imageUrl: 'https://i.ibb.co/4mdKTCZ/ABN-03-44-92x30.jpg'
-          }, {
-            imageName: 'ABN-04-22-5x30',
-            imageUrl: 'https://i.ibb.co/zm7CCCZ/ABN-04-22-5x30.jpg'
-          }, {
-            imageName: 'ABN-05-60x40-07',
-            imageUrl: 'https://i.ibb.co/sbrcBy6/ABN-05-60x40-07.jpg'
-          }, {
-            imageName: 'ABN-06-22-5x30',
-            imageUrl: 'https://i.ibb.co/XpPrZvQ/ABN-06-22-5x30.jpg'
-          }, {
-            imageName: 'ABN-07-44-92x30',
-            imageUrl: 'https://i.ibb.co/nCKJ6g5/ABN-07-44-92x30.jpg'
-          }, {
-            imageName: 'ABN-08-22-5x30',
-            imageUrl: 'https://i.ibb.co/C7HSM1K/ABN-08-22-5x30.jpg'
-          }, {
-            imageName: 'ABN-09-60x40-07',
-            imageUrl: 'https://i.ibb.co/znMpWVV/ABN-09-60x40-07.jpg'
-          }, {
-            imageName: 'ABN-10-22-5x30',
-            imageUrl: 'https://i.ibb.co/zntM841/ABN-10-22-5x30.jpg'
-          }, {
-            imageName: 'ABN-11-44-92x30',
-            imageUrl: 'https://i.ibb.co/rcpPnzZ/ABN-11-44-92x30.jpg'
-          }, {
-            imageName: 'ABN-12-22-5x30',
-            imageUrl: 'https://i.ibb.co/cDsQq55/ABN-12-22-5x30.jpg'
-          }, {
-            imageName: 'ABN-13-60x40-07',
-            imageUrl: 'https://i.ibb.co/vxg5g97/ABN-13-60x40-07.jpg'
-          }, {
-            imageName: 'ABN-14-22-5x30',
-            imageUrl: 'https://i.ibb.co/2ypN3xx/ABN-14-22-5x30.jpg'
-          }, {
-            imageName: 'ABN-15-44-92x30',
-            imageUrl: 'https://i.ibb.co/KqWxp8Q/ABN-15-44-92x30.jpg'
-          }, {
-            imageName: 'ABN-16-22-5x30',
-            imageUrl: 'https://i.ibb.co/gVJMHS7/ABN-16-22-5x30.jpg'
-          }, {
-            imageName: 'ABN-17-60x40-07',
-            imageUrl: 'https://i.ibb.co/rFGV8Ws/ABN-17-60x40-07.jpg'
-          }
+        detailCollection: [{
+          imageName: 'ABN-01-60x40-07',
+          imageUrl: 'https://i.ibb.co/xhTnWWw/ABN-01-60x40-07.jpg',
+          thumbnail: 'https://i.ibb.co/RzQSbvH/ABN-01-Low-Res.png'
+        }, {
+          imageName: 'ABN-02-22-5x30',
+          imageUrl: 'https://i.ibb.co/PYctJ3P/ABN-02-22-5x30.jpg',
+          thumbnail: 'https://i.ibb.co/Xpfg3Mw/ABN-02-Low-Res.png'
+        }, {
+          imageName: 'ABN-03-44-92x30',
+          imageUrl: 'https://i.ibb.co/4mdKTCZ/ABN-03-44-92x30.jpg',
+          thumbnail: 'https://i.ibb.co/r7s458Q/ABN-03-Low-Res.png'
+        }, {
+          imageName: 'ABN-04-22-5x30',
+          imageUrl: 'https://i.ibb.co/zm7CCCZ/ABN-04-22-5x30.jpg',
+          thumbnail: 'https://i.ibb.co/VQQNWyc/ABN-04-Low-Res.png'
+        }, {
+          imageName: 'ABN-05-60x40-07',
+          imageUrl: 'https://i.ibb.co/sbrcBy6/ABN-05-60x40-07.jpg',
+          thumbnail: 'https://i.ibb.co/0tmT8C5/ABN-05-Low-Res.png'
+        }, {
+          imageName: 'ABN-06-22-5x30',
+          imageUrl: 'https://i.ibb.co/XpPrZvQ/ABN-06-22-5x30.jpg',
+          thumbnail: 'https://i.ibb.co/sqvkWnV/ABN-06-Low-Res.png'
+        }, {
+          imageName: 'ABN-07-44-92x30',
+          imageUrl: 'https://i.ibb.co/nCKJ6g5/ABN-07-44-92x30.jpg',
+          thumbnail: 'https://i.ibb.co/MSksYMC/ABN-07-Low-Res.png'
+        }, {
+          imageName: 'ABN-08-22-5x30',
+          imageUrl: 'https://i.ibb.co/C7HSM1K/ABN-08-22-5x30.jpg',
+          thumbnail: 'https://i.ibb.co/4sKJk3W/ABN-08-Low-Res.png'
+        }, {
+          imageName: 'ABN-09-60x40-07',
+          imageUrl: 'https://i.ibb.co/znMpWVV/ABN-09-60x40-07.jpg',
+          thumbnail: 'https://i.ibb.co/ZcbkmJC/ABN-09-Low-Res.png'
+        }, {
+          imageName: 'ABN-10-22-5x30',
+          imageUrl: 'https://i.ibb.co/zntM841/ABN-10-22-5x30.jpg',
+          thumbnail: 'https://i.ibb.co/9hW3XHg/ABN-10-Low-Res.png'
+        }, {
+          imageName: 'ABN-11-44-92x30',
+          imageUrl: 'https://i.ibb.co/rcpPnzZ/ABN-11-44-92x30.jpg',
+          thumbnail: 'https://i.ibb.co/GRtPJnR/ABN-11-Low-Res.png'
+        }, {
+          imageName: 'ABN-12-22-5x30',
+          imageUrl: 'https://i.ibb.co/cDsQq55/ABN-12-22-5x30.jpg',
+          thumbnail: 'https://i.ibb.co/whhjqVq/ABN-12-Low-Res.png'
+        }, {
+          imageName: 'ABN-13-60x40-07',
+          imageUrl: 'https://i.ibb.co/vxg5g97/ABN-13-60x40-07.jpg',
+          thumbnail: 'https://i.ibb.co/7QJ9CZ0/ABN-13-Low-Res.png'
+        }, {
+          imageName: 'ABN-14-22-5x30',
+          imageUrl: 'https://i.ibb.co/2ypN3xx/ABN-14-22-5x30.jpg',
+          thumbnail: 'https://i.ibb.co/JFBVHfC/ABN-14-Low-Res.png'
+        }, {
+          imageName: 'ABN-15-44-92x30',
+          imageUrl: 'https://i.ibb.co/KqWxp8Q/ABN-15-44-92x30.jpg',
+          thumbnail: 'https://i.ibb.co/NLYmX8N/ABN-15-Low-Res.png'
+        }, {
+          imageName: 'ABN-16-22-5x30',
+          imageUrl: 'https://i.ibb.co/gVJMHS7/ABN-16-22-5x30.jpg',
+          thumbnail: 'https://i.ibb.co/nn7Ry9h/ABN-16-Low-Res.png'
+        }, {
+          imageName: 'ABN-17-60x40-07',
+          imageUrl: 'https://i.ibb.co/rFGV8Ws/ABN-17-60x40-07.jpg',
+          thumbnail: 'https://i.ibb.co/zPR1Zcm/ABN-17-Low-Res.png'
+        }
+
         ]
       },
       {
