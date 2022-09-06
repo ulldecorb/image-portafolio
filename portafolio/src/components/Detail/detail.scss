@@ -95,16 +95,16 @@
     &__header {
         position: fixed;
         z-index: 8;
-        bottom: 30px;
-        left: 0px;
+        bottom: 50px;
+        left: 20px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 0 0 0 20px;
+        // padding: 0 0 0 20px;
         overflow-y: hidden;
 
         &--reduced {
-            padding: 0 0 0 0;
+            left: 0;
         }
 
         .header {
@@ -113,12 +113,13 @@
                 color: $light-typo;
                 font-family: $title-body-font;
                 font-size: 9rem;
-                margin: -20px 0 0 -10px;
+                margin-left:-10px;
                 transition: font-size 0.5s;
+                line-height: 0.8;
 
                 &--reduced {
                     font-size: 5rem;
-                    margin: -20px 0 0 -6px;
+                    // margin: -20px 0 0 -10px;
                 }
             }
 
@@ -152,6 +153,7 @@
                 max-height: 100vh;
                 max-width: 100vw;
                 padding: 10px;
+                // filter: invert(100%);
             }
 
             &__close-button {
@@ -216,13 +218,14 @@
         justify-content: flex-end;
         align-items: flex-start;
 
-        &--close {
+        &--hidden {
             display: none;
         }
         
         .info-box {
             height: 100vh;
             width: 35vw;
+            display: block;
             background-color: rgba(0, 0, 0, 0.8);
             padding: 15px;
             
@@ -285,11 +288,43 @@
         }
     }
 
-    &__related {
+    &__about-me {
         padding: 60px 40px 0 40px;
         scroll-snap-align: start;
         height: 100vh;
         background-color: $landing-background;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .about-me {
+
+            & *{
+                text-align: left;
+            }
+
+            &__context {
+                width: 40vw;
+
+                .context {
+                    margin-bottom: 10px;
+                }
+            }
+
+            &__contact {
+                width: 40vw;
+            }
+
+            &__portrait {
+                width: 20vw;
+                height: auto;
+            }
+        }
+
+        & * {
+            font-family: $body-font;
+            color: #fff;
+        }
     }
 }
 

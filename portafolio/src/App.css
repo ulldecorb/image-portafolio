@@ -9,7 +9,7 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
-  background-color: #d4d4da;
+  background-color: #d6d6d6;
 }
 
 .App__logo {
@@ -78,7 +78,7 @@
 }
 
 .App__header {
-  background-color: #d4d4da;
+  background-color: #d6d6d6;
   background-color: red;
   min-height: 100vh;
   display: -webkit-box;

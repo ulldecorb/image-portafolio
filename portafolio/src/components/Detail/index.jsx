@@ -12,7 +12,7 @@ export function Detail({ state, artist }) {
 
   const [coverNavbarFocus, setCoverScrollFocus] = useState(true);
   const [galleryNavbarFocus, setGalleryScrollFocus] = useState(false);
-  const [relatedNavbarFocus, setRelatedScrollFocus] = useState(false);
+  const [aboutMeNavbarFocus, setAboutMeScrollFocus] = useState(false);
 
   const getDetail = () => {
     const newGallery = state.find((galleryItem) => galleryItem.galleryName === galleryParam);
@@ -44,23 +44,23 @@ export function Detail({ state, artist }) {
   const handleScroll = (event) => {
     const scrollPosition = event.currentTarget.scrollTop;
     const gallery = document.getElementById('gallery').offsetTop;
-    const related = document.getElementById('related').offsetTop;
+    const aboutMe = document.getElementById('aboutMe').offsetTop;
 
     if (scrollPosition < gallery) {
       setCoverScrollFocus(true);
       setGalleryScrollFocus(false);
-      setRelatedScrollFocus(false);
+      setAboutMeScrollFocus(false);
     }
     if (scrollPosition >= gallery - 1
-      && scrollPosition < related) {
+      && scrollPosition < aboutMe) {
       setCoverScrollFocus(false);
       setGalleryScrollFocus(true);
-      setRelatedScrollFocus(false);
+      setAboutMeScrollFocus(false);
     }
-    if (scrollPosition >= related - 1) {
+    if (scrollPosition >= aboutMe - 1) {
       setCoverScrollFocus(false);
       setGalleryScrollFocus(false);
-      setRelatedScrollFocus(true);
+      setAboutMeScrollFocus(true);
     }
   };
 
@@ -91,11 +91,11 @@ export function Detail({ state, artist }) {
           </a>
           <a
             style={{ textDecoration: 'none' }}
-            href="#related"
+            href="#aboutMe"
             className="navbar-box"
           >
             <p className="navbar-box__title-section">About me</p>
-            <span className={relatedNavbarFocus ? 'navbar-box__selected-box navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
+            <span className={aboutMeNavbarFocus ? 'navbar-box__selected-box navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
           </a>
         </nav>
 
@@ -216,20 +216,22 @@ export function Detail({ state, artist }) {
           ))}
         </section>
 
-        <section id="related" className="detail__related">
-          <article className="about-me__context">
-            <p className="related__text">{artist.aboutMe.p1}</p>
-            <p className="related__text">{artist.aboutMe.p2}</p>
-            <p className="related__text">{artist.aboutMe.p3}</p>
-          </article>
-          <article className="about-me__contact">
-            <p className="related__contact">{artist.contact.phone}</p>
-            <p className="related__contact">{artist.contact.mail}</p>
-            <p className="related__contact">{artist.contact.instagram}</p>
-            <p className="related__contact">{artist.contact.linkedin}</p>
-            <p className="related__contact">{artist.contact.behance}</p>
-            <p className="related__contact">{artist.contact.vimeo}</p>
-          </article>
+        <section id="aboutMe" className="detail__about-me">
+          <div className="about-me">
+            <article className="about-me__context">
+              <p className="context">{artist.aboutMe.p1}</p>
+              <p className="context">{artist.aboutMe.p2}</p>
+              <p className="context">{artist.aboutMe.p3}</p>
+            </article>
+            <article className="about-me__contact">
+              <p className="about-me__contact">{artist.contact.phone}</p>
+              <p className="about-me__contact">{artist.contact.mail}</p>
+              <p className="about-me__contact">{artist.contact.instagram}</p>
+              <p className="about-me__contact">{artist.contact.linkedin}</p>
+              <p className="about-me__contact">{artist.contact.behance}</p>
+              <p className="about-me__contact">{artist.contact.vimeo}</p>
+            </article>
+          </div>
           <img className="about-me__portrait" src={artist.photo} alt="marti rosell's portrait" />
 
         </section>
