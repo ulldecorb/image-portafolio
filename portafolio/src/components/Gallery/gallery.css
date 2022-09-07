@@ -16,6 +16,8 @@
   position: relative;
   cursor: pointer;
   overflow: hidden;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
   list-style: none;
   background-color: transparent;
   width: 100%;
@@ -25,14 +27,14 @@
   background-position: center;
 }
 
+.gallery__article:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
 .gallery__article:hover .gallery__info-box {
   text-shadow: 0 0 30px  #000;
   opacity: 1;
-}
-
-.gallery__article:hover .gallery__thumbnail {
-  -webkit-filter: grayscale(0%);
-          filter: grayscale(0%);
 }
 
 .gallery__info-box {

@@ -16,6 +16,7 @@
         cursor: pointer;
         overflow: hidden;
 
+        filter: grayscale(100%);
         list-style: none;
         background-color: transparent;
         width: 100%;
@@ -31,9 +32,8 @@
                     opacity: 1;
             }
 
-            .gallery__thumbnail {
-                filter: grayscale(0%);
-            }
+            filter: grayscale(0%);
+            
         }
     }
 
