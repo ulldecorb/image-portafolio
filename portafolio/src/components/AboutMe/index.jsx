@@ -28,12 +28,20 @@ export function AboutMe({ artist }) {
 AboutMe.propTypes = {
   artist: PropTypes.shape({
     photo: PropTypes.string.isRequired,
-    contact: PropTypes.arrayOf(
-      PropTypes.shape({}).isRequired
-    ),
-    aboutMe: PropTypes.arrayOf(
-      PropTypes.shape({})
-    ).isRequired
+    contact: PropTypes.shape({
+      adress: PropTypes.string.isRequired,
+      mail: PropTypes.string.isRequired,
+      phone: PropTypes.string.isRequired,
+      instagram: PropTypes.string.isRequired,
+      linkedin: PropTypes.string.isRequired,
+      behance: PropTypes.string.isRequired,
+      vimeo: PropTypes.string.isRequired
+    }),
+    aboutMe: PropTypes.shape({
+      p1: PropTypes.string,
+      p2: PropTypes.string,
+      p3: PropTypes.string
+    }).isRequired
   }).isRequired
 };
 

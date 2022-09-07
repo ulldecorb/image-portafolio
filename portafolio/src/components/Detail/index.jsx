@@ -4,7 +4,7 @@ import { useParams } from 'react-router';
 import './detail.css';
 import { AboutMe } from '../AboutMe';
 
-export function Detail({ state, artist }) {
+export function Detail({ state, artist, setExpandFooter }) {
   const { galleryParam, detailParam } = useParams();
   const [detail, setDetail] = useState('');
   const [activeViewer, setActiveViewer] = useState(false);
@@ -51,17 +51,20 @@ export function Detail({ state, artist }) {
       setCoverScrollFocus(true);
       setGalleryScrollFocus(false);
       setAboutMeScrollFocus(false);
+      setExpandFooter(false);
     }
     if (scrollPosition >= gallery - 1
       && scrollPosition < aboutMe) {
       setCoverScrollFocus(false);
       setGalleryScrollFocus(true);
       setAboutMeScrollFocus(false);
+      setExpandFooter(true);
     }
     if (scrollPosition >= aboutMe - 1) {
       setCoverScrollFocus(false);
       setGalleryScrollFocus(false);
       setAboutMeScrollFocus(true);
+      setExpandFooter(true);
     }
   };
 
@@ -218,14 +221,8 @@ Detail.propTypes = {
     PropTypes.shape({})
   ).isRequired,
   artist: PropTypes.shape({
-    photo: PropTypes.string.isRequired,
-    contact: PropTypes.arrayOf(
-      PropTypes.shape({}).isRequired
-    ),
-    aboutMe: PropTypes.arrayOf(
-      PropTypes.shape({})
-    ).isRequired
-  }).isRequired
+  }).isRequired,
+  setExpandFooter: PropTypes.func.isRequired
 };
 
 export default Detail;

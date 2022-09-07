@@ -4,7 +4,7 @@
 .about-me {
     padding: 60px 40px 0 40px;
     scroll-snap-align: start;
-    height: 100vh;
+    min-height: 100vh;
     background-color: $landing-background;
     display: flex;
     justify-content: space-between;
@@ -39,5 +39,35 @@
     & * {
         font-family: $body-font;
         color: #fff;
+    }
+}
+
+@media (max-width: 800px) {
+    .about-me {        
+        padding: 60px 40px 50px 40px;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+
+        .text-box {
+            &:nth-child(2) {
+                margin-bottom: 70px;
+            } 
+                
+            
+            &__context {
+                width: 80vw;                
+            }
+            
+            &__contact {
+                width: 80vw;
+            }
+        }
+        
+        &__portrait {
+            width: 20vw;
+            height: auto;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
     }
 }
