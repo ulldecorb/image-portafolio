@@ -482,26 +482,31 @@ export const State = [
         date: '2022',
         infobox: '',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'jazz1',
-            imageUrl: 'https://i.ibb.co/fqZ8xsj/jazz1.jpg'
-          }, {
-            imageName: 'jazz2',
-            imageUrl: 'https://i.ibb.co/xhYLMBp/jazz2.jpg'
-          }, {
-            imageName: 'jazz3',
-            imageUrl: 'https://i.ibb.co/93BxFg3/jazz3.png'
-          }, {
-            imageName: 'lagarto',
-            imageUrl: 'https://i.ibb.co/WzZYr7Q/lagarto.jpg'
-          }, {
-            imageName: 'LD1',
-            imageUrl: 'https://i.ibb.co/NYNWCW5/LD1.png'
-          }, {
-            imageName: 'LD2',
-            imageUrl: 'https://i.ibb.co/JpjJ2wx/LD2.gif'
-          }
+        detailCollection: [{
+          imageName: 'WEB-CAIXA-01',
+          imageUrl: 'https://i.ibb.co/C0tZnxL/WEB-CAIXA-01.jpg',
+          thumbnail: 'https://i.ibb.co/LvVZRZn/WEB-CAIXA-01.png'
+        }, {
+          imageName: 'WEB-CAIXA-02',
+          imageUrl: 'https://i.ibb.co/N3pXFbs/WEB-CAIXA-02.jpg',
+          thumbnail: 'https://i.ibb.co/GnDKPQK/WEB-CAIXA-02.png'
+        }, {
+          imageName: 'MWEB-CAIXA-01',
+          imageUrl: 'https://i.ibb.co/xmwWQgj/MWEB-CAIXA-01.jpg',
+          thumbnail: 'https://i.ibb.co/XZM90XZ/MWEB-CAIXA-01.png'
+        }, {
+          imageName: 'WEB-HGCB-01',
+          imageUrl: 'https://i.ibb.co/QvPyPdJ/WEB-HGCB-01.jpg',
+          thumbnail: 'https://i.ibb.co/1ZQfh04/WEB-HGCB-01.png'
+        }, {
+          imageName: 'WEB-HGCB-03',
+          imageUrl: 'hhttps://i.ibb.co/dJ99y33/WEB-HGCB-03.jpg',
+          thumbnail: 'https://i.ibb.co/NW18hxX/WEB-HGCB-03.png'
+        }, {
+          imageName: 'MWEB-HGCB-01',
+          imageUrl: 'https://i.ibb.co/b3Wmgzn/MWEB-HGCB-01.jpg',
+          thumbnail: 'https://i.ibb.co/McwWrMq/MWEB-HGCB-01.png'
+        }
         ]
       },
       {
@@ -511,17 +516,19 @@ export const State = [
         date: '2022',
         infobox: '',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'Hercules1',
-            imageUrl: 'https://i.ibb.co/mTN2yfv/Hercules1.jpg'
-          }, {
-            imageName: 'Hercules2',
-            imageUrl: 'https://i.ibb.co/g3Lp2n2/Hercules2.jpg'
-          }, {
-            imageName: 'Hercules3',
-            imageUrl: 'https://i.ibb.co/vHtSdCR/Hercules3.jpg'
-          }
+        detailCollection: [{
+          imageName: 'Hercules1',
+          imageUrl: 'https://i.ibb.co/mTN2yfv/Hercules1.jpg',
+          thumbnail: 'https://i.ibb.co/XJ7M10J/Hercules1.png'
+        }, {
+          imageName: 'Hercules2',
+          imageUrl: 'https://i.ibb.co/g3Lp2n2/Hercules2.jpg',
+          thumbnail: 'https://i.ibb.co/pQ9CzPS/Hercules2.png'
+        }, {
+          imageName: 'Hercules3',
+          imageUrl: 'https://i.ibb.co/vHtSdCR/Hercules3.jpg',
+          thumbnail: 'https://i.ibb.co/pfsMLQ8/Hercules3.png'
+        }
         ]
       }
     ]
@@ -536,32 +543,39 @@ export const State = [
         date: '2020',
         infobox: '',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'Portada',
-            imageUrl: 'https://i.ibb.co/Tm2m4Bx/Portada.jpg'
-          }, {
-            imageName: 'LUXMag-Portada',
-            imageUrl: 'https://i.ibb.co/4jq7KPc/LUXMag-Portada.jpg'
-          }, {
-            imageName: 'LUXMag-01',
-            imageUrl: 'https://i.ibb.co/724jnyr/LUXMag-01.jpg'
-          }, {
-            imageName: 'LUXMag-02',
-            imageUrl: 'https://i.ibb.co/Cs7rbmm/LUXMag-02.jpg'
-          }, {
-            imageName: 'LUXMag-03',
-            imageUrl: 'https://i.ibb.co/wMRSHm4/LUXMag-03.jpg'
-          }, {
-            imageName: 'LUXMag-04',
-            imageUrl: 'https://i.ibb.co/5xPgMXH/LUXMag-04.jpg'
-          }, {
-            imageName: 'LUXMag-Multiple',
-            imageUrl: 'https://i.ibb.co/VtkRcyg/LUXMag-Multiple.jpg'
-          }, {
-            imageName: 'LUXMag-Multiple2',
-            imageUrl: 'https://i.ibb.co/2Yr3kvj/LUXMag-Multiple2.jpg'
-          }
+        detailCollection: [{
+          imageName: 'Portada',
+          imageUrl: 'https://i.ibb.co/Tm2m4Bx/Portada.jpg',
+          thumbnail: 'https://i.ibb.co/4YnVcxy/Portada.png'
+        }, {
+          imageName: 'LUXMag-Portada',
+          imageUrl: 'https://i.ibb.co/4jq7KPc/LUXMag-Portada.jpg',
+          thumbnail: 'https://i.ibb.co/xL5mqtn/LUXMag-Portada.png'
+        }, {
+          imageName: 'LUXMag-01',
+          imageUrl: 'https://i.ibb.co/724jnyr/LUXMag-01.jpg',
+          thumbnail: 'https://i.ibb.co/XWzL1SV/LUXMag-01.png'
+        }, {
+          imageName: 'LUXMag-02',
+          imageUrl: 'https://i.ibb.co/Cs7rbmm/LUXMag-02.jpg',
+          thumbnail: 'https://i.ibb.co/r69tzck/LUXMag-02.png'
+        }, {
+          imageName: 'LUXMag-03',
+          imageUrl: 'https://i.ibb.co/wMRSHm4/LUXMag-03.jpg',
+          thumbnail: 'https://i.ibb.co/jGT08Cb/LUXMag-03.png'
+        }, {
+          imageName: 'LUXMag-04',
+          imageUrl: 'https://i.ibb.co/5xPgMXH/LUXMag-04.jpg',
+          thumbnail: 'https://i.ibb.co/rfRtD2S/LUXMag-04.png'
+        }, {
+          imageName: 'LUXMag-Multiple',
+          imageUrl: 'https://i.ibb.co/VtkRcyg/LUXMag-Multiple.jpg',
+          thumbnail: 'https://i.ibb.co/s9sg2Cc/LUXMag-Multiple.png'
+        }, {
+          imageName: 'LUXMag-Multiple2',
+          imageUrl: 'https://i.ibb.co/2Yr3kvj/LUXMag-Multiple2.jpg',
+          thumbnail: 'https://i.ibb.co/J2BdD47/LUXMag-Multiple2.png'
+        }
         ]
       },
       {
@@ -571,41 +585,54 @@ export const State = [
         date: '2021',
         infobox: '',
         video: false,
-        detailCollection: [
-          {
-            imageName: '0-Portada',
-            imageUrl: 'https://i.ibb.co/GCz3bwQ/0-Portada.jpg'
-          }, {
-            imageName: '1-Targetes',
-            imageUrl: 'https://i.ibb.co/dkpzPmW/1-Targetes.jpg'
-          }, {
-            imageName: '2-Stamp',
-            imageUrl: 'https://i.ibb.co/zFCB4LX/2-Stamp.jpg'
-          }, {
-            imageName: '3-fulla',
-            imageUrl: 'https://i.ibb.co/SBpdbLD/3-fulla.jpg'
-          }, {
-            imageName: '4-fulles',
-            imageUrl: 'https://i.ibb.co/PtjsTyF/4-fulles.jpg'
-          }, {
-            imageName: '5-usb',
-            imageUrl: 'https://i.ibb.co/FHRg3VQ/5-usb.jpg'
-          }, {
-            imageName: '6-INSTAGRAM',
-            imageUrl: 'https://i.ibb.co/fFtsyV8/6-INSTAGRAM.jpg'
-          }, {
-            imageName: '7-Web',
-            imageUrl: 'https://i.ibb.co/4tKXPKG/7-Web.jpg'
-          }, {
-            imageName: '8-Aigua',
-            imageUrl: 'https://i.ibb.co/pPFmQpq/8-Aigua.jpg'
-          }, {
-            imageName: '9-GARDEN',
-            imageUrl: 'https://i.ibb.co/QFDm1HM/9-GARDEN.jpg'
-          }, {
-            imageName: '10-LAB',
-            imageUrl: 'https://i.ibb.co/9Wk0Kr7/10-LAB.jpg'
-          }
+        detailCollection: [{
+          imageName: '0-Portada',
+          imageUrl: 'https://i.ibb.co/GCz3bwQ/0-Portada.jpg',
+          thumbnail: 'https://i.ibb.co/qBQxmZZ/0-Portada.png'
+        }, {
+          imageName: '1-Targetes',
+          imageUrl: 'https://i.ibb.co/dkpzPmW/1-Targetes.jpg',
+          thumbnail: 'https://i.ibb.co/3W8wgkc/1-Targetes.png'
+        }, {
+          imageName: '2-Stamp',
+          imageUrl: 'https://i.ibb.co/zFCB4LX/2-Stamp.jpg',
+          thumbnail: 'https://i.ibb.co/tHJH5QD/2-Stamp.png'
+        }, {
+          imageName: '3-fulla',
+          imageUrl: 'https://i.ibb.co/SBpdbLD/3-fulla.jpg',
+          thumbnail: 'https://i.ibb.co/MhKxjpy/3-fulla.png'
+        }, {
+          imageName: '4-fulles',
+          imageUrl: 'https://i.ibb.co/PtjsTyF/4-fulles.jpg',
+          thumbnail: 'https://i.ibb.co/9T2RSyV/4-fulles.png'
+        }, {
+          imageName: '5-usb',
+          imageUrl: 'https://i.ibb.co/FHRg3VQ/5-usb.jpg',
+          thumbnail: 'https://i.ibb.co/1MTCYFH/5-usb.png'
+        }, {
+          imageName: '6-INSTAGRAM',
+          imageUrl: 'https://i.ibb.co/fFtsyV8/6-INSTAGRAM.jpg',
+          thumbnail: 'https://i.ibb.co/Lt1QXpG/6-INSTAGRAM.png'
+        }, {
+          imageName: '7-Web',
+          imageUrl: 'https://i.ibb.co/4tKXPKG/7-Web.jpg',
+          thumbnail: 'https://i.ibb.co/VJgJkYs/7-Web.png'
+        }, {
+          imageName: '8-Aigua',
+          imageUrl: 'https://i.ibb.co/pPFmQpq/8-Aigua.jpg',
+          thumbnail: 'https://i.ibb.co/DtkVwD7/8-Aigua.png'
+        }, {
+          imageName: '9-GARDEN',
+          imageUrl: 'https://i.ibb.co/QFDm1HM/9-GARDEN.jpg',
+          thumbnail: 'https://i.ibb.co/HYNQ3V6/9-GARDEN.png'
+        }, {
+          imageName: '10-LAB',
+          imageUrl: 'https://i.ibb.co/9Wk0Kr7/10-LAB.jpg',
+          thumbnail: 'https://i.ibb.co/Qbt3xqD/10-LAB.png'
+        }, {
+          imageName: 'Animacio',
+          imageUrl: 'https://i.ibb.co/QXjZrz6/Animacio.gif'
+        }
         ]
       },
       {
@@ -615,47 +642,59 @@ export const State = [
         date: '2021',
         infobox: '',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'Portada-rotterdam',
-            imageUrl: 'https://i.ibb.co/dg9fwMh/Portada.jpg'
-          }, {
-            imageName: 'Targetes',
-            imageUrl: 'https://i.ibb.co/41WPKmW/Targetes.png'
-          }, {
-            imageName: 'Cartes',
-            imageUrl: 'https://i.ibb.co/XxSrRmk/Cartes.png'
-          }, {
-            imageName: 'Welkome',
-            imageUrl: 'https://i.ibb.co/wJF7Ggw/Welkome.png'
-          }, {
-            imageName: 'Rotul4',
-            imageUrl: 'https://i.ibb.co/GRWnqrh/Rotul4.png'
-          }, {
-            imageName: 'Rotul2',
-            imageUrl: 'https://i.ibb.co/KbF9sQ0/Rotul2.png'
-          }, {
-            imageName: 'Rotul1',
-            imageUrl: 'https://i.ibb.co/TkbHLvD/Rotul1.png'
-          }, {
-            imageName: 'Bus',
-            imageUrl: 'https://i.ibb.co/G3rjtCY/Bus.png'
-          }, {
-            imageName: 'Senyals1',
-            imageUrl: 'https://i.ibb.co/xzNqzVj/Senyals1.png'
-          }, {
-            imageName: 'totebag4',
-            imageUrl: 'https://i.ibb.co/5TmSb63/totebag4.png'
-          }, {
-            imageName: 'Totebag3',
-            imageUrl: 'https://i.ibb.co/ZzCqmZN/Totebag3.png'
-          }, {
-            imageName: 'funda-negra',
-            imageUrl: 'https://i.ibb.co/DL7xnzc/funda-negra.png'
-          }, {
-            imageName: 'funda-blava',
-            imageUrl: 'https://i.ibb.co/sP7wDwV/funda-blava.png'
-          }
+        detailCollection: [{
+          imageName: 'Portada',
+          imageUrl: 'https://i.ibb.co/dg9fwMh/Portada.jpg',
+          thumbnail: 'https://i.ibb.co/kh3tDXM/Portada.png'
+        }, {
+          imageName: 'Targetes',
+          imageUrl: 'https://i.ibb.co/41WPKmW/Targetes.png',
+          thumbnail: 'https://i.ibb.co/s1zhNSz/Targetes.png'
+        }, {
+          imageName: 'Cartes',
+          imageUrl: 'https://i.ibb.co/XxSrRmk/Cartes.png',
+          thumbnail: 'https://i.ibb.co/3y09YYW/Cartes.png'
+        }, {
+          imageName: 'Welkome',
+          imageUrl: 'https://i.ibb.co/wJF7Ggw/Welkome.png',
+          thumbnail: 'https://i.ibb.co/TMjV4FQ/Welkome.png'
+        }, {
+          imageName: 'Rotul4',
+          imageUrl: 'https://i.ibb.co/GRWnqrh/Rotul4.png',
+          thumbnail: 'https://i.ibb.co/k4Pw9ZV/Rotul4.png'
+        }, {
+          imageName: 'Rotul2',
+          imageUrl: 'https://i.ibb.co/KbF9sQ0/Rotul2.png',
+          thumbnail: 'https://i.ibb.co/vz0c4ds/Rotul2.png'
+        }, {
+          imageName: 'Rotul1',
+          imageUrl: 'https://i.ibb.co/TkbHLvD/Rotul1.png',
+          thumbnail: 'https://i.ibb.co/rGgcrz4/Rotul1.png'
+        }, {
+          imageName: 'Bus',
+          imageUrl: 'https://i.ibb.co/G3rjtCY/Bus.png',
+          thumbnail: 'https://i.ibb.co/5WNPQqy/Bus.png'
+        }, {
+          imageName: 'Senyals1',
+          imageUrl: 'https://i.ibb.co/xzNqzVj/Senyals1.png',
+          thumbnail: 'https://i.ibb.co/Fw1yTy4/Senyals1.png'
+        }, {
+          imageName: 'totebag4',
+          imageUrl: 'https://i.ibb.co/5TmSb63/totebag4.png',
+          thumbnail: 'https://i.ibb.co/rpwZyh8/totebag4.png'
+        }, {
+          imageName: 'Totebag3',
+          imageUrl: 'https://i.ibb.co/ZzCqmZN/Totebag3.png',
+          thumbnail: 'https://i.ibb.co/54NTnpP/Totebag3.png'
+        }, {
+          imageName: 'funda-negra',
+          imageUrl: 'https://i.ibb.co/DL7xnzc/funda-negra.png',
+          thumbnail: 'https://i.ibb.co/SfTBnZb/funda-negra.png'
+        }, {
+          imageName: 'funda-blava',
+          imageUrl: 'https://i.ibb.co/sP7wDwV/funda-blava.png',
+          thumbnail: 'https://i.ibb.co/HhwYg8z/funda-blava.png'
+        }
         ]
       },
       {
@@ -665,56 +704,71 @@ export const State = [
         date: '2021',
         infobox: '',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'Packaging-1',
-            imageUrl: 'https://i.ibb.co/8srH6Mm/Packaging-1.jpg'
-          }, {
-            imageName: 'Packaging-5',
-            imageUrl: 'https://i.ibb.co/qrjw5W2/Packaging-5.jpg'
-          }, {
-            imageName: 'Packaging-8',
-            imageUrl: 'https://i.ibb.co/n7Yyzz4/Packaging-8.jpg'
-          }, {
-            imageName: 'Packaging-14',
-            imageUrl: 'https://i.ibb.co/k9HbShL/Packaging-14.jpg'
-          }, {
-            imageName: 'Packaging-12',
-            imageUrl: 'https://i.ibb.co/WgdCMsV/Packaging-12.jpg'
-          }, {
-            imageName: 'Packaging-42',
-            imageUrl: 'https://i.ibb.co/DDLw4s6/Packaging-42.jpg'
-          }, {
-            imageName: 'Packaging-43',
-            imageUrl: 'https://i.ibb.co/HXTQ6xc/Packaging-43.jpg'
-          }, {
-            imageName: 'Packaging-49',
-            imageUrl: 'https://i.ibb.co/5GvcGFD/Packaging-49.jpg'
-          }, {
-            imageName: 'Packaging-25',
-            imageUrl: 'https://i.ibb.co/Sr8Kj57/Packaging-25.jpg'
-          }, {
-            imageName: 'Packaging-27',
-            imageUrl: 'https://i.ibb.co/10cShf7/Packaging-27.jpg'
-          }, {
-            imageName: 'Packaging-15',
-            imageUrl: 'https://i.ibb.co/Z27ngp2/Packaging-15.jpg'
-          }, {
-            imageName: 'Packaging-17',
-            imageUrl: 'https://i.ibb.co/gjZBPyc/Packaging-17.jpg'
-          }, {
-            imageName: 'Moca-a-boca11',
-            imageUrl: 'https://i.ibb.co/z7kjsj7/Moca-a-boca11.png'
-          }, {
-            imageName: 'Moca-a-boca12',
-            imageUrl: 'https://i.ibb.co/RPhLshD/Moca-a-boca12.png'
-          }, {
-            imageName: 'Moca-a-boca25',
-            imageUrl: 'https://i.ibb.co/TW3h4FN/Moca-a-boca25.png'
-          }, {
-            imageName: 'Moca-a-boca26',
-            imageUrl: 'https://i.ibb.co/VQ2ssPT/Moca-a-boca26.png'
-          }
+        detailCollection: [{
+          imageName: 'Packaging-1',
+          imageUrl: 'https://i.ibb.co/8srH6Mm/Packaging-1.jpg',
+          thumbnail: 'https://i.ibb.co/LntwSym/Packaging-1.png'
+        }, {
+          imageName: 'Packaging-5',
+          imageUrl: 'https://i.ibb.co/qrjw5W2/Packaging-5.jpg',
+          thumbnail: 'https://i.ibb.co/tz9ZvXN/Packaging-5.png'
+        }, {
+          imageName: 'Packaging-8',
+          imageUrl: 'https://i.ibb.co/n7Yyzz4/Packaging-8.jpg',
+          thumbnail: 'https://i.ibb.co/2MD9J46/Packaging-8.png'
+        }, {
+          imageName: 'Packaging-14',
+          imageUrl: 'https://i.ibb.co/k9HbShL/Packaging-14.jpg',
+          thumbnail: 'https://i.ibb.co/qWYhNVr/Packaging-14.png'
+        }, {
+          imageName: 'Packaging-12',
+          imageUrl: 'https://i.ibb.co/WgdCMsV/Packaging-12.jpg',
+          thumbnail: 'https://i.ibb.co/m68HTM6/Packaging-12.png'
+        }, {
+          imageName: 'Packaging-42',
+          imageUrl: 'https://i.ibb.co/DDLw4s6/Packaging-42.jpg',
+          thumbnail: 'https://i.ibb.co/tKNf6Kg/Packaging-42.png'
+        }, {
+          imageName: 'Packaging-43',
+          imageUrl: 'https://i.ibb.co/HXTQ6xc/Packaging-43.jpg',
+          thumbnail: 'https://i.ibb.co/8bfbSYk/Packaging-43.png'
+        }, {
+          imageName: 'Packaging-49',
+          imageUrl: 'https://i.ibb.co/5GvcGFD/Packaging-49.jpg',
+          thumbnail: 'https://i.ibb.co/RydGKsD/Packaging-49.png'
+        }, {
+          imageName: 'Packaging-25',
+          imageUrl: 'https://i.ibb.co/Sr8Kj57/Packaging-25.jpg',
+          thumbnail: 'https://i.ibb.co/Qdb4ztt/Packaging-25.png'
+        }, {
+          imageName: 'Packaging-27',
+          imageUrl: 'https://i.ibb.co/10cShf7/Packaging-27.jpg',
+          thumbnail: 'https://i.ibb.co/85r7T7B/Packaging-27.png'
+        }, {
+          imageName: 'Packaging-15',
+          imageUrl: 'https://i.ibb.co/Z27ngp2/Packaging-15.jpg',
+          thumbnail: 'https://i.ibb.co/tmR9LCC/Packaging-15.png'
+        }, {
+          imageName: 'Packaging-17',
+          imageUrl: 'https://i.ibb.co/gjZBPyc/Packaging-17.jpg',
+          thumbnail: 'https://i.ibb.co/WgchX0j/Packaging-17.png'
+        }, {
+          imageName: 'Moca-a-boca11',
+          imageUrl: 'https://i.ibb.co/z7kjsj7/Moca-a-boca11.png',
+          thumbnail: 'https://i.ibb.co/wSM3qPQ/Moca-a-boca11.png'
+        }, {
+          imageName: 'Moca-a-boca12',
+          imageUrl: 'https://i.ibb.co/RPhLshD/Moca-a-boca12.png',
+          thumbnail: 'https://i.ibb.co/1LTCgSD/Moca-a-boca12.png'
+        }, {
+          imageName: 'Moca-a-boca25',
+          imageUrl: 'https://i.ibb.co/TW3h4FN/Moca-a-boca25.png',
+          thumbnail: 'https://i.ibb.co/7JJQQ8Z/Moca-a-boca25.png'
+        }, {
+          imageName: 'Moca-a-boca26',
+          imageUrl: 'https://i.ibb.co/VQ2ssPT/Moca-a-boca26.png',
+          thumbnail: 'https://i.ibb.co/ydzNSS1/Moca-a-boca26.png'
+        }
         ]
       },
       {
@@ -724,20 +778,23 @@ export const State = [
         date: '2020-2021',
         infobox: '',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'Have-you-ever',
-            imageUrl: 'https://i.ibb.co/PF6YwBx/Have-you-ever.png'
-          }, {
-            imageName: 'Jac',
-            imageUrl: 'https://i.ibb.co/5kMMk5J/Jac.png'
-          }, {
-            imageName: 'Jac-2021',
-            imageUrl: 'https://i.ibb.co/CMRrbDb/Jac-2021.jpg'
-          }, {
-            imageName: 'Fora-de-camp',
-            imageUrl: 'https://i.ibb.co/0fMp8d7/Fora-de-camp.jpg'
-          }
+        detailCollection: [{
+          imageName: 'Have-you-ever',
+          imageUrl: 'https://i.ibb.co/PF6YwBx/Have-you-ever.png',
+          thumbnail: 'https://i.ibb.co/q9YTqWq/Have-you-ever.png'
+        }, {
+          imageName: 'Jac',
+          imageUrl: 'https://i.ibb.co/5kMMk5J/Jac.png',
+          thumbnail: 'https://i.ibb.co/MndVTYD/Jac.png'
+        }, {
+          imageName: 'Jac-2021',
+          imageUrl: 'https://i.ibb.co/CMRrbDb/Jac-2021.jpg',
+          thumbnail: 'https://i.ibb.co/0DYKn6R/Jac-2021.png'
+        }, {
+          imageName: 'Fora-de-camp',
+          imageUrl: 'https://i.ibb.co/0fMp8d7/Fora-de-camp.jpg',
+          thumbnail: 'https://i.ibb.co/1653vNY/Fora-de-camp.png'
+        }
         ]
       },
       {
@@ -747,26 +804,31 @@ export const State = [
         date: '2022',
         infobox: '',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'WEB-CAIXA-01',
-            imageUrl: 'https://i.ibb.co/C0tZnxL/WEB-CAIXA-01.jpg'
-          }, {
-            imageName: 'WEB-CAIXA-02',
-            imageUrl: 'https://i.ibb.co/N3pXFbs/WEB-CAIXA-02.jpg'
-          }, {
-            imageName: 'MWEB-CAIXA-01',
-            imageUrl: 'https://i.ibb.co/xmwWQgj/MWEB-CAIXA-01.jpg'
-          }, {
-            imageName: 'WEB-HGCB-01',
-            imageUrl: 'https://i.ibb.co/QvPyPdJ/WEB-HGCB-01.jpg'
-          }, {
-            imageName: 'WEB-HGCB-03',
-            imageUrl: 'https://i.ibb.co/dJ99y33/WEB-HGCB-03.jpg'
-          }, {
-            imageName: 'MWEB-HGCB-01',
-            imageUrl: 'https://i.ibb.co/b3Wmgzn/MWEB-HGCB-01.jpg'
-          }
+        detailCollection: [{
+          imageName: 'WEB-CAIXA-01',
+          imageUrl: 'https://i.ibb.co/C0tZnxL/WEB-CAIXA-01.jpg',
+          thumbnail: 'https://i.ibb.co/LvVZRZn/WEB-CAIXA-01.png'
+        }, {
+          imageName: 'WEB-CAIXA-02',
+          imageUrl: 'https://i.ibb.co/N3pXFbs/WEB-CAIXA-02.jpg',
+          thumbnail: 'https://i.ibb.co/GnDKPQK/WEB-CAIXA-02.png'
+        }, {
+          imageName: 'MWEB-CAIXA-01',
+          imageUrl: 'https://i.ibb.co/xmwWQgj/MWEB-CAIXA-01.jpg',
+          thumbnail: 'https://i.ibb.co/XZM90XZ/MWEB-CAIXA-01.png'
+        }, {
+          imageName: 'WEB-HGCB-01',
+          imageUrl: 'https://i.ibb.co/QvPyPdJ/WEB-HGCB-01.jpg',
+          thumbnail: 'https://i.ibb.co/1ZQfh04/WEB-HGCB-01.png'
+        }, {
+          imageName: 'WEB-HGCB-03',
+          imageUrl: 'hhttps://i.ibb.co/dJ99y33/WEB-HGCB-03.jpg',
+          thumbnail: 'https://i.ibb.co/NW18hxX/WEB-HGCB-03.png'
+        }, {
+          imageName: 'MWEB-HGCB-01',
+          imageUrl: 'https://i.ibb.co/b3Wmgzn/MWEB-HGCB-01.jpg',
+          thumbnail: 'https://i.ibb.co/McwWrMq/MWEB-HGCB-01.png'
+        }
         ]
       }
     ]

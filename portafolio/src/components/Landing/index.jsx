@@ -1,13 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-// import logo from '../../logo.svg';
 import './landing.css';
 
 export function Landing({ state }) {
   return (
     <main className="landing">
-      {/* <img src={logo} className="landing__logo" alt="logo" /> */}
       <img src="https://i.ibb.co/XW6Bsfg/LightW.png" className="landing__logo" alt="logo" />
       <img src="https://i.ibb.co/XW6Bsfg/LightW.png" className="landing__logo" alt="logo" />
       <img src="https://i.ibb.co/XW6Bsfg/LightW.png" className="landing__logo" alt="logo" />
