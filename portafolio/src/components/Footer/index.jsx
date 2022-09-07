@@ -22,7 +22,7 @@ Footer.propTypes = {
     artistName: PropTypes.string,
     portafolioType: PropTypes.string
   }).isRequired,
-  expandFooter: PropTypes.func.isRequired
+  expandFooter: PropTypes.bool.isRequired
 };
 
 export default Footer;
