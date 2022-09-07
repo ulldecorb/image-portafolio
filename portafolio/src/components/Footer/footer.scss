@@ -19,10 +19,6 @@
     border: none;
     transition: padding 0.5s;
 
-    &--reduced{        
-        padding: 0;
-    }
-
     &* {
         font-family: $title-body-font;
         font-size: 1,5rem;;

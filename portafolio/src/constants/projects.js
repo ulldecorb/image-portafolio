@@ -1,5 +1,5 @@
 export const Artist = {
-  artistName: 'Marti Rosell',
+  artistName: 'Martí Rosell',
   photo: 'https://i.ibb.co/SQLnhJT/Aboutme-01.jpg',
   contact: {
     adress: 'Carrer Viladedalt, 13, Viladebaix, 08666',
@@ -483,30 +483,31 @@ export const State = [
         infobox: '',
         video: false,
         detailCollection: [{
-          imageName: 'WEB-CAIXA-01',
-          imageUrl: 'https://i.ibb.co/C0tZnxL/WEB-CAIXA-01.jpg',
-          thumbnail: 'https://i.ibb.co/LvVZRZn/WEB-CAIXA-01.png'
+          imageName: 'jazz2',
+          imageUrl: 'https://i.ibb.co/xhYLMBp/jazz2.jpg',
+          thumbnail: 'https://i.ibb.co/Qks0Gk8/jazz2.png'
         }, {
-          imageName: 'WEB-CAIXA-02',
-          imageUrl: 'https://i.ibb.co/N3pXFbs/WEB-CAIXA-02.jpg',
-          thumbnail: 'https://i.ibb.co/GnDKPQK/WEB-CAIXA-02.png'
+          imageName: 'jazz1',
+          imageUrl: 'https://i.ibb.co/fqZ8xsj/jazz1.jpg',
+          thumbnail: 'https://i.ibb.co/Xzz281H/jazz1.png,'
         }, {
-          imageName: 'MWEB-CAIXA-01',
-          imageUrl: 'https://i.ibb.co/xmwWQgj/MWEB-CAIXA-01.jpg',
-          thumbnail: 'https://i.ibb.co/XZM90XZ/MWEB-CAIXA-01.png'
+          imageName: 'jazz3',
+          imageUrl: 'https://i.ibb.co/93BxFg3/jazz3.png',
+          thumbnail: 'https://i.ibb.co/x2rJXHD/jazz3.png'
         }, {
-          imageName: 'WEB-HGCB-01',
-          imageUrl: 'https://i.ibb.co/QvPyPdJ/WEB-HGCB-01.jpg',
-          thumbnail: 'https://i.ibb.co/1ZQfh04/WEB-HGCB-01.png'
+          imageName: 'lagarto',
+          imageUrl: 'https://i.ibb.co/WzZYr7Q/lagarto.jpg',
+          thumbnail: 'https://i.ibb.co/RpW44JJ/lagarto.png'
         }, {
-          imageName: 'WEB-HGCB-03',
-          imageUrl: 'hhttps://i.ibb.co/dJ99y33/WEB-HGCB-03.jpg',
-          thumbnail: 'https://i.ibb.co/NW18hxX/WEB-HGCB-03.png'
+          imageName: 'LD1',
+          imageUrl: 'https://i.ibb.co/NYNWCW5/LD1.png',
+          thumbnail: 'https://i.ibb.co/k1GKwjj/LD1.png'
         }, {
-          imageName: 'MWEB-HGCB-01',
-          imageUrl: 'https://i.ibb.co/b3Wmgzn/MWEB-HGCB-01.jpg',
-          thumbnail: 'https://i.ibb.co/McwWrMq/MWEB-HGCB-01.png'
+          imageName: 'LD2',
+          imageUrl: 'https://i.ibb.co/JpjJ2wx/LD2.gif',
+          thumbnail: 'https://i.ibb.co/JpjJ2wx/LD2.gif'
         }
+
         ]
       },
       {
@@ -842,7 +843,7 @@ export const State = [
         sinopsi: 'Absurd and moving drama that surprises and disconcerts with its sense of humor. The distance between man and animal, between reason and instinct, submission and freedom. A memorable debut with Nao Albet\'s memorable metamorphosis into a sheep. Ove is a young man who has been treated and raised like a sheep all his life. His day-to-day life consists of eating, sleeping, grazing, and hanging out with LL, the only sheep in the herd that seems to accept him. The arrival of a truck that comes to take away part of the herd makes Ove begin to wonder what could be beyond the limits of the farm and to rebel against what he has always believed himself to be.',
         date: '2019',
         infobox: '',
-        video: 'https://player.vimeo.com/video/708586473?h=1719ebe45b',
+        video: 'https://player.vimeo.com/video/708586473?h=1719ebe45b?muted=true',
         detailCollection: [{
           imageName: 'Ovella01',
           imageUrl: 'https://i.ibb.co/GRXkkT1/Ovella01.jpg',

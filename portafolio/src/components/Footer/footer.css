@@ -25,10 +25,6 @@
   transition: padding 0.5s;
 }
 
-.footer--reduced {
-  padding: 0;
-}
-
 .footer* {
   font-family: "Space Grotesk", sans-serif;
   font-size: 1,5rem;

@@ -4,7 +4,7 @@ import { useParams } from 'react-router';
 import './detail.css';
 import { AboutMe } from '../AboutMe';
 
-export function Detail({ state, artist, setExpandFooter }) {
+export function Detail({ state, artist }) {
   const { galleryParam, detailParam } = useParams();
   const [detail, setDetail] = useState('');
   const [activeViewer, setActiveViewer] = useState(false);
@@ -51,20 +51,17 @@ export function Detail({ state, artist, setExpandFooter }) {
       setCoverScrollFocus(true);
       setGalleryScrollFocus(false);
       setAboutMeScrollFocus(false);
-      setExpandFooter(false);
     }
     if (scrollPosition >= gallery - 1
       && scrollPosition < aboutMe) {
       setCoverScrollFocus(false);
       setGalleryScrollFocus(true);
       setAboutMeScrollFocus(false);
-      setExpandFooter(true);
     }
     if (scrollPosition >= aboutMe - 1) {
       setCoverScrollFocus(false);
       setGalleryScrollFocus(false);
       setAboutMeScrollFocus(true);
-      setExpandFooter(true);
     }
   };
 
@@ -103,7 +100,7 @@ export function Detail({ state, artist, setExpandFooter }) {
           </a>
         </nav>
 
-        <section className={coverNavbarFocus ? 'detail__header' : 'detail__header detail__header--reduced'}>
+        <section className="detail__header">
           <h3 className="header__discipline">{aboutMeNavbarFocus ? '' : detail.discipline}</h3>
           <h2 className={coverNavbarFocus ? 'header__title' : 'header__title header__title--reduced'}>{aboutMeNavbarFocus ? 'ABOUT ME' : detail.detailName.toUpperCase()}</h2>
         </section>
@@ -221,8 +218,7 @@ Detail.propTypes = {
     PropTypes.shape({})
   ).isRequired,
   artist: PropTypes.shape({
-  }).isRequired,
-  setExpandFooter: PropTypes.func.isRequired
+  }).isRequired
 };
 
 export default Detail;

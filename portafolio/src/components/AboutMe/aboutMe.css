@@ -18,6 +18,19 @@
   text-align: left;
 }
 
+.about-me__text-box .text-box__contact-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3px 0;
+}
+
+.about-me__text-box .text-box__contact-box .contact-box__icon {
+  width: 25px;
+  height: auto;
+  margin-right: 5px;
+}
+
 .about-me__text-box .text-box__context {
   width: 40vw;
   margin-bottom: 10px;
