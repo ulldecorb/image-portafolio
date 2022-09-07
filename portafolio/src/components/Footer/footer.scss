@@ -18,15 +18,12 @@
     padding: 0 20px ;
     border: none;
     transition: padding 0.5s;
-
-    &* {
-        font-family: $title-body-font;
-        font-size: 1,5rem;;
-    }
     
     &__title {
+        font-family: $footer-font;
         color: $light-typo;
         text-decoration: none;
+        font-size: 1.5rem;
         
         &:link {
             text-decoration: none;

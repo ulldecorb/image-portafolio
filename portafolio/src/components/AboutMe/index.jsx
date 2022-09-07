@@ -33,7 +33,7 @@ export function AboutMe({ artist }) {
             <p className="contact-box__contact">{artist.contact.behance}</p>
           </div>
           <div className="text-box__contact-box">
-            <img className="contact-box__icon" src="https://i.ibb.co/F393nBG/CV.png" alt="vimeo icon" />
+            <img className="contact-box__icon" src="https://i.ibb.co/jf40kvM/Vimeo.png" alt="vimeo icon" />
             <p className="contact-box__contact">{artist.contact.vimeo}</p>
           </div>
         </article>

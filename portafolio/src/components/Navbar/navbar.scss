@@ -18,7 +18,7 @@
         height: 100%;
         width: 15vw;
         font-size: 1rem;
-        font-family: $title-body-font;
+        font-family: $footer-font;
         display: flex; 
         justify-content: center;
         align-items: center;
@@ -34,19 +34,6 @@
         }
 
         &--focus {
-            height: 100%;
-            width: 15vw;            
-            font-size: 1rem;
-            font-family: $title-body-font;
-            display: flex; 
-            justify-content: center;
-            align-items: center;
-            text-transform: capitalize;
-            cursor: pointer;
-            text-decoration: none;
-            background-color: transparent;
-            border: none;
-            color: $navbar-link-color;
             color: $landing-link;
         }
     }
