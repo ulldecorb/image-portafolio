@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import './footer.css';
 
-export function Footer({ artist }) {
+export function Footer({ artist, expandFooter }) {
   return (
-    <footer className="footer">
+    <footer className={expandFooter ? 'footer footer--reduced' : 'footer'}>
       <Link
         to="/"
         style={{ textDecoration: 'none' }}
@@ -21,7 +21,8 @@ Footer.propTypes = {
   artist: PropTypes.shape({
     artistName: PropTypes.string,
     portafolioType: PropTypes.string
-  }).isRequired
+  }).isRequired,
+  expandFooter: PropTypes.func.isRequired
 };
 
 export default Footer;
