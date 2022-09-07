@@ -17,7 +17,7 @@ export function Gallery({ state }) {
   });
 
   return gallery === ''
-    ? (<h3>404 Page not found</h3>)
+    ? (<h3>Loading...</h3>)
     : (
       <section className="gallery">
         {gallery.galleryCollection.map((detailItem) => (

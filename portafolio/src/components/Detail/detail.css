@@ -31,7 +31,7 @@
 .detail__navbar {
   position: fixed;
   top: 50%;
-  right: 0;
+  right: 4px;
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
   color: #fff;
@@ -122,6 +122,7 @@
   color: #fff;
   font-family: "Space Grotesk", sans-serif;
   font-size: 9rem;
+  margin: 12px 0;
   -webkit-transition: font-size 0.5s;
   transition: font-size 0.5s;
   line-height: 0.8;
@@ -172,7 +173,7 @@
   top: 5vh;
   height: 2wmin;
   width: 2vmin;
-  font-family: "Viaoda Libre", cursive;
+  font-family: "Fraunces", serif;
   font-size: 5rem;
   margin: 0 2vw;
   color: #fff;
@@ -209,7 +210,7 @@
   text-decoration: none;
   border: none;
   color: #fff;
-  font-family: "Viaoda Libre", cursive;
+  font-family: "Fraunces", serif;
   font-size: 5rem;
   -webkit-transition: -webkit-transform 0.5s;
   transition: -webkit-transform 0.5s;
@@ -278,7 +279,7 @@
 }
 
 .detail__cover--video .cover__video {
-  margin-top: 50px;
+  margin-top: 20vh;
 }
 
 .detail__gallery {

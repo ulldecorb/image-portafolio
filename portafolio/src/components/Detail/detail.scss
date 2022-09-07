@@ -31,7 +31,7 @@
     &__navbar {
         position:fixed;
         top:50%;
-        right: 0;
+        right: 4px;
         transform: translate(0, -50%);
         color: #fff;
         z-index: 10;
@@ -100,7 +100,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        // padding: 0 0 0 20px;
         overflow-y: hidden;
 
         &--reduced {
@@ -113,13 +112,12 @@
                 color: $light-typo;
                 font-family: $title-body-font;
                 font-size: 9rem;
-                // margin-left:-10px;
+                margin: 12px 0;
                 transition: font-size 0.5s;
                 line-height: 0.8;
 
                 &--reduced {
                     font-size: 5rem;
-                    // margin: -20px 0 0 -10px;
                 }
             }
 
@@ -253,7 +251,7 @@
             background-position: center;
             
             .cover__video {
-                margin-top: 50px;
+                margin-top: 20vh;
             }
         }
     }

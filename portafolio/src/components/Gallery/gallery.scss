@@ -4,14 +4,11 @@
 .gallery {
     background-color: $landing-background;
     width: 100vw;
-    max-height: 100vh;
+    min-height: 100vh;
     padding: 60px 0 0 0;
     display: grid;
     grid-template-rows: 30vh;
     grid-template-columns: 1fr 1fr 1fr;
-    // justify-content: stretch;
-    // justify-items: stretch;
-    // align-items: stretch;
     gap: 7px;
 
     &__article {
@@ -19,6 +16,7 @@
         cursor: pointer;
         overflow: hidden;
 
+        filter: grayscale(100%);
         list-style: none;
         background-color: transparent;
         width: 100%;
@@ -34,9 +32,8 @@
                     opacity: 1;
             }
 
-            .gallery__thumbnail {
-                filter: grayscale(0%);
-            }
+            filter: grayscale(0%);
+            
         }
     }
 

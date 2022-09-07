@@ -25,18 +25,11 @@
   transition: padding 0.5s;
 }
 
-.footer--reduced {
-  padding: 0;
-}
-
-.footer* {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 1,5rem;
-}
-
 .footer__title {
+  font-family: "Fraunces", serif;
   color: #fff;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .footer__title:link {

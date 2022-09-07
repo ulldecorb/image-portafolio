@@ -15,7 +15,6 @@ import './App.css';
 function App() {
   const [state, setState] = useState(State);
   const [artist, setArtist] = useState({});
-  const [expandFooter, setExpandFooter] = useState(false);
 
   useEffect(() => {
     setState(State);
@@ -42,11 +41,11 @@ function App() {
           <Route
             path="/:galleryParam/:detailParam"
             element={
-              <Detail state={state} artist={artist} setExpandFooter={setExpandFooter} />
+              <Detail state={state} artist={artist} />
               }
           />
         </Routes>
-        <Footer artist={artist} expandFooter={expandFooter} />
+        <Footer artist={artist} />
       </div>
     </Router>
   );

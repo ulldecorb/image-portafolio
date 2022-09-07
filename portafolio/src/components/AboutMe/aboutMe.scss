@@ -17,6 +17,19 @@
         }
 
         .text-box {
+
+            &__contact-box {
+                display: flex;
+                margin: 3px 0;
+
+                .contact-box {
+                    &__icon {
+                        width: 25px;
+                        height: auto;
+                        margin-right: 5px;;
+                    }
+                }
+            }
             
             &__context {
                 width: 40vw;
