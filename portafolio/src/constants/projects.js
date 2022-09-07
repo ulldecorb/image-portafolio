@@ -30,86 +30,111 @@ export const State = [
         date: '2019',
         infobox: 'I try to inhale, when the smoke invades my lungs and dries up my breath. Something dies inside me. I close my eyes before the moisture particles evaporate. They must be red, a cherry red that contrasts with the blackness of the environment. A sepulchral silence overwhelms me and floats among the empty seats, the function is over. I search among the spectral and poisonous fog that spreads sparingly between the wooden mounds. It is the last breath of a dying dragon. What am I looking for? I trace the scales of the beast, fearing to wake it up again, while my palms and legs are impregnated with a layer of sweat and gunpowder leading me to the darkest places of my consciousness. If there\'s a thing I\'m more aware of than ever, it\'s where I put my feet. They burn as I press and suffocate the earth, which throbs agonizingly like a wound in living flesh. I walk on the small steps of when I was a child.',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'LaTerraCalenta-1',
-            imageUrl: 'https://i.ibb.co/zxHBZJ9/La-Terra-Calenta-1.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-2',
-            imageUrl: 'https://i.ibb.co/ZmFm80p/La-Terra-Calenta-2.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-3',
-            imageUrl: 'https://i.ibb.co/5rHm1JR/La-Terra-Calenta-3.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-4',
-            imageUrl: 'https://i.ibb.co/tX6s6Zm/La-Terra-Calenta-4.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-5',
-            imageUrl: 'https://i.ibb.co/3CtS4mm/La-Terra-Calenta-5.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-6',
-            imageUrl: 'https://i.ibb.co/0hd0sTY/La-Terra-Calenta-6.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-7',
-            imageUrl: 'https://i.ibb.co/rv5Fg9c/La-Terra-Calenta-7.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-8',
-            imageUrl: 'https://i.ibb.co/n8JHCJN/La-Terra-Calenta-8.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-9',
-            imageUrl: 'https://i.ibb.co/gWY7VWh/La-Terra-Calenta-9.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-10',
-            imageUrl: 'https://i.ibb.co/XpwnvP2/La-Terra-Calenta-10.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-11',
-            imageUrl: 'https://i.ibb.co/s3S96V0/La-Terra-Calenta-11.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-12',
-            imageUrl: 'https://i.ibb.co/k68WC8b/La-Terra-Calenta-12.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-13',
-            imageUrl: 'https://i.ibb.co/BjC0HrJ/La-Terra-Calenta-13.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-14',
-            imageUrl: 'https://i.ibb.co/pWwxNQH/La-Terra-Calenta-14.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-15',
-            imageUrl: 'https://i.ibb.co/fv9wnx7/La-Terra-Calenta-15.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-16',
-            imageUrl: 'https://i.ibb.co/k3Jmmmg/La-Terra-Calenta-16.jpg'
-          }, {
-            imageName: 'LaTerraCalenta-17',
-            imageUrl: 'https://i.ibb.co/g71F21Q/La-Terra-Calenta-17.jpg'
-          }, {
-            imageName: 'LTCMag01',
-            imageUrl: 'https://i.ibb.co/DtrhDFc/LTCMag01.jpg'
-          }, {
-            imageName: 'LTCMag02',
-            imageUrl: 'https://i.ibb.co/N2KSFcn/LTCMag02.jpg'
-          }, {
-            imageName: 'LTCMag03',
-            imageUrl: 'https://i.ibb.co/Gp2VTvW/LTCMag03.jpg'
-          }, {
-            imageName: 'LTCMag04',
-            imageUrl: 'https://i.ibb.co/GtsJwPN/LTCMag04.jpg'
-          }, {
-            imageName: 'LTCMag05',
-            imageUrl: 'https://i.ibb.co/L15mx5F/LTCMag05.jpg'
-          }, {
-            imageName: 'LTCMag06',
-            imageUrl: 'https://i.ibb.co/42fc1qN/LTCMag06.jpg'
-          }, {
-            imageName: 'LTCMag07',
-            imageUrl: 'https://i.ibb.co/C2hWgrr/LTCMag07.jpg'
-          }, {
-            imageName: 'LTCMag08',
-            imageUrl: 'https://i.ibb.co/Y7Sy7bf/LTCMag08.jpg'
-          }, {
-            imageName: 'LTCMag09',
-            imageUrl: 'https://i.ibb.co/TM4JwF4/LTCMag09.jpg'
-          }
+        detailCollection: [{
+          imageName: 'LaTerraCalenta-1',
+          imageUrl: 'https://i.ibb.co/zxHBZJ9/La-Terra-Calenta-1.jpg',
+          thumbnail: 'https://i.ibb.co/R2b6ZsJ/La-Terra-Calenta-1.png'
+        }, {
+          imageName: 'LaTerraCalenta-2',
+          imageUrl: 'https://i.ibb.co/ZmFm80p/La-Terra-Calenta-2.jpg',
+          thumbnail: 'https://i.ibb.co/xqF8NBh/La-Terra-Calenta-2.png'
+        }, {
+          imageName: 'LaTerraCalenta-3',
+          imageUrl: 'https://i.ibb.co/5rHm1JR/La-Terra-Calenta-3.jpg',
+          thumbnail: 'https://i.ibb.co/pLGcN1s/La-Terra-Calenta-3.png'
+        }, {
+          imageName: 'LaTerraCalenta-4',
+          imageUrl: 'https://i.ibb.co/tX6s6Zm/La-Terra-Calenta-4.jpg',
+          thumbnail: 'https://i.ibb.co/1q9XzxZ/La-Terra-Calenta-4.png'
+        }, {
+          imageName: 'LaTerraCalenta-5',
+          imageUrl: 'https://i.ibb.co/3CtS4mm/La-Terra-Calenta-5.jpg',
+          thumbnail: 'https://i.ibb.co/v1z26yx/La-Terra-Calenta-5.png'
+        }, {
+          imageName: 'LaTerraCalenta-6',
+          imageUrl: 'https://i.ibb.co/0hd0sTY/La-Terra-Calenta-6.jpg',
+          thumbnail: 'hhttps://i.ibb.co/CVrKKYR/La-Terra-Calenta-6.png'
+        }, {
+          imageName: 'LaTerraCalenta-7',
+          imageUrl: 'https://i.ibb.co/rv5Fg9c/La-Terra-Calenta-7.jpg',
+          thumbnail: 'https://i.ibb.co/mtbHBVM/La-Terra-Calenta-7.png'
+        }, {
+          imageName: 'LaTerraCalenta-8',
+          imageUrl: 'https://i.ibb.co/n8JHCJN/La-Terra-Calenta-8.jpg',
+          thumbnail: 'https://i.ibb.co/GkL4QPW/La-Terra-Calenta-8.png'
+        }, {
+          imageName: 'LaTerraCalenta-9',
+          imageUrl: 'https://i.ibb.co/gWY7VWh/La-Terra-Calenta-9.jpg',
+          thumbnail: 'https://i.ibb.co/cQHjHMG/La-Terra-Calenta-9.png'
+        }, {
+          imageName: 'LaTerraCalenta-10',
+          imageUrl: 'https://i.ibb.co/XpwnvP2/La-Terra-Calenta-10.jpg',
+          thumbnail: 'https://i.ibb.co/BqqMLxL/La-Terra-Calenta-10.png'
+        }, {
+          imageName: 'LaTerraCalenta-11',
+          imageUrl: 'https://i.ibb.co/s3S96V0/La-Terra-Calenta-11.jpg',
+          thumbnail: 'https://i.ibb.co/Gx3B3dS/La-Terra-Calenta-11.png'
+        }, {
+          imageName: 'LaTerraCalenta-12',
+          imageUrl: 'https://i.ibb.co/k68WC8b/La-Terra-Calenta-12.jpg',
+          thumbnail: 'https://i.ibb.co/ngcnpsP/La-Terra-Calenta-12.png'
+        }, {
+          imageName: 'LaTerraCalenta-13',
+          imageUrl: 'https://i.ibb.co/BjC0HrJ/La-Terra-Calenta-13.jpg',
+          thumbnail: 'https://i.ibb.co/MfppVDR/La-Terra-Calenta-13.png'
+        }, {
+          imageName: 'LaTerraCalenta-14',
+          imageUrl: 'https://i.ibb.co/pWwxNQH/La-Terra-Calenta-14.jpg',
+          thumbnail: 'https://i.ibb.co/QdmZBH8/La-Terra-Calenta-14.png'
+        }, {
+          imageName: 'LaTerraCalenta-15',
+          imageUrl: 'https://i.ibb.co/fv9wnx7/La-Terra-Calenta-15.jpg',
+          thumbnail: 'https://i.ibb.co/6Hs0Zd8/La-Terra-Calenta-15.png'
+        }, {
+          imageName: 'LaTerraCalenta-16',
+          imageUrl: 'https://i.ibb.co/k3Jmmmg/La-Terra-Calenta-16.jpg',
+          thumbnail: 'https://i.ibb.co/6H6FqnT/La-Terra-Calenta-16.png'
+        }, {
+          imageName: 'LaTerraCalenta-17',
+          imageUrl: 'https://i.ibb.co/g71F21Q/La-Terra-Calenta-17.jpg',
+          thumbnail: 'https://i.ibb.co/5BP8zmz/La-Terra-Calenta-17.png'
+        }, {
+          imageName: 'LTCMag01',
+          imageUrl: 'https://i.ibb.co/DtrhDFc/LTCMag01.jpg',
+          thumbnail: 'https://i.ibb.co/cyDzpYb/LTCMag01.png'
+        }, {
+          imageName: 'LTCMag02',
+          imageUrl: 'https://i.ibb.co/N2KSFcn/LTCMag02.jpg',
+          thumbnail: 'https://i.ibb.co/k9HJrZp/LTCMag02.png'
+        }, {
+          imageName: 'LTCMag03',
+          imageUrl: 'https://i.ibb.co/Gp2VTvW/LTCMag03.jpg',
+          thumbnail: 'https://i.ibb.co/pjR78z5/LTCMag03.png'
+        }, {
+          imageName: 'LTCMag04',
+          imageUrl: 'https://i.ibb.co/GtsJwPN/LTCMag04.jpg',
+          thumbnail: 'https://i.ibb.co/MhBmjrQ/LTCMag04.png'
+        }, {
+          imageName: 'LTCMag05',
+          imageUrl: 'https://i.ibb.co/L15mx5F/LTCMag05.jpg',
+          thumbnail: 'https://i.ibb.co/gTZzvY9/LTCMag05.png'
+        }, {
+          imageName: 'LTCMag06',
+          imageUrl: 'https://i.ibb.co/42fc1qN/LTCMag06.jpg',
+          thumbnail: 'https://i.ibb.co/vqLtJD2/LTCMag06.png'
+        }, {
+          imageName: 'LTCMag07',
+          imageUrl: 'https://i.ibb.co/C2hWgrr/LTCMag07.jpg',
+          thumbnail: 'https://i.ibb.co/9gJCpDG/LTCMag07.png'
+        }, {
+          imageName: 'LTCMag08',
+          imageUrl: 'https://i.ibb.co/Y7Sy7bf/LTCMag08.jpg',
+          thumbnail: 'https://i.ibb.co/CKnM6KY/LTCMag08.png'
+        }, {
+          imageName: 'LTCMag09',
+          imageUrl: 'https://i.ibb.co/TM4JwF4/LTCMag09.jpg',
+          thumbnail: 'https://i.ibb.co/VphBnYx/LTCMag09.png'
+        }
         ]
       },
       {
@@ -198,47 +223,59 @@ export const State = [
         date: '2021',
         infobox: '',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'Pasar-pa-gina-1',
-            imageUrl: 'https://i.ibb.co/XWjxXYX/Pasar-pa-gina-1.jpg'
-          }, {
-            imageName: 'Pasar-pa-gina-3',
-            imageUrl: 'https://i.ibb.co/xqqPQSM/Pasar-pa-gina-3.jpg'
-          }, {
-            imageName: 'Pasar-pa-gina-4',
-            imageUrl: 'https://i.ibb.co/vvKqtDn/Pasar-pa-gina-4.jpg'
-          }, {
-            imageName: 'Pasar-pa-gina-5',
-            imageUrl: 'https://i.ibb.co/s9C3vjp/Pasar-pa-gina-5.jpg'
-          }, {
-            imageName: 'Pasar-pa-gina-6',
-            imageUrl: 'https://i.ibb.co/xFNYjzn/Pasar-pa-gina-6.jpg'
-          }, {
-            imageName: 'Pasar-pa-gina-8',
-            imageUrl: 'https://i.ibb.co/1nyYFxn/Pasar-pa-gina-8.jpg'
-          }, {
-            imageName: 'Pasar-pa-gina-10',
-            imageUrl: 'https://i.ibb.co/8976N7v/Pasar-pa-gina-10.jpg'
-          }, {
-            imageName: 'Pasar-pa-gina-15',
-            imageUrl: 'https://i.ibb.co/4W5tDjc/Pasar-pa-gina-15.jpg'
-          }, {
-            imageName: 'Portada',
-            imageUrl: 'https://i.ibb.co/M7cjLt9/Portada.jpg'
-          }, {
-            imageName: '2-3',
-            imageUrl: 'https://i.ibb.co/28GtWrc/2-3.jpg'
-          }, {
-            imageName: '6-7',
-            imageUrl: 'https://i.ibb.co/Ks0jm4S/6-7.jpg'
-          }, {
-            imageName: '9-10',
-            imageUrl: 'https://i.ibb.co/XXZ46d2/9-10.jpg'
-          }, {
-            imageName: '36-37',
-            imageUrl: 'https://i.ibb.co/mX7NjcH/36-37.jpg'
-          }
+        detailCollection: [{
+          imageName: 'Pasar-pa-gina-1',
+          imageUrl: 'https://i.ibb.co/XWjxXYX/Pasar-pa-gina-1.jpg',
+          thumbnail: 'https://i.ibb.co/xJ4sMKM/Pasar-pa-gina-1.png'
+        }, {
+          imageName: 'Pasar-pa-gina-3',
+          imageUrl: 'https://i.ibb.co/xqqPQSM/Pasar-pa-gina-3.jpg',
+          thumbnail: 'https://i.ibb.co/9T4SkRH/Pasar-pa-gina-3.png'
+        }, {
+          imageName: 'Pasar-pa-gina-4',
+          imageUrl: 'https://i.ibb.co/vvKqtDn/Pasar-pa-gina-4.jpg',
+          thumbnail: 'https://i.ibb.co/zSY7pfQ/Pasar-pa-gina-4.png'
+        }, {
+          imageName: 'Pasar-pa-gina-5',
+          imageUrl: 'https://i.ibb.co/s9C3vjp/Pasar-pa-gina-5.jpg',
+          thumbnail: 'https://i.ibb.co/2KR7nJT/Pasar-pa-gina-5.png'
+        }, {
+          imageName: 'Pasar-pa-gina-6',
+          imageUrl: 'https://i.ibb.co/xFNYjzn/Pasar-pa-gina-6.jpg',
+          thumbnail: 'https://i.ibb.co/xXPstV8/Pasar-pa-gina-6.png'
+        }, {
+          imageName: 'Pasar-pa-gina-8',
+          imageUrl: 'https://i.ibb.co/1nyYFxn/Pasar-pa-gina-8.jpg',
+          thumbnail: 'https://i.ibb.co/ZNDBSVS/Pasar-pa-gina-8.png'
+        }, {
+          imageName: 'Pasar-pa-gina-10',
+          imageUrl: 'https://i.ibb.co/8976N7v/Pasar-pa-gina-10.jpg',
+          thumbnail: 'https://i.ibb.co/WvxZKBx/Pasar-pa-gina-10.png'
+        }, {
+          imageName: 'Pasar-pa-gina-15',
+          imageUrl: 'https://i.ibb.co/4W5tDjc/Pasar-pa-gina-15.jpg',
+          thumbnail: 'https://i.ibb.co/LnC3gJS/Pasar-pa-gina-15.png'
+        }, {
+          imageName: 'Portada',
+          imageUrl: 'https://i.ibb.co/M7cjLt9/Portada.jpg',
+          thumbnail: 'https://i.ibb.co/gyXGcWG/Portada.png'
+        }, {
+          imageName: '2-3',
+          imageUrl: 'https://i.ibb.co/28GtWrc/2-3.jpg',
+          thumbnail: 'https://i.ibb.co/61q4D0H/2-3.png'
+        }, {
+          imageName: '6-7',
+          imageUrl: 'https://i.ibb.co/Ks0jm4S/6-7.jpg',
+          thumbnail: 'https://i.ibb.co/wNnfM7h/6-7.png'
+        }, {
+          imageName: '9-10',
+          imageUrl: 'https://i.ibb.co/XXZ46d2/9-10.jpg',
+          thumbnail: 'https://i.ibb.co/PgF7fSj/9-10.png'
+        }, {
+          imageName: '36-37',
+          imageUrl: 'https://i.ibb.co/mX7NjcH/36-37.jpg',
+          thumbnail: 'https://i.ibb.co/yyrbdXt/36-37.png'
+        }
         ]
       },
       {
@@ -248,110 +285,143 @@ export const State = [
         date: '2019-22',
         infobox: '',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'Copenhage-01',
-            imageUrl: 'https://i.ibb.co/dJY66p3/Copenhage-01.jpg'
-          }, {
-            imageName: 'Copenhage-02',
-            imageUrl: 'https://i.ibb.co/vchTDQN/Copenhage-02.jpg'
-          }, {
-            imageName: 'Copenhage-03',
-            imageUrl: 'https://i.ibb.co/PG5pzSV/Copenhage-03.jpg'
-          }, {
-            imageName: 'Copenhage-04',
-            imageUrl: 'https://i.ibb.co/pfSHcsg/Copenhage-04.jpg'
-          }, {
-            imageName: 'Copenhage-05',
-            imageUrl: 'https://i.ibb.co/ZhPFnQ6/Copenhage-05.jpg'
-          }, {
-            imageName: 'Granada-01',
-            imageUrl: 'https://i.ibb.co/SNbsrfx/Granada-01.jpg'
-          }, {
-            imageName: 'Granada-02',
-            imageUrl: 'https://i.ibb.co/W3pYBk2/Granada-02.jpg'
-          }, {
-            imageName: 'Granada-03',
-            imageUrl: 'https://i.ibb.co/vdhG0vg/Granada-03.jpg'
-          }, {
-            imageName: 'Granada-04',
-            imageUrl: 'https://i.ibb.co/yY6GV2G/Granada-04.jpg'
-          }, {
-            imageName: 'Granada-05',
-            imageUrl: 'https://i.ibb.co/jfHk8Jn/Granada-05.jpg'
-          }, {
-            imageName: 'Granada-06',
-            imageUrl: 'https://i.ibb.co/vBngQWt/Granada-06.jpg'
-          }, {
-            imageName: 'Granada-07',
-            imageUrl: 'https://i.ibb.co/KFYPdNW/Granada-07.jpg'
-          }, {
-            imageName: 'Granada-08',
-            imageUrl: 'https://i.ibb.co/QP6zSg9/Granada-08.jpg'
-          }, {
-            imageName: 'Granada-09',
-            imageUrl: 'https://i.ibb.co/ydNPPFy/Granada-09.jpg'
-          }, {
-            imageName: 'Granada-10',
-            imageUrl: 'https://i.ibb.co/MnKbySz/Granada-10.jpg'
-          }, {
-            imageName: 'Granada-11',
-            imageUrl: 'https://i.ibb.co/KwBdfKj/Granada-11.jpg'
-          }, {
-            imageName: 'Berlin01',
-            imageUrl: 'https://i.ibb.co/8M4qH0F/Berlin01.jpg'
-          }, {
-            imageName: 'Berlin02',
-            imageUrl: 'https://i.ibb.co/VBVYQcG/Berlin02.jpg'
-          }, {
-            imageName: 'Berlin03',
-            imageUrl: 'https://i.ibb.co/2Yd2VCz/Berlin03.jpg'
-          }, {
-            imageName: 'Berlin04',
-            imageUrl: 'https://i.ibb.co/4JTp6fR/Berlin04.jpg'
-          }, {
-            imageName: 'Analog-Delta-42',
-            imageUrl: 'https://i.ibb.co/PwzDw6D/Analog-Delta-42.jpg'
-          }, {
-            imageName: 'Analog-Delta-46',
-            imageUrl: 'https://i.ibb.co/W6CBGm4/Analog-Delta-46.jpg'
-          }, {
-            imageName: 'Analog-Delta-63',
-            imageUrl: 'https://i.ibb.co/2NCShSL/Analog-Delta-63.jpg'
-          }, {
-            imageName: 'AA021A',
-            imageUrl: 'https://i.ibb.co/z55JV5J/AA021A.jpg'
-          }, {
-            imageName: 'AA023A',
-            imageUrl: 'https://i.ibb.co/fktxgdJ/AA023A.jpg'
-          }, {
-            imageName: 'Lisboa1004',
-            imageUrl: 'https://i.ibb.co/gTCPBC6/Lisboa1004.png'
-          }, {
-            imageName: 'Setmanasanta21-002',
-            imageUrl: 'https://i.ibb.co/rFbbfcj/Setmanasanta21-002.png'
-          }, {
-            imageName: 'Setmanasanta21-003',
-            imageUrl: 'https://i.ibb.co/NpkSXnH/Setmanasanta21-003.png'
-          }, {
-            imageName: 'Sumie-Olot-7',
-            imageUrl: 'https://i.ibb.co/HBThJHz/Sumie-Olot-7.jpg'
-          }, {
-            imageName: 'Sumie-Olot-13',
-            imageUrl: 'https://i.ibb.co/FwgjPXM/Sumie-Olot-13.jpg'
-          }, {
-            imageName: 'EloiSayrach01',
-            imageUrl: 'https://i.ibb.co/Tmt9jYs/Eloi-Sayrach01.jpg'
-          }, {
-            imageName: 'EloiSayrach02',
-            imageUrl: 'https://i.ibb.co/ZhGZPwR/Eloi-Sayrach02.jpg'
-          }, {
-            imageName: 'EloiSayrach03',
-            imageUrl: 'https://i.ibb.co/3fKjxd0/Eloi-Sayrach03.jpg'
-          }, {
-            imageName: 'EloiSayrach04',
-            imageUrl: 'https://i.ibb.co/61Rgz0G/Eloi-Sayrach04.jpg'
-          }
+        detailCollection: [{
+          imageName: 'Copenhage-01',
+          imageUrl: 'https://i.ibb.co/dJY66p3/Copenhage-01.jpg',
+          thumbnail: 'https://i.ibb.co/9WYBQyV/Copenhage-01.png'
+        }, {
+          imageName: 'Copenhage-02',
+          imageUrl: 'https://i.ibb.co/vchTDQN/Copenhage-02.jpg',
+          thumbnail: 'https://i.ibb.co/sq8FxK0/Copenhage-02.png'
+        }, {
+          imageName: 'Copenhage-03',
+          imageUrl: 'https://i.ibb.co/PG5pzSV/Copenhage-03.jpg',
+          thumbnail: 'https://i.ibb.co/vJdSBs1/Copenhage-03.png'
+        }, {
+          imageName: 'Copenhage-04',
+          imageUrl: 'https://i.ibb.co/pfSHcsg/Copenhage-04.jpg',
+          thumbnail: 'https://i.ibb.co/M8RZBnD/Copenhage-04.png'
+        }, {
+          imageName: 'Copenhage-05',
+          imageUrl: 'https://i.ibb.co/ZhPFnQ6/Copenhage-05.jpg',
+          thumbnail: 'https://i.ibb.co/R44PDL6/Copenhage-05.png'
+        }, {
+          imageName: 'Granada-01',
+          imageUrl: 'https://i.ibb.co/SNbsrfx/Granada-01.jpg',
+          thumbnail: 'https://i.ibb.co/Khf5VQG/Granada-01.png'
+        }, {
+          imageName: 'Granada-02',
+          imageUrl: 'https://i.ibb.co/W3pYBk2/Granada-02.jpg',
+          thumbnail: 'https://i.ibb.co/XLPX8JT/Granada-02.png'
+        }, {
+          imageName: 'Granada-03',
+          imageUrl: 'https://i.ibb.co/vdhG0vg/Granada-03.jpg',
+          thumbnail: 'https://i.ibb.co/KxfGBNn/Granada-03.png'
+        }, {
+          imageName: 'Granada-04',
+          imageUrl: 'https://i.ibb.co/yY6GV2G/Granada-04.jpg',
+          thumbnail: 'https://i.ibb.co/Pgs4FPG/Granada-04.png'
+        }, {
+          imageName: 'Granada-05',
+          imageUrl: 'https://i.ibb.co/jfHk8Jn/Granada-05.jpg',
+          thumbnail: 'https://i.ibb.co/g6Yzcc5/Granada-05.png'
+        }, {
+          imageName: 'Granada-06',
+          imageUrl: 'https://i.ibb.co/vBngQWt/Granada-06.jpg',
+          thumbnail: 'https://i.ibb.co/v1MnbM3/Granada-06.png'
+        }, {
+          imageName: 'Granada-07',
+          imageUrl: 'https://i.ibb.co/KFYPdNW/Granada-07.jpg',
+          thumbnail: 'https://i.ibb.co/12Qb21S/Granada-07.png'
+        }, {
+          imageName: 'Granada-08',
+          imageUrl: 'https://i.ibb.co/QP6zSg9/Granada-08.jpg',
+          thumbnail: 'https://i.ibb.co/RPTxN3y/Granada-08.png'
+        }, {
+          imageName: 'Granada-09',
+          imageUrl: 'https://i.ibb.co/ydNPPFy/Granada-09.jpg',
+          thumbnail: 'https://i.ibb.co/t3jfgTj/Granada-09.png'
+        }, {
+          imageName: 'Granada-10',
+          imageUrl: 'https://i.ibb.co/MnKbySz/Granada-10.jpg',
+          thumbnail: 'https://i.ibb.co/1RfdbHm/Granada-10.png'
+        }, {
+          imageName: 'Granada-11',
+          imageUrl: 'https://i.ibb.co/KwBdfKj/Granada-11.jpg',
+          thumbnail: 'https://i.ibb.co/M2Lvrpk/Granada-11.png'
+        }, {
+          imageName: 'Berlin01',
+          imageUrl: 'https://i.ibb.co/8M4qH0F/Berlin01.jpg',
+          thumbnail: 'https://i.ibb.co/6g0Rb59/Berlin01.png'
+        }, {
+          imageName: 'Berlin02',
+          imageUrl: 'https://i.ibb.co/VBVYQcG/Berlin02.jpg',
+          thumbnail: 'https://i.ibb.co/3BFtMdj/Berlin02.png'
+        }, {
+          imageName: 'Berlin03',
+          imageUrl: 'https://i.ibb.co/2Yd2VCz/Berlin03.jpg',
+          thumbnail: 'https://i.ibb.co/bKv5CkS/Berlin03.png'
+        }, {
+          imageName: 'Berlin04',
+          imageUrl: 'https://i.ibb.co/4JTp6fR/Berlin04.jpg',
+          thumbnail: 'https://i.ibb.co/tX7zrJ1/Berlin04.png'
+        }, {
+          imageName: 'Analog-Delta-42',
+          imageUrl: 'https://i.ibb.co/PwzDw6D/Analog-Delta-42.jpg',
+          thumbnail: 'https://i.ibb.co/0CTvmkT/Analog-Delta-42.png'
+        }, {
+          imageName: 'Analog-Delta-46',
+          imageUrl: 'https://i.ibb.co/W6CBGm4/Analog-Delta-46.jpg',
+          thumbnail: 'https://i.ibb.co/pv1TzDs/Analog-Delta-46.png'
+        }, {
+          imageName: 'Analog-Delta-63',
+          imageUrl: 'https://i.ibb.co/2NCShSL/Analog-Delta-63.jpg',
+          thumbnail: 'https://i.ibb.co/BzfqQcB/Analog-Delta-63.png'
+        }, {
+          imageName: 'AA021A',
+          imageUrl: 'https://i.ibb.co/z55JV5J/AA021A.jpg',
+          thumbnail: 'https://i.ibb.co/pLTnds7/AA021A.png'
+        }, {
+          imageName: 'AA023A',
+          imageUrl: 'https://i.ibb.co/fktxgdJ/AA023A.jpg',
+          thumbnail: 'https://i.ibb.co/yST7kyP/AA023A.png'
+        }, {
+          imageName: 'Lisboa1004',
+          imageUrl: 'https://i.ibb.co/gTCPBC6/Lisboa1004.png',
+          thumbnail: 'https://i.ibb.co/PMLZw4g/Lisboa1004.png'
+        }, {
+          imageName: 'Setmanasanta21-002',
+          imageUrl: 'https://i.ibb.co/rFbbfcj/Setmanasanta21-002.png',
+          thumbnail: 'https://i.ibb.co/XsKFVCQ/Setmanasanta21-002.png'
+        }, {
+          imageName: 'Setmanasanta21-003',
+          imageUrl: 'https://i.ibb.co/NpkSXnH/Setmanasanta21-003.png',
+          thumbnail: 'https://i.ibb.co/fVgjgZm/Setmanasanta21-003.png'
+        }, {
+          imageName: 'Sumie-Olot-7',
+          imageUrl: 'https://i.ibb.co/HBThJHz/Sumie-Olot-7.jpg',
+          thumbnail: 'https://i.ibb.co/KLY84h0/Sumie-Olot-7.png'
+        }, {
+          imageName: 'Sumie-Olot-13',
+          imageUrl: 'https://i.ibb.co/FwgjPXM/Sumie-Olot-13.jpg',
+          thumbnail: 'https://i.ibb.co/d0KYwnv/Sumie-Olot-13.png'
+        }, {
+          imageName: 'EloiSayrach01',
+          imageUrl: 'https://i.ibb.co/Tmt9jYs/Eloi-Sayrach01.jpg',
+          thumbnail: 'https://i.ibb.co/5Wxvmkf/Eloi-Sayrach01.png'
+        }, {
+          imageName: 'EloiSayrach02',
+          imageUrl: 'https://i.ibb.co/ZhGZPwR/Eloi-Sayrach02.jpg',
+          thumbnail: 'https://i.ibb.co/5GDfHW5/Eloi-Sayrach02.png'
+        }, {
+          imageName: 'EloiSayrach03',
+          imageUrl: 'https://i.ibb.co/3fKjxd0/Eloi-Sayrach03.jpg',
+          thumbnail: 'https://i.ibb.co/7Sjzw9H/Eloi-Sayrach03.png'
+        }, {
+          imageName: 'EloiSayrach04',
+          imageUrl: 'https://i.ibb.co/61Rgz0G/Eloi-Sayrach04.jpg',
+          thumbnail: 'https://i.ibb.co/qCy8t9V/Eloi-Sayrach04.png'
+        }
         ]
       },
       {
@@ -361,38 +431,43 @@ export const State = [
         date: '2022',
         infobox: '',
         video: false,
-        detailCollection: [
-          {
-            imageName: 'Canal01',
-            imageUrl: 'https://i.ibb.co/c2KLzMp/Canal01.jpg'
-          }, {
-            imageName: 'Canal02',
-            imageUrl: 'https://i.ibb.co/zJjjtNf/Canal02.jpg'
-          }, {
-            imageName: 'Canal03',
-            imageUrl: 'https://i.ibb.co/mttYvVS/Canal03.jpg'
-          }, {
-            imageName: 'Canal04',
-            imageUrl: 'https://i.ibb.co/d786nX9/Canal04.jpg'
-          }, {
-            imageName: 'Canal05',
-            imageUrl: 'https://i.ibb.co/1ZRFpPY/Canal05.jpg'
-          }, {
-            imageName: 'Canal06',
-            imageUrl: 'https://i.ibb.co/M5Bz9LH/Canal06.jpg'
-          }, {
-            imageName: 'Canal07',
-            imageUrl: 'https://i.ibb.co/kqFyqj5/Canal07.jpg'
-          }, {
-            imageName: 'Canal08',
-            imageUrl: 'https://i.ibb.co/R3dd0H1/Canal08.jpg'
-          }, {
-            imageName: 'Canal09',
-            imageUrl: 'https://i.ibb.co/SwdMhbR/Canal09.jpg'
-          }, {
-            imageName: 'Canal10',
-            imageUrl: 'https://i.ibb.co/QMzm7bp/Canal10.jpg'
-          }
+        detailCollection: [{
+          imageName: 'Canal01',
+          imageUrl: 'https://i.ibb.co/c2KLzMp/Canal01.jpg',
+          thumbnail: 'https://i.ibb.co/VtSNDn8/Canal01.png'
+        }, {
+          imageName: 'Canal02',
+          imageUrl: 'https://i.ibb.co/zJjjtNf/Canal02.jpg',
+          thumbnail: 'https://i.ibb.co/fDKFcS7/Canal02.png'
+        }, {
+          imageName: 'Canal03',
+          imageUrl: 'https://i.ibb.co/mttYvVS/Canal03.jpg',
+          thumbnail: 'https://i.ibb.co/Zxf9jx8/Canal03.png'
+        }, {
+          imageName: 'Canal04',
+          imageUrl: 'https://i.ibb.co/d786nX9/Canal04.jpg',
+          thumbnail: 'https://i.ibb.co/rG4vFdZ/Canal04.png'
+        }, {
+          imageName: 'Canal05',
+          imageUrl: 'https://i.ibb.co/1ZRFpPY/Canal05.jpg',
+          thumbnail: 'https://i.ibb.co/zhppcpV/Canal05.png'
+        }, {
+          imageName: 'Canal06',
+          imageUrl: 'https://i.ibb.co/M5Bz9LH/Canal06.jpg',
+          thumbnail: 'https://i.ibb.co/87VZSsY/Canal06.png'
+        }, {
+          imageName: 'Canal07',
+          imageUrl: 'https://i.ibb.co/kqFyqj5/Canal07.jpg',
+          thumbnail: 'https://i.ibb.co/6w7Scbn/Canal07.png'
+        }, {
+          imageName: 'Canal09',
+          imageUrl: 'https://i.ibb.co/SwdMhbR/Canal09.jpg',
+          thumbnail: 'https://i.ibb.co/M8FjV95/Canal09.png'
+        }, {
+          imageName: 'Canal10',
+          imageUrl: 'hhttps://i.ibb.co/QMzm7bp/Canal10.jpg',
+          thumbnail: 'https://i.ibb.co/0sFBV8g/Canal10.png'
+        }
         ]
       }
     ]
@@ -706,59 +781,76 @@ export const State = [
         date: '2019',
         infobox: '',
         video: 'https://player.vimeo.com/video/708586473?h=1719ebe45b',
-        detailCollection: [
-          {
-            imageName: 'Ovella01',
-            imageUrl: 'https://i.ibb.co/wYKFYkQ/Ovella01.png'
-          }, {
-            imageName: 'Ovella02',
-            imageUrl: 'https://i.ibb.co/bHjxb7S/Ovella02.png'
-          }, {
-            imageName: 'Ovella03',
-            imageUrl: 'https://i.ibb.co/f8wbgkd/Ovella03.png'
-          }, {
-            imageName: 'Ovella04',
-            imageUrl: 'https://i.ibb.co/h1h0th1/Ovella04.png'
-          }, {
-            imageName: 'Ovella05',
-            imageUrl: 'https://i.ibb.co/gtfxJtf/Ovella05.png'
-          }, {
-            imageName: 'Ovella06',
-            imageUrl: 'https://i.ibb.co/N9LBck6/Ovella06.png'
-          }, {
-            imageName: 'Ovella07',
-            imageUrl: 'https://i.ibb.co/gdsdfVm/Ovella07.png'
-          }, {
-            imageName: 'Ovella08',
-            imageUrl: 'https://i.ibb.co/bbDv4y3/Ovella08.png'
-          }, {
-            imageName: 'Ovella09',
-            imageUrl: 'https://i.ibb.co/6v1nwpY/Ovella09.png'
-          }, {
-            imageName: 'Ovella10',
-            imageUrl: 'https://i.ibb.co/ryhZbWb/Ovella10.png'
-          }, {
-            imageName: 'Ovella11',
-            imageUrl: 'https://i.ibb.co/F0WT5sv/Ovella11.png'
-          }, {
-            imageName: 'Ovella12',
-            imageUrl: 'https://i.ibb.co/gT7rdL5/Ovella12.png'
-          }, {
-            imageName: 'Ovella13',
-            imageUrl: 'https://i.ibb.co/3NNwP2k/Ovella13.png'
-          }, {
-            imageName: 'Ovella14',
-            imageUrl: 'https://i.ibb.co/TbyFPrH/Ovella14.png'
-          }, {
-            imageName: 'Ovella15',
-            imageUrl: 'https://i.ibb.co/98q0ywM/Ovella15.png'
-          }, {
-            imageName: 'Ovella16',
-            imageUrl: 'https://i.ibb.co/8NfKwkG/Ovella16.png'
-          }, {
-            imageName: 'Ovella17',
-            imageUrl: 'https://i.ibb.co/BPfR337/Ovella17.png'
-          }
+        detailCollection: [{
+          imageName: 'Ovella01',
+          imageUrl: 'https://i.ibb.co/GRXkkT1/Ovella01.jpg',
+          thumbnail: 'https://i.ibb.co/CPKsSPK/Ovella01.png'
+        }, {
+          imageName: 'Ovella02',
+          imageUrl: 'https://i.ibb.co/rKP8WkL/Ovella02.jpg',
+          thumbnail: 'https://i.ibb.co/0f4H0cH/Ovella02.png'
+        }, {
+          imageName: 'Ovella03',
+          imageUrl: 'https://i.ibb.co/PCggnck/Ovella03.jpg',
+          thumbnail: 'https://i.ibb.co/b7jGy09/Ovella03.png'
+        }, {
+          imageName: 'Ovella04',
+          imageUrl: 'https://i.ibb.co/8M02Phh/Ovella04.jpg',
+          thumbnail: 'https://i.ibb.co/TY5MV3h/Ovella04.png'
+        }, {
+          imageName: 'Ovella05',
+          imageUrl: 'https://i.ibb.co/dmnjp4M/Ovella05.jpg',
+          thumbnail: 'https://i.ibb.co/h2gzxrz/Ovella05.png'
+        }, {
+          imageName: 'Ovella06',
+          imageUrl: 'https://i.ibb.co/CB03Zz1/Ovella06.jpg',
+          thumbnail: 'https://i.ibb.co/7t6wP6V/Ovella06.png'
+        }, {
+          imageName: 'Ovella07',
+          imageUrl: 'https://i.ibb.co/QrNcdG8/Ovella07.jpg',
+          thumbnail: 'https://i.ibb.co/g9bh4vG/Ovella07.png'
+        }, {
+          imageName: 'Ovella08',
+          imageUrl: 'https://i.ibb.co/g9dHBdf/Ovella08.jpg',
+          thumbnail: 'https://i.ibb.co/dB4B2w6/Ovella08.png'
+        }, {
+          imageName: 'Ovella09',
+          imageUrl: 'https://i.ibb.co/T85CYXD/Ovella09.jpg',
+          thumbnail: 'https://i.ibb.co/gr2qwhS/Ovella09.png'
+        }, {
+          imageName: 'Ovella10',
+          imageUrl: 'https://i.ibb.co/nQWSwbC/Ovella10.jpg',
+          thumbnail: 'https://i.ibb.co/LNJ4r0r/Ovella10.png'
+        }, {
+          imageName: 'Ovella11',
+          imageUrl: 'https://i.ibb.co/Swch2F9/Ovella11.jpg',
+          thumbnail: 'https://i.ibb.co/yd4ZYnq/Ovella11.png'
+        }, {
+          imageName: 'Ovella12',
+          imageUrl: 'https://i.ibb.co/Trf63hD/Ovella12.jpg',
+          thumbnail: 'https://i.ibb.co/tPdRbxK/Ovella12.png'
+        }, {
+          imageName: 'Ovella13',
+          imageUrl: 'https://i.ibb.co/6n1Jvsd/Ovella13.jpg',
+          thumbnail: 'https://i.ibb.co/hdJcjhs/Ovella13.png'
+        }, {
+          imageName: 'Ovella14',
+          imageUrl: 'https://i.ibb.co/McNLjZ4/Ovella14.jpg',
+          thumbnail: 'https://i.ibb.co/ChYDmsP/Ovella14.png'
+        }, {
+          imageName: 'Ovella15',
+          imageUrl: 'https://i.ibb.co/L1TJW8N/Ovella15.jpg',
+          thumbnail: 'https://i.ibb.co/GWMdcMD/Ovella15.png'
+        }, {
+          imageName: 'Ovella16',
+          imageUrl: 'https://i.ibb.co/pQBJbc8/Ovella16.jpg',
+          thumbnail: 'https://i.ibb.co/vJhty2X/Ovella16.png'
+        }, {
+          imageName: 'Ovella17',
+          imageUrl: 'https://i.ibb.co/kQdgYm4/Ovella17.jpg',
+          thumbnail: 'https://i.ibb.co/K7KzbQy/Ovella17.png'
+        }
+
         ]
       },
       {
@@ -771,34 +863,44 @@ export const State = [
         detailCollection: [
           {
             imageName: 'Kitchen01',
-            imageUrl: 'https://i.ibb.co/qWKxzHM/Kitchen01.png'
+            imageUrl: 'https://i.ibb.co/qWKxzHM/Kitchen01.png',
+            thumbnail: 'https://i.ibb.co/V3Wvnxr/Kitchen01.png'
           }, {
             imageName: 'Kitchen02',
-            imageUrl: 'https://i.ibb.co/1nc31X5/Kitchen02.png'
+            imageUrl: 'https://i.ibb.co/1nc31X5/Kitchen02.png',
+            thumbnail: 'https://i.ibb.co/cQMGvGL/Kitchen02.png'
           }, {
             imageName: 'Kitchen03',
-            imageUrl: 'https://i.ibb.co/Qk74tW6/Kitchen03.png'
+            imageUrl: 'https://i.ibb.co/Qk74tW6/Kitchen03.png',
+            thumbnail: 'https://i.ibb.co/CJ65zjQ/Kitchen03.png'
           }, {
             imageName: 'Kitchen04',
-            imageUrl: 'https://i.ibb.co/z48JnYW/Kitchen04.png'
+            imageUrl: 'https://i.ibb.co/z48JnYW/Kitchen04.png',
+            thumbnail: 'https://i.ibb.co/7SKrCPf/Kitchen04.png'
           }, {
             imageName: 'Kitchen05',
-            imageUrl: 'https://i.ibb.co/f4qHhBg/Kitchen05.png'
+            imageUrl: 'https://i.ibb.co/f4qHhBg/Kitchen05.png',
+            thumbnail: 'https://i.ibb.co/9hr1gqF/Kitchen05.png'
           }, {
             imageName: 'DosierKitchen01',
-            imageUrl: 'https://i.ibb.co/qykN0yY/Dosier-Kitchen01.jpg'
+            imageUrl: 'https://i.ibb.co/qykN0yY/Dosier-Kitchen01.jpg',
+            thumbnail: 'https://i.ibb.co/9bg4CCX/Dosier-Kitchen01.png'
           }, {
             imageName: 'DosierKitchen02',
-            imageUrl: 'https://i.ibb.co/fnXQtGt/Dosier-Kitchen02.jpg'
+            imageUrl: 'https://i.ibb.co/fnXQtGt/Dosier-Kitchen02.jpg',
+            thumbnail: 'https://i.ibb.co/TtxW3SQ/Dosier-Kitchen02.png'
           }, {
             imageName: 'DosierKitchen03',
-            imageUrl: 'https://i.ibb.co/z7xKHWN/Dosier-Kitchen03.jpg'
+            imageUrl: 'https://i.ibb.co/z7xKHWN/Dosier-Kitchen03.jpg',
+            thumbnail: 'https://i.ibb.co/K5rfFcX/Dosier-Kitchen03.png'
           }, {
             imageName: 'DosierKitchen04',
-            imageUrl: 'https://i.ibb.co/mcrhv8P/Dosier-Kitchen04.jpg'
+            imageUrl: 'https://i.ibb.co/mcrhv8P/Dosier-Kitchen04.jpg',
+            thumbnail: 'https://i.ibb.co/grKwswy/Dosier-Kitchen04.png'
           }, {
             imageName: 'DosierKitchen05',
-            imageUrl: 'https://i.ibb.co/vhWwDNm/Dosier-Kitchen05.jpg'
+            imageUrl: 'https://i.ibb.co/vhWwDNm/Dosier-Kitchen05.jpg',
+            thumbnail: 'https://i.ibb.co/7kzPVjb/Dosier-Kitchen05.png'
           }
         ]
       },
@@ -809,44 +911,55 @@ export const State = [
         date: '2022',
         infobox: '',
         video: 'https://player.vimeo.com/video/606412215?h=042449e4a9&color=f44522',
-        detailCollection: [
-          {
-            imageName: 'LOS-VIRGENES-01',
-            imageUrl: 'https://i.ibb.co/6wd9qV5/LOS-VIRGENES-01.jpg'
-          }, {
-            imageName: 'LOS-VIRGENES-02',
-            imageUrl: 'https://i.ibb.co/PMXGnqg/LOS-VIRGENES-02.jpg'
-          }, {
-            imageName: 'LOS-VIRGENES-03',
-            imageUrl: 'https://i.ibb.co/Tvj95SJ/LOS-VIRGENES-03.jpg'
-          }, {
-            imageName: 'LOS-VIRGENES-04',
-            imageUrl: 'https://i.ibb.co/gTj6MTk/LOS-VIRGENES-04.jpg'
-          }, {
-            imageName: 'LOS-VIRGENES-05',
-            imageUrl: 'https://i.ibb.co/TKM4BQF/LOS-VIRGENES-05.jpg'
-          }, {
-            imageName: 'LOS-VIRGENES-06',
-            imageUrl: 'https://i.ibb.co/W6vs4dZ/LOS-VIRGENES-06.jpg'
-          }, {
-            imageName: 'LOS-VIRGENES-07',
-            imageUrl: 'https://i.ibb.co/qRJNdJj/LOS-VIRGENES-07.jpg'
-          }, {
-            imageName: 'LOS-VIRGENES-08',
-            imageUrl: 'https://i.ibb.co/c2XKNJn/LOS-VIRGENES-08.jpg'
-          }, {
-            imageName: 'LOS-VIRGENES-09',
-            imageUrl: 'https://i.ibb.co/TqxbFGD/LOS-VIRGENES-09.jpg'
-          }, {
-            imageName: 'LOS-VIRGENES-10',
-            imageUrl: 'https://i.ibb.co/HPR0mPD/LOS-VIRGENES-10.jpg'
-          }, {
-            imageName: 'LOS-VIRGENES-11',
-            imageUrl: 'https://i.ibb.co/wzZ79qv/LOS-VIRGENES-11.jpg'
-          }, {
-            imageName: 'LOS-VIRGENES-12',
-            imageUrl: 'https://i.ibb.co/mCsy0Cy/LOS-VIRGENES-12.jpg'
-          }
+        detailCollection: [{
+          imageName: 'LOS-VIRGENES-01',
+          imageUrl: 'https://i.ibb.co/6wd9qV5/LOS-VIRGENES-01.jpg',
+          thumbnail: 'https://i.ibb.co/wSJtVD4/LOS-VIRGENES-01.png'
+        }, {
+          imageName: 'LOS-VIRGENES-02',
+          imageUrl: 'https://i.ibb.co/PMXGnqg/LOS-VIRGENES-02.jpg',
+          thumbnail: 'https://i.ibb.co/7Wgk12J/LOS-VIRGENES-02.png'
+        }, {
+          imageName: 'LOS-VIRGENES-03',
+          imageUrl: 'https://i.ibb.co/Tvj95SJ/LOS-VIRGENES-03.jpg',
+          thumbnail: 'https://i.ibb.co/3MFJ1JH/LOS-VIRGENES-03.png'
+        }, {
+          imageName: 'LOS-VIRGENES-04',
+          imageUrl: 'https://i.ibb.co/gTj6MTk/LOS-VIRGENES-04.jpg',
+          thumbnail: 'https://i.ibb.co/MGWQTQD/LOS-VIRGENES-04.png'
+        }, {
+          imageName: 'LOS-VIRGENES-05',
+          imageUrl: 'https://i.ibb.co/TKM4BQF/LOS-VIRGENES-05.jpg',
+          thumbnail: 'https://i.ibb.co/4pnR2Mw/LOS-VIRGENES-05.png'
+        }, {
+          imageName: 'LOS-VIRGENES-06',
+          imageUrl: 'https://i.ibb.co/W6vs4dZ/LOS-VIRGENES-06.jpg',
+          thumbnail: 'https://i.ibb.co/zSHrQ4t/LOS-VIRGENES-06.png'
+        }, {
+          imageName: 'LOS-VIRGENES-07',
+          imageUrl: 'https://i.ibb.co/qRJNdJj/LOS-VIRGENES-07.jpg',
+          thumbnail: 'https://i.ibb.co/bvbw5sS/LOS-VIRGENES-07.png'
+        }, {
+          imageName: 'LOS-VIRGENES-08',
+          imageUrl: 'https://i.ibb.co/c2XKNJn/LOS-VIRGENES-08.jpg',
+          thumbnail: 'https://i.ibb.co/QYJjjTK/LOS-VIRGENES-08.png'
+        }, {
+          imageName: 'LOS-VIRGENES-09',
+          imageUrl: 'https://i.ibb.co/TqxbFGD/LOS-VIRGENES-09.jpg',
+          thumbnail: 'https://i.ibb.co/Vq8dsM3/LOS-VIRGENES-09.png'
+        }, {
+          imageName: 'LOS-VIRGENES-10',
+          imageUrl: 'https://i.ibb.co/HPR0mPD/LOS-VIRGENES-10.jpg',
+          thumbnail: 'https://i.ibb.co/QPbgfDD/LOS-VIRGENES-10.png'
+        }, {
+          imageName: 'LOS-VIRGENES-11',
+          imageUrl: 'https://i.ibb.co/wzZ79qv/LOS-VIRGENES-11.jpg',
+          thumbnail: 'https://i.ibb.co/qpppd6v/LOS-VIRGENES-11.png'
+        }, {
+          imageName: 'LOS-VIRGENES-12',
+          imageUrl: 'hhttps://i.ibb.co/mCsy0Cy/LOS-VIRGENES-12.jpg',
+          thumbnail: 'https://i.ibb.co/dWGyQBx/LOS-VIRGENES-12.png'
+        }
         ]
       },
       {
@@ -856,32 +969,40 @@ export const State = [
         date: '2019-2021',
         infobox: '',
         video: 'https://player.vimeo.com/video/401523673?h=5e958757ac',
-        detailCollection: [
-          {
-            imageName: 'Reel01',
-            imageUrl: 'https://i.ibb.co/HBbrB1x/Reel01.png'
-          }, {
-            imageName: 'Reel02',
-            imageUrl: 'https://i.ibb.co/F5zLsgH/Reel02.png'
-          }, {
-            imageName: 'Reel03',
-            imageUrl: 'https://i.ibb.co/5KK9T79/Reel03.png'
-          }, {
-            imageName: 'Reel04',
-            imageUrl: 'https://i.ibb.co/NV11SQj/Reel04.png'
-          }, {
-            imageName: 'Reel05',
-            imageUrl: 'https://i.ibb.co/NZZxwQ1/Reel05.png'
-          }, {
-            imageName: 'Reel06',
-            imageUrl: 'https://i.ibb.co/RCbxy9y/Reel06.png'
-          }, {
-            imageName: 'Reel07',
-            imageUrl: 'https://i.ibb.co/WK67XyW/Reel07.png'
-          }, {
-            imageName: 'Reel08',
-            imageUrl: 'https://i.ibb.co/cy1VMCs/Reel08.png'
-          }
+        detailCollection: [{
+          imageName: 'Reel01',
+          imageUrl: 'https://i.ibb.co/Z1B4bMM/Reel01.jpg',
+          thumbnail: 'https://i.ibb.co/19M1LKk/Reel01.png'
+        }, {
+          imageName: 'Kitchen01',
+          imageUrl: 'https://i.ibb.co/qWKxzHM/Kitchen01.png',
+          thumbnail: 'https://i.ibb.co/V3Wvnxr/Kitchen01.png'
+        }, {
+          imageName: 'Reel02',
+          imageUrl: 'https://i.ibb.co/3m3bwQj/Reel02.jpg',
+          thumbnail: 'https://i.ibb.co/tCNX2V4/Reel02.png'
+        }, {
+          imageName: 'Reel03',
+          imageUrl: 'https://i.ibb.co/9W6J0p8/Reel03.jpg',
+          thumbnail: 'https://i.ibb.co/S39h25G/Reel03.png'
+        }, {
+          imageName: 'Reel04',
+          imageUrl: 'https://i.ibb.co/9cLD3nP/Reel04.jpg',
+          thumbnail: 'https://i.ibb.co/HpyKxXz/Reel04.png'
+        }, {
+          imageName: 'Reel05',
+          imageUrl: 'https://i.ibb.co/dMdkYt2/Reel05.jpg',
+          thumbnail: 'https://i.ibb.co/m9skXjs/Reel05.png'
+        }, {
+          imageName: 'Reel06',
+          imageUrl: 'https://i.ibb.co/Jq7ky6Z/Reel06.jpg',
+          thumbnail: 'https://i.ibb.co/gzc1wQm/Reel06.png'
+        }, {
+          imageName: 'Reel08',
+          imageUrl: 'https://i.ibb.co/RhG5PyN/Reel08.jpg',
+          thumbnail: 'https://i.ibb.co/1MDqj65/Reel08.png'
+        }
+
         ]
       }
     ]
