@@ -28,25 +28,25 @@ function App() {
         <Navbar state={state} />
         <Routes>
           <Route
-            path="/"
+            path="/image-portafolio/"
             element={
               <Landing state={state} />
               }
           />
           <Route
-            path="/about"
+            path="/image-portafolio/about"
             element={
               <AboutMe artist={artist} />
               }
           />
           <Route
-            path="/:galleryParam"
+            path="/image-portafolio/:galleryParam"
             element={
               <Gallery state={state} />
               }
           />
           <Route
-            path="/:galleryParam/:detailParam"
+            path="/image-portafolio/:galleryParam/:detailParam"
             element={
               <Detail state={state} artist={artist} />
               }
