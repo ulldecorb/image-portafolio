@@ -11,7 +11,7 @@ export function Landing({ state }) {
         {state.map((galleryItem) => (
           <Link
             className="skill-box"
-            to={`/image-portafolio/martirosell/${galleryItem.galleryName}`}
+            to={`/image-portafolio/${galleryItem.galleryName}`}
             style={{ textDecoration: 'none' }}
             key={`link-${galleryItem.galleryName}`}
           >

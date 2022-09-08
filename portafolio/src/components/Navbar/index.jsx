@@ -9,7 +9,7 @@ export function Navbar({ state }) {
   const getUriString = () => {
     const galleryNameRegExp = /([a-z]+)/g;
     const newGalleryName = galleryNameRegExp.test(currentUrl.pathname)
-    && currentUrl.pathname.match(galleryNameRegExp)[3];
+    && currentUrl.pathname.match(galleryNameRegExp)[2];
     return newGalleryName;
   };
 
@@ -21,7 +21,7 @@ export function Navbar({ state }) {
     <nav className="navbar">
       {state.map((galleryItem) => (
         <Link
-          to={`/image-portafolio/martirosell/${galleryItem.galleryName}`}
+          to={`/image-portafolio/${galleryItem.galleryName}`}
           type="button"
           className={`${galleryItem.galleryName}` === currentGalleryName ? 'navbar__handler navbar__handler--focus' : 'navbar__handler'}
           key={`nav-handler-${galleryItem.galleryName}`}
