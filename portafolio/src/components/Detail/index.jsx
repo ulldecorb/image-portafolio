@@ -174,9 +174,9 @@ export function Detail({ state, artist }) {
               style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
             >
               <iframe
+                src={detail.video}
                 title="vimeo-player"
                 className="cover__video"
-                src={detail.video}
                 width="640"
                 height="360"
                 frameBorder="0"

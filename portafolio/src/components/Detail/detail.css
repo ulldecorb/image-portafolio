@@ -294,7 +294,7 @@
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   gap: 7px;
-  padding: 0 0 40vh 0;
+  padding: 0 20px 40vh 20px;
 }
 
 .detail__gallery .gallery-detail {

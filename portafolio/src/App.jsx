@@ -10,6 +10,7 @@ import { Footer } from './components/Footer';
 import { Landing } from './components/Landing';
 import { Detail } from './components/Detail';
 import { Artist, State } from './constants/projects';
+import { AboutMe } from './components/AboutMe';
 import './App.css';
 
 function App() {
@@ -30,6 +31,12 @@ function App() {
             path="/"
             element={
               <Landing state={state} />
+              }
+          />
+          <Route
+            path="/about"
+            element={
+              <AboutMe artist={artist} />
               }
           />
           <Route
