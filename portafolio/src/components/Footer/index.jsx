@@ -7,7 +7,7 @@ export function Footer({ artist }) {
   return (
     <footer className="footer">
       <Link
-        to="/"
+        to="/about"
         style={{ textDecoration: 'none' }}
       >
         <h1 className="footer__title">{artist.artistName}</h1>
