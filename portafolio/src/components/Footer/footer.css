@@ -21,8 +21,6 @@
   text-decoration: none;
   padding: 0 20px;
   border: none;
-  -webkit-transition: padding 0.5s;
-  transition: padding 0.5s;
 }
 
 .footer__title {
