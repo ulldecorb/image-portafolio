@@ -7,13 +7,13 @@ export function Footer({ artist }) {
   return (
     <footer className="footer">
       <Link
-        to="/about"
+        to="/image-portafolio/martirosell/about"
         style={{ textDecoration: 'none' }}
       >
         <h1 className="footer__title">{artist.artistName}</h1>
       </Link>
       <Link
-        to="/"
+        to="/image-portafolio/martirosell/"
         style={{ textDecoration: 'none' }}
       >
         <h2 className="footer__title">{artist.portafolioType}</h2>

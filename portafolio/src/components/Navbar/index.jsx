@@ -6,11 +6,10 @@ import './navbar.css';
 export function Navbar({ state }) {
   const currentUrl = useLocation();
   const [currentGalleryName, setCurrentGalleryName] = useState('');
-  // const getUriString = () => currentUrl.pathname.split('/')[1];
   const getUriString = () => {
-    const galleryNameRegExp = /([a-z]+)/;
+    const galleryNameRegExp = /([a-z]+)/g;
     const newGalleryName = galleryNameRegExp.test(currentUrl.pathname)
-    && galleryNameRegExp.exec(currentUrl.pathname)[0];
+    && currentUrl.pathname.match(galleryNameRegExp)[3];
     return newGalleryName;
   };
 
@@ -22,7 +21,7 @@ export function Navbar({ state }) {
     <nav className="navbar">
       {state.map((galleryItem) => (
         <Link
-          to={`/${galleryItem.galleryName}`}
+          to={`/image-portafolio/martirosell/${galleryItem.galleryName}`}
           type="button"
           className={`${galleryItem.galleryName}` === currentGalleryName ? 'navbar__handler navbar__handler--focus' : 'navbar__handler'}
           key={`nav-handler-${galleryItem.galleryName}`}

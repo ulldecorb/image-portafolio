@@ -473,7 +473,7 @@ export const State = [
     ]
   },
   {
-    galleryName: 'Illustration',
+    galleryName: 'illustration',
     galleryCollection: [
       {
         detailName: 'Characters',
@@ -835,7 +835,7 @@ export const State = [
     ]
   },
   {
-    galleryName: 'Cinematography',
+    galleryName: 'cinematography',
     galleryCollection: [
       {
         detailName: 'Ovella',
