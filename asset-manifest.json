@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/image-portafolio/martirosell/static/css/main.7a89a4b6.css",
-    "main.js": "/image-portafolio/martirosell/static/js/main.52262b0e.js",
-    "static/js/787.ae0d8d37.chunk.js": "/image-portafolio/martirosell/static/js/787.ae0d8d37.chunk.js",
-    "index.html": "/image-portafolio/martirosell/index.html",
-    "main.7a89a4b6.css.map": "/image-portafolio/martirosell/static/css/main.7a89a4b6.css.map",
-    "main.52262b0e.js.map": "/image-portafolio/martirosell/static/js/main.52262b0e.js.map",
-    "787.ae0d8d37.chunk.js.map": "/image-portafolio/martirosell/static/js/787.ae0d8d37.chunk.js.map"
+    "main.css": "/image-portafolio/static/css/main.7a89a4b6.css",
+    "main.js": "/image-portafolio/static/js/main.e52b6c7f.js",
+    "static/js/787.ae0d8d37.chunk.js": "/image-portafolio/static/js/787.ae0d8d37.chunk.js",
+    "index.html": "/image-portafolio/index.html",
+    "main.7a89a4b6.css.map": "/image-portafolio/static/css/main.7a89a4b6.css.map",
+    "main.e52b6c7f.js.map": "/image-portafolio/static/js/main.e52b6c7f.js.map",
+    "787.ae0d8d37.chunk.js.map": "/image-portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a89a4b6.css",
-    "static/js/main.52262b0e.js"
+    "static/js/main.e52b6c7f.js"
   ]
 }
