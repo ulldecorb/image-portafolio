@@ -19,16 +19,16 @@ export function Landing({ state }) {
             <div className="skill-box__thumbnail-box">
               <span
                 className="skill-box__thumbnail"
-                style={{ backgroundImage: `url("${galleryItem.galleryCollection[0].detailCollection[0].imageUrl}")` }}
+                style={{ backgroundImage: `url("${galleryItem.galleryCollection[0].detailCollection[0].thumbnail}")` }}
               />
               <span
                 className="skill-box__thumbnail"
-                style={{ backgroundImage: `url("${galleryItem.galleryCollection[1].detailCollection[0].imageUrl}")` }}
+                style={{ backgroundImage: `url("${galleryItem.galleryCollection[1].detailCollection[0].thumbnail}")` }}
               />
               {galleryItem.galleryCollection[2] && (
               <span
                 className="skill-box__thumbnail"
-                style={{ backgroundImage: `url("${galleryItem.galleryCollection[2].detailCollection[0].imageUrl}")` }}
+                style={{ backgroundImage: `url("${galleryItem.galleryCollection[2].detailCollection[0].thumbnail}")` }}
               />
               )}
             </div>

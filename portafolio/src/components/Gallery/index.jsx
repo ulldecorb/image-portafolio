@@ -26,7 +26,7 @@ export function Gallery({ state }) {
             className="gallery__article"
             style={{
               textDecoration: 'none',
-              backgroundImage: `url("${detailItem.detailCollection[0].imageUrl}")`
+              backgroundImage: `url("${detailItem.detailCollection[0].thumbnail}")`
             }}
             key={`gallery-${detailItem.detailCollection[0].imageName}`}
           >
@@ -54,7 +54,7 @@ Gallery.propTypes = {
           detailCollection: PropTypes.arrayOf(
             PropTypes.shape({
               imageName: PropTypes.string,
-              imageUrl: PropTypes.string
+              thumbnail: PropTypes.string
             })
           )
         })
