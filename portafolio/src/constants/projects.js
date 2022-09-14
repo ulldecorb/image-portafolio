@@ -53,7 +53,7 @@ export const State = [
         }, {
           imageName: 'LaTerraCalenta-6',
           imageUrl: 'https://i.ibb.co/0hd0sTY/La-Terra-Calenta-6.jpg',
-          thumbnail: 'hhttps://i.ibb.co/CVrKKYR/La-Terra-Calenta-6.png'
+          thumbnail: 'https://i.ibb.co/CVrKKYR/La-Terra-Calenta-6.png'
         }, {
           imageName: 'LaTerraCalenta-7',
           imageUrl: 'https://i.ibb.co/rv5Fg9c/La-Terra-Calenta-7.jpg',
@@ -465,7 +465,7 @@ export const State = [
           thumbnail: 'https://i.ibb.co/M8FjV95/Canal09.png'
         }, {
           imageName: 'Canal10',
-          imageUrl: 'hhttps://i.ibb.co/QMzm7bp/Canal10.jpg',
+          imageUrl: 'https://i.ibb.co/QMzm7bp/Canal10.jpg',
           thumbnail: 'https://i.ibb.co/0sFBV8g/Canal10.png'
         }
         ]
@@ -823,7 +823,7 @@ export const State = [
           thumbnail: 'https://i.ibb.co/1ZQfh04/WEB-HGCB-01.png'
         }, {
           imageName: 'WEB-HGCB-03',
-          imageUrl: 'hhttps://i.ibb.co/dJ99y33/WEB-HGCB-03.jpg',
+          imageUrl: 'https://i.ibb.co/dJ99y33/WEB-HGCB-03.jpg',
           thumbnail: 'https://i.ibb.co/NW18hxX/WEB-HGCB-03.png'
         }, {
           imageName: 'MWEB-HGCB-01',
@@ -1020,7 +1020,7 @@ export const State = [
           thumbnail: 'https://i.ibb.co/qpppd6v/LOS-VIRGENES-11.png'
         }, {
           imageName: 'LOS-VIRGENES-12',
-          imageUrl: 'hhttps://i.ibb.co/mCsy0Cy/LOS-VIRGENES-12.jpg',
+          imageUrl: 'https://i.ibb.co/mCsy0Cy/LOS-VIRGENES-12.jpg',
           thumbnail: 'https://i.ibb.co/dWGyQBx/LOS-VIRGENES-12.png'
         }
         ]
