@@ -12,30 +12,30 @@ export function AboutMe({ artist }) {
           <p className="text-box__context">{artist.aboutMe.p3}</p>
         </article>
         <article className="text-box">
-          <div className="text-box__contact-box">
+          <a href={`tel:${artist.contact.phone.split('').filter((item) => item !== ' ').join('')}`} target="_blank" className="text-box__contact-box" rel="noreferrer">
             <img className="contact-box__icon" src="https://i.ibb.co/VS2zKZW/Telf.png" alt="phone icon" />
             <p className="contact-box__contact">{artist.contact.phone}</p>
-          </div>
-          <div className="text-box__contact-box">
+          </a>
+          <a href="mailto:martirosellc@gmail.com" target="_blank" className="text-box__contact-box" rel="noreferrer">
             <img className="contact-box__icon" src="https://i.ibb.co/r3b3xDy/Mail.png" alt="mail icon" />
             <p className="contact-box__contact">{artist.contact.mail}</p>
-          </div>
-          <div className="text-box__contact-box">
+          </a>
+          <a href="https://www.instagram.com/martirosell/" target="_blank" className="text-box__contact-box" rel="noreferrer">
             <img className="contact-box__icon" src="https://i.ibb.co/zNxQsGV/Instagram.png" alt="instagram icon" />
             <p className="contact-box__contact">{artist.contact.instagram}</p>
-          </div>
-          <div className="text-box__contact-box">
+          </a>
+          <a href="https://www.linkedin.com/in/martirosell/" target="_blank" className="text-box__contact-box" rel="noreferrer">
             <img className="contact-box__icon" src="https://i.ibb.co/d05C0jq/Linkedin.png" alt="linkedin icon" />
             <p className="contact-box__contact">{artist.contact.linkedin}</p>
-          </div>
-          <div className="text-box__contact-box">
+          </a>
+          <a href="https://www.behance.net/martirosell/" target="_blank" className="text-box__contact-box" rel="noreferrer">
             <img className="contact-box__icon" src="https://i.ibb.co/DKj3xhZ/Behance.png" alt="behance icon" />
             <p className="contact-box__contact">{artist.contact.behance}</p>
-          </div>
-          <div className="text-box__contact-box">
+          </a>
+          <a href="https://vimeo.com/martirosell/" target="_blank" className="text-box__contact-box" rel="noreferrer">
             <img className="contact-box__icon" src="https://i.ibb.co/jf40kvM/Vimeo.png" alt="vimeo icon" />
             <p className="contact-box__contact">{artist.contact.vimeo}</p>
-          </div>
+          </a>
         </article>
       </div>
       <img className="about-me__portrait" src={artist.photo} alt="marti rosell's portrait" />

@@ -21,7 +21,7 @@ export function Navbar({ state }) {
     <nav className="navbar">
       {state.map((galleryItem) => (
         <Link
-          to={`/image-portafolio/${galleryItem.galleryName}`}
+          to={`/${galleryItem.galleryName}`}
           type="button"
           className={`${galleryItem.galleryName}` === currentGalleryName ? 'navbar__handler navbar__handler--focus' : 'navbar__handler'}
           key={`nav-handler-${galleryItem.galleryName}`}
