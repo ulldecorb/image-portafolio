@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route
 } from 'react-router-dom';
@@ -23,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Navbar state={state} />
         <Routes>
@@ -54,7 +55,7 @@ function App() {
         </Routes>
         <Footer artist={artist} />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
