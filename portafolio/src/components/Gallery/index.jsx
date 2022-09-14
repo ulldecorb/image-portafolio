@@ -22,7 +22,7 @@ export function Gallery({ state }) {
       <section className="gallery">
         {gallery.galleryCollection.map((detailItem) => (
           <Link
-            to={`/image-portafolio/${galleryParam}/${detailItem.detailName}`}
+            to={`/${galleryParam}/${detailItem.detailName}`}
             className="gallery__article"
             style={{
               textDecoration: 'none',

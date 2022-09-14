@@ -24,30 +24,30 @@ function App() {
   }, []);
 
   return (
-    <HashRouter>
+    <HashRouter basename="/martirosell">
       <div className="App">
         <Navbar state={state} />
         <Routes>
           <Route
-            path="/image-portafolio"
+            path="/"
             element={
               <Landing state={state} />
               }
           />
           <Route
-            path="/image-portafolio/about"
+            path="/about"
             element={
               <AboutMe artist={artist} />
               }
           />
           <Route
-            path="/image-portafolio/:galleryParam"
+            path="/:galleryParam"
             element={
               <Gallery state={state} />
               }
           />
           <Route
-            path="/image-portafolio/:galleryParam/:detailParam"
+            path="/:galleryParam/:detailParam"
             element={
               <Detail state={state} artist={artist} />
               }
