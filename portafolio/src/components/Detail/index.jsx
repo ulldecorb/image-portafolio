@@ -76,7 +76,7 @@ export function Detail({ state, artist }) {
         <nav className="detail__navbar">
           <a
             style={{ textDecoration: 'none' }}
-            href="#cover"
+            href={`https://ulldecorb.github.io/image-portafolio/#/martirosell/${galleryParam}/${detailParam}/#cover`}
             className="navbar-box"
           >
             <p className="navbar-box__title-section">Cover</p>
@@ -84,7 +84,7 @@ export function Detail({ state, artist }) {
           </a>
           <a
             style={{ textDecoration: 'none' }}
-            href="#gallery"
+            href={`https://ulldecorb.github.io/image-portafolio/#/martirosell/${galleryParam}/${detailParam}/#gallery`}
             className="navbar-box"
           >
             <p className="navbar-box__title-section">Gallery</p>
@@ -92,7 +92,7 @@ export function Detail({ state, artist }) {
           </a>
           <a
             style={{ textDecoration: 'none' }}
-            href="#aboutMe"
+            href={`https://ulldecorb.github.io/image-portafolio/#/martirosell/${galleryParam}/${detailParam}/#aboutMe`}
             className="navbar-box"
           >
             <p className="navbar-box__title-section">About me</p>
@@ -174,7 +174,7 @@ export function Detail({ state, artist }) {
               style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
             >
               <iframe
-                src={detail.video}
+                src={`${detail.video}?background=true`}
                 title="vimeo-player"
                 className="cover__video"
                 width="640"
