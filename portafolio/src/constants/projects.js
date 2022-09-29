@@ -1,6 +1,6 @@
 export const Artist = {
   artistName: 'Martí Rosell',
-  photo: 'https://i.ibb.co/SQLnhJT/Aboutme-01.jpg',
+  photo: 'https://i.ibb.co/h8S33Mz/About-me.jpg',
   contact: {
     adress: 'Carrer Viladedalt, 13, Viladebaix, 08666',
     mail: 'martirosellc@gmail.com',
@@ -545,7 +545,7 @@ export const State = [
         infobox: '',
         video: false,
         detailCollection: [{
-          imageName: 'Portada',
+          imageName: 'Portada-lux',
           imageUrl: 'https://i.ibb.co/Tm2m4Bx/Portada.jpg',
           thumbnail: 'https://i.ibb.co/4YnVcxy/Portada.png'
         }, {
@@ -644,7 +644,7 @@ export const State = [
         infobox: '',
         video: false,
         detailCollection: [{
-          imageName: 'Portada',
+          imageName: 'Portada-rotterdam',
           imageUrl: 'https://i.ibb.co/dg9fwMh/Portada.jpg',
           thumbnail: 'https://i.ibb.co/kh3tDXM/Portada.png'
         }, {

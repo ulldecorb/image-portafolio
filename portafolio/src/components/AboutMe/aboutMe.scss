@@ -45,7 +45,7 @@
     }
 
     &__portrait {
-        width: 20vw;
+        width: 50% ;
         height: auto;
     }
 
@@ -77,10 +77,19 @@
         }
         
         &__portrait {
-            width: 20vw;
+            width: 70%;
             height: auto;
             margin: 0 auto;
             margin-bottom: 20px;
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+    .about-me {
+        &__portrait {
+            width: 100%;
         }
     }
 }

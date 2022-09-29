@@ -92,7 +92,7 @@ export function Detail({ state, artist }) {
           </a>
           <a
             style={{ textDecoration: 'none' }}
-            href={`https://ulldecorb.github.io/image-portafolio/#/martirosell/${galleryParam}/${detailParam}/#aboutMe`}
+            href={`/martirosell/${galleryParam}/${detailParam}/#aboutMe`}
             className="navbar-box"
           >
             <p className="navbar-box__title-section">About me</p>
@@ -166,7 +166,7 @@ export function Detail({ state, artist }) {
           </article>
         </section>
 
-        {detail.video
+        {/* {detail.video
           ? (
             <section
               className="detail__cover--video"
@@ -184,14 +184,29 @@ export function Detail({ state, artist }) {
               />
             </section>
           )
-          : (
-            <section
-              className="detail__cover"
-              id="cover"
-              style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
-            />
-          )}
+          : ( */}
+        <section
+          className="detail__cover"
+          id="cover"
+          style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
+        />
+        {/* )} */}
 
+        {detail.video
+          && (
+          <section id="video" className="detail__video">
+            <iframe
+              src={`${detail.video}?autoplay=1&loop=1&autopause=0`}
+              title="vimeo-player"
+              className="video"
+              width="640"
+              height="360"
+              frameBorder="0"
+              allow="autoplay"
+              allowFullScreen
+            />
+          </section>
+          )}
         <section id="gallery" className="detail__gallery">
           {detail.detailCollection.map((detailItem) => (
             <button
