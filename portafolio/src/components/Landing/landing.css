@@ -205,4 +205,19 @@
     height: 50vmin;
   }
 }
+
+@media (max-width: 750px) {
+  .landing__skill-box .skill-box {
+    width: 327px;
+    margin: 0 0;
+  }
+  .landing__skill-box .skill-box:hover .skill-box__thumbnail-box {
+    display: -ms-grid;
+    display: grid;
+  }
+  .landing__skill-box .skill-box__thumbnail-box {
+    opacity: 1;
+    display: none;
+  }
+}
 /*# sourceMappingURL=landing.css.map */
