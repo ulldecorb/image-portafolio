@@ -10,7 +10,7 @@
 }
 
 .detail {
-    scroll-snap-type: y mandatory;
+    // scroll-snap-type: y mandatory;
     overflow-x: hidden;
     width: 100vw;
     max-height: 100vh;
@@ -345,6 +345,12 @@
                     height: 40vw;
                 }
             }
+        }
+
+        &__info-box {
+            .info-box {
+                width: 100vw;
+            } 
         }
     }
 }

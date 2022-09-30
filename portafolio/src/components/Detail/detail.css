@@ -7,8 +7,6 @@
 }
 
 .detail {
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
   overflow-x: hidden;
   width: 100vw;
   max-height: 100vh;
@@ -366,6 +364,9 @@
   .detail__gallery .gallery-detail__thumbnail {
     width: 45vw;
     height: 40vw;
+  }
+  .detail__info-box .info-box {
+    width: 100vw;
   }
 }
 
