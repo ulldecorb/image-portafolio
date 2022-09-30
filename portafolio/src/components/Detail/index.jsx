@@ -166,13 +166,13 @@ export function Detail({ state, artist }) {
               />
             </section>
           )
-          : ( */}
-        <section
-          className="detail__cover"
-          id="cover"
-          style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
-        />
-        {/* )} */}
+          : (
+            <section
+              className="detail__cover"
+              id="cover"
+              style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
+            />
+          )} */}
 
         {detail.video
           && (
