@@ -148,12 +148,11 @@ export function Detail({ state, artist }) {
           </article>
         </section>
 
-        {/* {detail.video
+        {detail.video
           ? (
             <section
               className="detail__cover--video"
               id="cover"
-              style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
             >
               <iframe
                 src={`${detail.video}?background=true`}
@@ -172,9 +171,9 @@ export function Detail({ state, artist }) {
               id="cover"
               style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
             />
-          )} */}
+          )}
 
-        {detail.video
+        {/* {detail.video
           && (
           <section id="video" className="detail__video">
             <iframe
@@ -188,7 +187,7 @@ export function Detail({ state, artist }) {
               allowFullScreen
             />
           </section>
-          )}
+          )} */}
         <section id="gallery" className="detail__gallery">
           {detail.detailCollection.map((detailItem) => (
             <button

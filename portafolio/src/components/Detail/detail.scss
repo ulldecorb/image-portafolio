@@ -10,7 +10,6 @@
 }
 
 .detail {
-    // scroll-snap-type: y mandatory;
     overflow-x: hidden;
     width: 100vw;
     max-height: 100vh;
@@ -199,8 +198,7 @@
             &--close {                
                 transform: rotate(45deg);
             }
-        }
-        
+        }        
     }
     
     &__info-box {
@@ -234,7 +232,6 @@
     }
 
     &__cover {
-        // scroll-snap-align: start;
         height: 100vh;
         width: 100vw;
         background-color: #000;
@@ -242,7 +239,6 @@
         background-position: center;
 
         &--video {
-            // scroll-snap-align: start;
             text-align: center;
             height: 100vh;
             width: 100vw;
@@ -251,40 +247,14 @@
             background-position: center;
             
             .cover__video {
-                margin-top: 20vh;
-            }
-        }
-    }
-
-    
-    &__video {
-        // scroll-snap-align: start;
-        height: 100vh;
-        width: 100vw;
-        background-color: #000;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        .video {
-            // scroll-snap-align: start;
-            text-align: center;
-            height: 100vh;
-            width: 100vw;
-            background-color: #000;
-            background-size: cover;
-            background-position: center;
-
-            &__cover {
-                margin-top: 20vh;
+                height: 100vh;
+                width: 100vw;
             }
         }
     }
 
     &__gallery{
-        scroll-snap-align: start;
+        // scroll-snap-align: start;
         width: calc(100vw - 10px);
         min-height: 100vh;
         background-color: #000;
@@ -371,7 +341,7 @@
     }
 }
 
-@media (max-height: 700px) and (display-mode: standalone) {
+@media (max-height: 700px) {
 
     .detail {
 
