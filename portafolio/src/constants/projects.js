@@ -1,6 +1,5 @@
 export const Artist = {
   artistName: 'Martí Rosell',
-  // photo: 'https://i.ibb.co/h8S33Mz/About-me.jpg',
   contact: {
     adress: 'Carrer Viladedalt, 13, Viladebaix, 08666',
     mail: 'martirosellc@gmail.com',
