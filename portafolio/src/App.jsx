@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {
-  // BrowserRouter as Router,
   HashRouter,
   Routes,
   Route
@@ -15,45 +14,37 @@ import { AboutMe } from './components/AboutMe';
 import './App.css';
 
 function App() {
-  const [state, setState] = useState(State);
-  const [artist, setArtist] = useState({});
-
-  useEffect(() => {
-    setState(State);
-    setArtist(Artist);
-  }, []);
-
   return (
     <HashRouter basename="/martirosell">
       <div className="App">
-        <Navbar state={state} />
+        <Navbar state={State} />
         <Routes>
           <Route
             path="/"
             element={
-              <Landing state={state} />
+              <Landing state={State} />
               }
           />
           <Route
             path="/about"
             element={
-              <AboutMe artist={artist} />
+              <AboutMe artist={Artist} />
               }
           />
           <Route
             path="/:galleryParam"
             element={
-              <Gallery state={state} />
+              <Gallery state={State} />
               }
           />
           <Route
             path="/:galleryParam/:detailParam"
             element={
-              <Detail state={state} artist={artist} />
+              <Detail state={State} artist={Artist} />
               }
           />
         </Routes>
-        <Footer artist={artist} />
+        <Footer artist={Artist} />
       </div>
     </HashRouter>
   );
