@@ -12,8 +12,6 @@ export function Detail({ state, artist }) {
   const [viewerImageUrl, setViewerImageUrl] = useState('');
 
   const [coverNavbarFocus, setCoverScrollFocus] = useState(true);
-  const [galleryNavbarFocus, setGalleryScrollFocus] = useState(false);
-  console.log(galleryNavbarFocus);
   const [aboutMeNavbarFocus, setAboutMeScrollFocus] = useState(false);
 
   const getDetail = () => {
@@ -46,23 +44,20 @@ export function Detail({ state, artist }) {
   const handleScroll = (event) => {
     const scrollPosition = event.currentTarget.scrollTop;
     const cover = document.getElementById('cover').offsetTop;
-    // const gallery = document.getElementById('gallery').offsetTop;
+    const gallery = document.getElementById('gallery').offsetTop;
     const aboutMe = document.getElementById('aboutMe').offsetTop;
 
-    // if (scrollPosition < gallery) {
-    //   setCoverScrollFocus(true);
-    //   setGalleryScrollFocus(false);
-    //   setAboutMeScrollFocus(false);
-    // }
-    if (scrollPosition >= cover + 1
+    if (scrollPosition === cover) {
+      setCoverScrollFocus(true);
+      setAboutMeScrollFocus(false);
+    }
+    if (scrollPosition >= gallery - 1
       && scrollPosition < aboutMe) {
       setCoverScrollFocus(false);
-      setGalleryScrollFocus(true);
       setAboutMeScrollFocus(false);
     }
     if (scrollPosition >= aboutMe - 1) {
       setCoverScrollFocus(false);
-      setGalleryScrollFocus(false);
       setAboutMeScrollFocus(true);
     }
   };
@@ -173,22 +168,6 @@ export function Detail({ state, artist }) {
               style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
             />
           )}
-
-        {/* {detail.video
-          && (
-          <section id="video" className="detail__video">
-            <iframe
-              src={`${detail.video}?autoplay=1&loop=1&autopause=0`}
-              title="vimeo-player"
-              className="video"
-              width="640"
-              height="360"
-              frameBorder="0"
-              allow="autoplay"
-              allowFullScreen
-            />
-          </section>
-          )} */}
         <section id="gallery" className="detail__gallery">
           {detail.detailCollection.map((detailItem) => (
             <button
