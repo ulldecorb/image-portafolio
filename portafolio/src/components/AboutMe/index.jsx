@@ -42,14 +42,14 @@ export function AboutMe({ artist }) {
           </a>
         </article>
       </div>
-      <img className="about-me__portrait" src={artist.photo} alt="marti rosell's portrait" />
+      <img className="about-me__portrait" src="https://i.ibb.co/h8S33Mz/About-me.jpg" alt="marti rosell's portrait" />
     </section>
   );
 }
 
 AboutMe.propTypes = {
   artist: PropTypes.shape({
-    photo: PropTypes.string.isRequired,
+    // photo: PropTypes.string.isRequired,
     contact: PropTypes.shape({
       adress: PropTypes.string.isRequired,
       mail: PropTypes.string.isRequired,

@@ -45,15 +45,16 @@ export function Detail({ state, artist }) {
 
   const handleScroll = (event) => {
     const scrollPosition = event.currentTarget.scrollTop;
-    const gallery = document.getElementById('gallery').offsetTop;
+    const cover = document.getElementById('cover').offsetTop;
+    // const gallery = document.getElementById('gallery').offsetTop;
     const aboutMe = document.getElementById('aboutMe').offsetTop;
 
-    if (scrollPosition < gallery) {
-      setCoverScrollFocus(true);
-      setGalleryScrollFocus(false);
-      setAboutMeScrollFocus(false);
-    }
-    if (scrollPosition >= gallery - 1
+    // if (scrollPosition < gallery) {
+    //   setCoverScrollFocus(true);
+    //   setGalleryScrollFocus(false);
+    //   setAboutMeScrollFocus(false);
+    // }
+    if (scrollPosition >= cover + 1
       && scrollPosition < aboutMe) {
       setCoverScrollFocus(false);
       setGalleryScrollFocus(true);
