@@ -7,8 +7,6 @@
 }
 
 .detail {
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
   overflow-x: hidden;
   width: 100vw;
   max-height: 100vh;
@@ -260,7 +258,6 @@
 }
 
 .detail__cover {
-  scroll-snap-align: start;
   height: 100vh;
   width: 100vw;
   background-color: #000;
@@ -269,7 +266,6 @@
 }
 
 .detail__cover--video {
-  scroll-snap-align: start;
   text-align: center;
   height: 100vh;
   width: 100vw;
@@ -279,11 +275,11 @@
 }
 
 .detail__cover--video .cover__video {
-  margin-top: 20vh;
+  height: 100vh;
+  width: 100vw;
 }
 
 .detail__gallery {
-  scroll-snap-align: start;
   width: calc(100vw - 10px);
   min-height: 100vh;
   background-color: #000;
@@ -334,6 +330,9 @@
   .detail__gallery .gallery-detail__thumbnail {
     width: 45vw;
     height: 40vw;
+  }
+  .detail__info-box .info-box {
+    width: 100vw;
   }
 }
 

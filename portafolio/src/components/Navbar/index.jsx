@@ -6,15 +6,17 @@ import './navbar.css';
 export function Navbar({ state }) {
   const currentUrl = useLocation();
   const [currentGalleryName, setCurrentGalleryName] = useState('');
-  const getUriString = () => {
-    const galleryNameRegExp = /([a-z]+)/g;
-    const newGalleryName = galleryNameRegExp.test(currentUrl.pathname)
-    && currentUrl.pathname.match(galleryNameRegExp)[2];
+
+  const checkUri = () => (currentUrl.pathname === '/');
+  const getUriSGalleryName = () => {
+    if (checkUri()) return null;
+    const galleryNameRegExp = /([a-z]+)/i;
+    const newGalleryName = galleryNameRegExp.exec(currentUrl.pathname)[0];
     return newGalleryName;
   };
 
   useEffect(() => {
-    setCurrentGalleryName(getUriString());
+    setCurrentGalleryName(getUriSGalleryName());
   }, [currentUrl]);
 
   return (

@@ -178,3 +178,24 @@
     }
   }    
 }
+
+@media (max-width: 750px) {
+  .landing {
+    &__skill-box {
+      .skill-box {
+        width: 327px;
+        margin: 0 0;
+        &:hover {
+          .skill-box__thumbnail-box{
+            display: grid;
+          }
+        }
+
+        &__thumbnail-box {          
+          opacity: 1;
+          display: none;
+        }
+      }
+    }
+  }
+}

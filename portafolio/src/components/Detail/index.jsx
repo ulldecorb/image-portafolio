@@ -13,6 +13,7 @@ export function Detail({ state, artist }) {
 
   const [coverNavbarFocus, setCoverScrollFocus] = useState(true);
   const [galleryNavbarFocus, setGalleryScrollFocus] = useState(false);
+  console.log(galleryNavbarFocus);
   const [aboutMeNavbarFocus, setAboutMeScrollFocus] = useState(false);
 
   const getDetail = () => {
@@ -73,36 +74,17 @@ export function Detail({ state, artist }) {
         id="detail"
         onScroll={handleScroll}
       >
-        <nav className="detail__navbar">
-          <a
-            style={{ textDecoration: 'none' }}
-            href="#cover"
-            className="navbar-box"
-          >
-            <p className="navbar-box__title-section">Cover</p>
-            <span className={coverNavbarFocus ? 'navbar-box__selected-box navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
-          </a>
-          <a
-            style={{ textDecoration: 'none' }}
-            href="#gallery"
-            className="navbar-box"
-          >
-            <p className="navbar-box__title-section">Gallery</p>
-            <span className={galleryNavbarFocus ? 'navbar-box__selected-box navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
-          </a>
-          <a
-            style={{ textDecoration: 'none' }}
-            href="#aboutMe"
-            className="navbar-box"
-          >
-            <p className="navbar-box__title-section">About me</p>
-            <span className={aboutMeNavbarFocus ? 'navbar-box__selected-box navbar-box__selected-box--focused' : 'navbar-box__selected-box'} />
-          </a>
-        </nav>
 
         <section className="detail__header">
           <h3 className="header__discipline">{aboutMeNavbarFocus ? '' : detail.discipline}</h3>
-          <h2 className={coverNavbarFocus ? 'header__title' : 'header__title header__title--reduced'}>{aboutMeNavbarFocus ? 'ABOUT ME' : detail.detailName.toUpperCase()}</h2>
+          <h2 className={coverNavbarFocus
+            ? 'header__title'
+            : 'header__title header__title--reduced'}
+          >
+            {aboutMeNavbarFocus
+              ? 'ABOUT ME'
+              : detail.detailName.toUpperCase()}
+          </h2>
         </section>
 
         <section id="viewer" className={activeViewer ? 'detail__viewer' : 'detail__viewer--hidden'}>
@@ -171,10 +153,9 @@ export function Detail({ state, artist }) {
             <section
               className="detail__cover--video"
               id="cover"
-              style={{ backgroundImage: `url("${detail.detailCollection[0].imageUrl}")` }}
             >
               <iframe
-                src={detail.video}
+                src={`${detail.video}?background=true`}
                 title="vimeo-player"
                 className="cover__video"
                 width="640"
@@ -192,6 +173,21 @@ export function Detail({ state, artist }) {
             />
           )}
 
+        {/* {detail.video
+          && (
+          <section id="video" className="detail__video">
+            <iframe
+              src={`${detail.video}?autoplay=1&loop=1&autopause=0`}
+              title="vimeo-player"
+              className="video"
+              width="640"
+              height="360"
+              frameBorder="0"
+              allow="autoplay"
+              allowFullScreen
+            />
+          </section>
+          )} */}
         <section id="gallery" className="detail__gallery">
           {detail.detailCollection.map((detailItem) => (
             <button
