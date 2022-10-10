@@ -36,6 +36,10 @@ export function AboutMe({ artist }) {
             <img className="contact-box__icon" src="https://i.ibb.co/jf40kvM/Vimeo.png" alt="vimeo icon" />
             <p className="contact-box__contact">{artist.contact.vimeo}</p>
           </a>
+          <a href="../../assets/CV-Marti-Rosell-2022-ENG.pdf" className="text-box__contact-box" download>
+            <img className="contact-box__icon" src="https://i.ibb.co/sy1PyTV/CV.png" alt="cv icon" />
+            <p className="contact-box__contact">Download CV</p>
+          </a>
         </article>
       </div>
       <img className="about-me__portrait" src={artist.photo} alt="marti rosell's portrait" />
