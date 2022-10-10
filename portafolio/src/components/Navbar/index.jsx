@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
-// import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, useLocation } from 'react-router-dom';
-// import { Link } from 'react-router-dom';
 import './navbar.css';
 
 export function Navbar({ state }) {
