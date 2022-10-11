@@ -151,7 +151,7 @@ export function Detail({ state, artist }) {
               id="cover"
             >
               <iframe
-                src={`${detail.video}?background=true`}
+                src={detail.video}
                 title="vimeo-player"
                 className="cover__video"
                 width="640"

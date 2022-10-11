@@ -73,12 +73,6 @@
             }
         }
     }
-
-    // &__thumbnail {
-    //     max-width: 100%;
-    //     height: 40vh;
-    //     filter: grayscale(100%);
-    // }
 }
 
 @media (max-width: 780px) {
@@ -104,11 +98,6 @@
     .info-box__year {
         font-size: 0.8rem;
     }
-    
-    // .gallery__thumbnail {
-    //     width: 45vw;
-    //     height: 40vw;
-    // }
 }
 
 
@@ -118,7 +107,7 @@
     }
         
     .gallery__article {
-        width: 95vw;
+        width: 90vw;
     }
 
     .gallery__info-box {
@@ -135,9 +124,4 @@
     .info-box__year {
         font-size: 0.8rem;
     }
-    
-    // .gallery__thumbnail {
-    //     width: 95vw;
-    //     height: 70vw;
-    // }
 }

@@ -369,7 +369,7 @@
         grid-template-columns: 1fr;
   }
   .detail__gallery .gallery-detail {
-    width: 95vw;
+    width: 90vw;
   }
   .detail__gallery .gallery-detail__thumbnail {
     width: 95vw;
