@@ -35,6 +35,12 @@ export function Landing({ state }) {
           </Link>
         ))}
       </section>
+      <Link
+        to="/about"
+        style={{ textDecoration: 'none' }}
+      >
+        <h2 className="landing__about-link">ABOUT ME</h2>
+      </Link>
     </main>
   );
 }
