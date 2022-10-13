@@ -63,23 +63,21 @@
       -ms-flex-align: start;
           align-items: flex-start;
   cursor: pointer;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .gallery__info-box .info-box__title {
   font-size: 1.4rem;
-  font-family: "Space Grotesk", sans-serif;
   text-align: left;
 }
 
 .gallery__info-box .info-box__discipline {
   font-size: 1rem;
-  font-family: "Syne", sans-serif;
   text-align: left;
 }
 
 .gallery__info-box .info-box__year {
-  font-size: 0.8rem;
-  font-family: "Syne", sans-serif;
+  font-size: 1rem;
   text-align: left;
 }
 
@@ -98,7 +96,7 @@
     font-size: 1rem;
   }
   .info-box__discipline {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .info-box__year {
     font-size: 0.8rem;
@@ -120,7 +118,7 @@
     font-size: 1rem;
   }
   .info-box__discipline {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .info-box__year {
     font-size: 0.8rem;

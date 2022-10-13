@@ -52,23 +52,23 @@
         justify-content: flex-end;
         align-items: flex-start;
         cursor: pointer;
+        font-family: $title-body-font;
 
         .info-box {
             &__title {
                 font-size: 1.4rem;
-                font-family: $title-body-font;
                 text-align: left;
             }
             
             &__discipline {
                 font-size: 1rem;
-                font-family: $body-font;
+                // font-family: $body-font;
                 text-align: left;
             }
 
             &__year {
-                font-size: 0.8rem;
-                font-family: $body-font;
+                font-size: 1rem;
+                // font-family: $body-font;
                 text-align: left;
             }
         }
@@ -91,9 +91,8 @@
     .info-box__title {
         font-size: 1rem;
     }
-    
     .info-box__discipline {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     .info-box__year {
         font-size: 0.8rem;
@@ -117,9 +116,8 @@
     .info-box__title {
         font-size: 1rem;
     }
-    
     .info-box__discipline {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     .info-box__year {
         font-size: 0.8rem;

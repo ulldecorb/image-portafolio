@@ -83,7 +83,14 @@ export function Detail({ state, artist }) {
           </h2>
         </section>
 
-        <section id="viewer" className={activeViewer ? 'detail__viewer' : 'detail__viewer--hidden'}>
+        <section
+          id="viewer"
+          className={activeViewer ? 'detail__viewer' : 'detail__viewer--hidden'}
+          onClick={(e) => closeViewer(e)}
+          type="button"
+          aria-label="close viewer"
+          aria-hidden="true"
+        >
           <img
             id="viewerImage"
             className="viewer__image"
