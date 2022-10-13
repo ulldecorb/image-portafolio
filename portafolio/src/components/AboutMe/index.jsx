@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import samplePDF from '../../assets/CV-Martí-Rosell-2022-ENG.pdf';
 import './aboutMe.css';
 
 export function AboutMe({ artist }) {
@@ -36,7 +37,8 @@ export function AboutMe({ artist }) {
             <img className="contact-box__icon" src="https://i.ibb.co/NsW9rBv/Vimeo.png" alt="vimeo icon" />
             <p className="contact-box__contact">{artist.contact.vimeo}</p>
           </a>
-          <a href="../../assets/CV-Marti-Rosell-2022-ENG.pdf" className="text-box__contact-box" download>
+          <a href={samplePDF} className="text-box__contact-box" download>
+            {/* onClick={() => downloadCV} */}
             <img className="contact-box__icon" src="https://i.ibb.co/sy1PyTV/CV.png" alt="cv icon" />
             <p className="contact-box__contact">Download CV</p>
           </a>
