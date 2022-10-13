@@ -120,6 +120,14 @@
           margin-left: 200px;
         }
     }
+  &__about-link {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: $landing-link;
+    font-family: $title-body-font;
+    z-index: 13;
+  }
 }
 
 @media (max-width: 1000px) {

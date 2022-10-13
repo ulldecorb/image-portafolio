@@ -164,6 +164,15 @@
   margin-left: 200px;
 }
 
+.landing__about-link {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  z-index: 13;
+}
+
 @media (max-width: 1000px) {
   .landing__skill-box .skill-box:nth-child(1) {
     margin-right: 0px;
