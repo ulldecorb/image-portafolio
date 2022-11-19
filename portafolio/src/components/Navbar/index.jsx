@@ -31,6 +31,13 @@ export function Navbar({ state }) {
           {galleryItem.galleryName}
         </Link>
       ))}
+      <Link
+        className="navbar__handler"
+        to="/about"
+        type="button"
+      >
+        About me
+      </Link>
     </nav>
   );
 }
