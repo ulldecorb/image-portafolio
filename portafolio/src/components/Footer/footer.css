@@ -15,6 +15,10 @@
   padding: 0 20px;
   border: none;
 }
+.footer--dark-theme {
+  background-color: #000000;
+  background: linear-gradient(transparent, transparent 0%, #000 20%, #000 100%);
+}
 .footer__title {
   font-family: "Fraunces", serif;
   color: #fff;
