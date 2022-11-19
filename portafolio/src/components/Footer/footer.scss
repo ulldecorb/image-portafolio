@@ -17,6 +17,12 @@
     text-decoration: none;
     padding: 0 20px ;
     border: none;
+
+    &--dark-theme {
+        background-color: #000000;
+        background: linear-gradient(transparent, transparent 0%, $about-me-background 20%, $about-me-background 100%);
+
+    }
     
     &__title {
         font-family: $footer-font;
