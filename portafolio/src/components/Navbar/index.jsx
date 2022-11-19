@@ -20,7 +20,7 @@ export function Navbar({ state }) {
   }, [currentUrl]);
 
   return (
-    <nav className="navbar">
+    <nav className={currentGalleryName === 'about' ? 'navbar navbar--dark-theme' : 'navbar'}>
       {state.map((galleryItem) => (
         <Link
           to={`/${galleryItem.galleryName}`}

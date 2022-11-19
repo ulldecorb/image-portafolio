@@ -14,6 +14,10 @@
     border-bottom: 2px solid $light-typo;
     z-index:1;
 
+    &--dark-theme {
+        background-color: #000000;
+    }
+
     &__handler {
         height: 100%;
         font-size: 1rem;
