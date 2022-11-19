@@ -2,9 +2,8 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { useParams } from 'react-router';
 import './detail.css';
-import { AboutMe } from '../AboutMe';
 
-export function Detail({ state, artist }) {
+export function Detail({ state }) {
   const { galleryParam, detailParam } = useParams();
   const [detail, setDetail] = useState('');
   const [activeViewer, setActiveViewer] = useState(false);
@@ -45,20 +44,14 @@ export function Detail({ state, artist }) {
     const scrollPosition = event.currentTarget.scrollTop;
     const cover = document.getElementById('cover').offsetTop;
     const gallery = document.getElementById('gallery').offsetTop;
-    const aboutMe = document.getElementById('aboutMe').offsetTop;
 
     if (scrollPosition === cover) {
       setCoverScrollFocus(true);
       setAboutMeScrollFocus(false);
     }
-    if (scrollPosition >= gallery - 1
-      && scrollPosition < aboutMe) {
+    if (scrollPosition >= gallery - 1) {
       setCoverScrollFocus(false);
       setAboutMeScrollFocus(false);
-    }
-    if (scrollPosition >= aboutMe - 1) {
-      setCoverScrollFocus(false);
-      setAboutMeScrollFocus(true);
     }
   };
 
@@ -191,7 +184,6 @@ export function Detail({ state, artist }) {
             />
           ))}
         </section>
-        <AboutMe artist={artist} />
       </main>
     );
 }
@@ -199,9 +191,7 @@ export function Detail({ state, artist }) {
 Detail.propTypes = {
   state: PropTypes.arrayOf(
     PropTypes.shape({})
-  ).isRequired,
-  artist: PropTypes.shape({
-  }).isRequired
+  ).isRequired
 };
 
 export default Detail;
